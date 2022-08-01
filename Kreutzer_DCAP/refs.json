@@ -1,20 +1,215 @@
 [
   {
-    "id": "CreativeTag1",
+    "id": "1",
     "author": [
       {
-        "family": "Somebody",
-        "given": "A.M."
+        "family": "Thomas",
+        "given": "D.T."
       },
       {
-        "family": "Person",
-        "given": "K."
+        "family": "Erdman",
+        "given": "K.A."
+      },
+      {
+        "family": "Burke",
+        "given": "L.M."
       }
     ],
-    "title": "An Article",
-    "volume": "1:2",
+    "title": "American College of Sports Medicine Joint Position Statement",
+    "volume": "48",
     "type": "article-journal",
-    "container-title": "Journal Title",
+    "container-title": "Nutrition and Athletic Performance. Med Sci Sports Exerc",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "543–568,",
+    "DOI": "10/ggnn5v"
+  },
+  {
+    "id": "2",
+    "author": [
+      {
+        "family": "Jeukendrup",
+        "given": "A.E."
+      }
+    ],
+    "title": "Carbohydrate Intake During Exercise and Performance",
+    "volume": "20",
+    "type": "article-journal",
+    "container-title": "Nutrition",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "page": "669–677,",
+    "DOI": "10/bnpn7g"
+  },
+  {
+    "id": "3",
+    "author": [
+      {
+        "family": "Jeukendrup",
+        "given": "A.E."
+      }
+    ],
+    "title": "Nutrition for Endurance Sports: Marathon, Triathlon, and Road Cycling",
+    "volume": "29 Suppl 1",
+    "type": "article-journal",
+    "container-title": "J Sports Sci",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "91–99,",
+    "DOI": "10/b52hvj"
+  },
+  {
+    "id": "4",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L."
+      }
+    ],
+    "title": "Low Carb High Fat (LCHF) Diets for Athletes – Third Time Lucky?",
+    "volume": "20 Suppl 1: S1",
+    "type": "article-journal",
+    "container-title": "J Sci Med Sport",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10/ghp7b8"
+  },
+  {
+    "id": "5",
+    "author": [
+      {
+        "family": "Feinman",
+        "given": "R.D."
+      },
+      {
+        "family": "Pogozelski",
+        "given": "W.K."
+      },
+      {
+        "family": "Astrup",
+        "given": "A."
+      },
+      {
+        "family": "Bernstein",
+        "given": "R.K."
+      },
+      {
+        "family": "Fine",
+        "given": "E.J."
+      },
+      {
+        "family": "Westman",
+        "given": "E.C."
+      },
+      {
+        "family": "Accurso",
+        "given": "A."
+      },
+      {
+        "family": "Frassetto",
+        "given": "L."
+      },
+      {
+        "family": "Gower",
+        "given": "B.A."
+      },
+      {
+        "family": "McFarlane",
+        "given": "S.I."
+      },
+      {
+        "family": "Nielsen",
+        "given": "J.V."
+      },
+      {
+        "family": "Krarup",
+        "given": "T."
+      },
+      {
+        "family": "Saslow",
+        "given": "L."
+      },
+      {
+        "family": "Roth",
+        "given": "K.S."
+      },
+      {
+        "family": "Vernon",
+        "given": "M.C."
+      },
+      {
+        "family": "Volek",
+        "given": "J.S."
+      },
+      {
+        "family": "Wilshire",
+        "given": "G.B."
+      },
+      {
+        "family": "Dahlqvist",
+        "given": "A."
+      },
+      {
+        "family": "Sundberg",
+        "given": "R."
+      },
+      {
+        "family": "Childers",
+        "given": "A."
+      },
+      {
+        "family": "Morrison",
+        "given": "K."
+      },
+      {
+        "family": "Manninen",
+        "given": "A.H."
+      },
+      {
+        "family": "Dashti",
+        "given": "H.M."
+      },
+      {
+        "family": "Wood",
+        "given": "R.J."
+      },
+      {
+        "family": "Wortman",
+        "given": "J."
+      },
+      {
+        "family": "Worm",
+        "given": "N."
+      }
+    ],
+    "title": "Dietary Carbohydrate Restriction As the First Approach in Diabetes Management",
+    "volume": "31",
+    "type": "article-journal",
+    "container-title": "Critical Review and Evidence Base. Nutrition",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -23,7 +218,2638 @@
         ]
       ]
     },
-    "page": "10-12",
-    "DOI": "10.XXXX/XXXXXXX"
+    "page": "1–13,",
+    "DOI": "10.1016/j.nut.2014.06.011."
+  },
+  {
+    "id": "6",
+    "author": [
+      {
+        "family": "Carey",
+        "given": "A.L."
+      },
+      {
+        "family": "Staudacher",
+        "given": "H.M."
+      },
+      {
+        "family": "Cummings",
+        "given": "N.K."
+      },
+      {
+        "family": "Stepto",
+        "given": "N.K."
+      },
+      {
+        "family": "Nikolopoulos",
+        "given": "V."
+      },
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      }
+    ],
+    "title": "Effects of Fat Adaptation and Carbohydrate Restoration on Prolonged Endurance Exercise",
+    "volume": "91",
+    "type": "article-journal",
+    "container-title": "J Appl Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "page": "115–122,",
+    "DOI": "10.1152/jappl.2001.91.1.115."
+  },
+  {
+    "id": "7",
+    "author": [
+      {
+        "family": "Lambert",
+        "given": "E.V."
+      },
+      {
+        "family": "Speechly",
+        "given": "D.P."
+      },
+      {
+        "family": "Dennis",
+        "given": "S.C."
+      },
+      {
+        "family": "Noakes",
+        "given": "T.D."
+      }
+    ],
+    "title": "Enhanced Endurance in Trained Cyclists During Moderate Intensity Exercise Following 2 Weeks Adaptation to a High Fat Diet",
+    "volume": "69",
+    "type": "article-journal",
+    "container-title": "Eur J Appl Physiol Occup Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "page": "287–293,",
+    "DOI": "10.1007/bf00392032."
+  },
+  {
+    "id": "8",
+    "author": [
+      {
+        "family": "Lambert",
+        "given": "E.V."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      },
+      {
+        "family": "Goedecke",
+        "given": "J."
+      },
+      {
+        "family": "Noakes",
+        "given": "T.D."
+      },
+      {
+        "family": "Dennis",
+        "given": "S.C."
+      }
+    ],
+    "title": "Nutritional Strategies for Promoting Fat Utilization and Delaying the Onset of Fatigue During Prolonged Exercise",
+    "volume": "15",
+    "type": "article-journal",
+    "container-title": "J Sports Sci",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "page": "315–24,",
+    "DOI": "10.1080/026404197367326."
+  },
+  {
+    "id": "9",
+    "author": [
+      {
+        "family": "Kenney",
+        "given": "W.L."
+      },
+      {
+        "family": "Wilmore",
+        "given": "J.H."
+      },
+      {
+        "family": "Costill",
+        "given": "D.L."
+      }
+    ],
+    "title": "Physiology of Sport and Exercise",
+    "edition": "7th",
+    "publisher": "Human Kinetics",
+    "language": "en",
+    "type": "book",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher-place": "Champaing, IL"
+  },
+  {
+    "id": "10",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Castell",
+        "given": "L.M."
+      },
+      {
+        "family": "Casa",
+        "given": "D.J."
+      },
+      {
+        "family": "Close",
+        "given": "G.L."
+      },
+      {
+        "family": "Costa",
+        "given": "R.J.S."
+      },
+      {
+        "family": "Desbrow",
+        "given": "B."
+      },
+      {
+        "family": "Halson",
+        "given": "S.L."
+      },
+      {
+        "family": "Lis",
+        "given": "D.M."
+      },
+      {
+        "family": "Melin",
+        "given": "A.K."
+      },
+      {
+        "family": "Peeling",
+        "given": "P."
+      },
+      {
+        "family": "Saunders",
+        "given": "P.U."
+      },
+      {
+        "family": "Slater",
+        "given": "G.J."
+      },
+      {
+        "family": "Sygo",
+        "given": "J."
+      },
+      {
+        "family": "Witard",
+        "given": "O.C."
+      },
+      {
+        "family": "Bermon",
+        "given": "S."
+      },
+      {
+        "family": "Stellingwerff",
+        "given": "T."
+      }
+    ],
+    "title": "International Association of Athletics Federations Consensus Statement 2019: Nutrition for Athletics",
+    "volume": "29",
+    "note": "doi: 10/gjbrp2.",
+    "type": "article-journal",
+    "container-title": "Int J Sport Nutr Exerc Metab",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "73–84,"
+  },
+  {
+    "id": "11",
+    "author": [
+      {
+        "family": "Kerksick",
+        "given": "C.M."
+      },
+      {
+        "family": "Arent",
+        "given": "S."
+      },
+      {
+        "family": "Schoenfeld",
+        "given": "B.J."
+      },
+      {
+        "family": "Stout",
+        "given": "Campbell",
+        "suffix": "JR"
+      },
+      {
+        "family": "B",
+        "given": "Wilborn"
+      },
+      {
+        "family": "CD",
+        "given": "Taylor"
+      },
+      {
+        "family": "L",
+        "given": "Kalman"
+      },
+      {
+        "family": "D",
+        "given": "Smith-Ryan"
+      },
+      {
+        "family": "AE",
+        "given": "Kreider"
+      },
+      {
+        "family": "RB",
+        "given": "Willoughby"
+      },
+      {
+        "family": "D",
+        "given": "Arciero"
+      },
+      {
+        "family": "PJ",
+        "given": "VanDusseldorp"
+      },
+      {
+        "family": "TA",
+        "given": "Ormsbee"
+      },
+      {
+        "family": "MJ",
+        "given": "Wildman"
+      },
+      {
+        "family": "R",
+        "given": "Greenwood"
+      },
+      {
+        "family": "M",
+        "given": "Ziegenfuss"
+      },
+      {
+        "family": "TN",
+        "given": "Aragon"
+      },
+      {
+        "given": "A.A."
+      }
+    ],
+    "volume": "14",
+    "type": "article-journal",
+    "container-title": "Antonio J. International Society of Sports Nutrition Position Stand: Nutrient Timing. J Int Soc Sports Nutr",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "33,",
+    "DOI": "10/gg2nh6"
+  },
+  {
+    "id": "12",
+    "author": [
+      {
+        "family": "Galbo",
+        "given": "H."
+      },
+      {
+        "family": "Holst",
+        "given": "J.J."
+      },
+      {
+        "family": "Christensen",
+        "given": "N.J."
+      }
+    ],
+    "title": "The Effect of Different Diets and of Insulin on the Hormonal Response to Prolonged Exercise",
+    "volume": "107",
+    "type": "article-journal",
+    "container-title": "Acta Physiol Scand",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "page": "19–32,",
+    "DOI": "10.1111/j.1748-1716.1979.tb06438.x."
+  },
+  {
+    "id": "13",
+    "author": [
+      {
+        "family": "Pitsiladis",
+        "given": "Y.P."
+      },
+      {
+        "family": "Maughan",
+        "given": "R.J."
+      }
+    ],
+    "title": "The Effects of Exercise and Diet Manipulation on the Capacity to Perform Prolonged Exercise in the Heat and in the Cold in Trained Humans",
+    "volume": "517",
+    "type": "article-journal",
+    "container-title": "J Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "page": "919–930,",
+    "DOI": "10.1111/j.1469-7793.1999.0919s.x."
+  },
+  {
+    "id": "14",
+    "author": [
+      {
+        "family": "Goedecke",
+        "given": "J.H."
+      },
+      {
+        "family": "Christie",
+        "given": "C."
+      },
+      {
+        "family": "Wilson",
+        "given": "G."
+      },
+      {
+        "family": "Dennis",
+        "given": "S.C."
+      },
+      {
+        "family": "Noakes",
+        "given": "T.D."
+      },
+      {
+        "family": "Hopkins",
+        "given": "W.G."
+      },
+      {
+        "family": "Lambert",
+        "given": "E.V."
+      }
+    ],
+    "title": "Metabolic Adaptations to a High-Fat Diet in Endurance Cyclists",
+    "volume": "48",
+    "type": "article-journal",
+    "container-title": "Metab Clin Exp",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "page": "1509–1517,",
+    "DOI": "10.1016/s0026-0495(99)90238-x."
+  },
+  {
+    "id": "15",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      }
+    ],
+    "title": "Effects of Short-Term Fat Adaptation on Metabolism and Performance of Prolonged Exercise",
+    "volume": "34",
+    "type": "article-journal",
+    "container-title": "Med Sci Sports Exerc",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "page": "1492–1498,",
+    "DOI": "10.1097/00005768-200209000-00015."
+  },
+  {
+    "id": "16",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Whitfield",
+        "given": "J."
+      },
+      {
+        "family": "Heikura",
+        "given": "I.A."
+      },
+      {
+        "family": "Ross",
+        "given": "M.L.R."
+      },
+      {
+        "family": "Tee",
+        "given": "N."
+      },
+      {
+        "family": "Forbes",
+        "given": "S.F."
+      },
+      {
+        "family": "Hall",
+        "given": "R."
+      },
+      {
+        "family": "McKay",
+        "given": "A.K.A."
+      },
+      {
+        "family": "Wallett",
+        "given": "A.M."
+      },
+      {
+        "family": "Sharma",
+        "given": "A.P."
+      }
+    ],
+    "title": "Adaptation to a Low Carbohydrate High Fat Diet Is Rapid but Impairs Endurance Exercise Metabolism and Performance Despite Enhanced Glycogen Availability",
+    "volume": "599",
+    "type": "article-journal",
+    "container-title": "J Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "771–790,",
+    "DOI": "10/ghvh2b"
+  },
+  {
+    "id": "17",
+    "author": [
+      {
+        "family": "Volek",
+        "given": "J.S."
+      },
+      {
+        "family": "Freidenreich",
+        "given": "D.J."
+      },
+      {
+        "family": "Saenz",
+        "given": "C."
+      },
+      {
+        "family": "Kunces",
+        "given": "L.J."
+      },
+      {
+        "family": "Creighton",
+        "given": "B.C."
+      },
+      {
+        "family": "Bartley",
+        "given": "J.M."
+      },
+      {
+        "family": "Davitt",
+        "given": "P.M."
+      },
+      {
+        "family": "Munoz",
+        "given": "C.X."
+      },
+      {
+        "family": "Anderson",
+        "given": "J.M."
+      },
+      {
+        "family": "Maresh",
+        "given": "C.M."
+      },
+      {
+        "family": "Lee",
+        "given": "E.C."
+      },
+      {
+        "family": "Schuenke",
+        "given": "M.D."
+      },
+      {
+        "family": "Aerni",
+        "given": "G."
+      },
+      {
+        "family": "Kraemer",
+        "given": "W.J."
+      },
+      {
+        "family": "Phinney",
+        "given": "S.D."
+      }
+    ],
+    "title": "Metabolic Characteristics of Keto-Adapted Ultra-Endurance Runners",
+    "volume": "65",
+    "type": "article-journal",
+    "container-title": "Metabolism",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "100–110,",
+    "DOI": "10.1016/j.metabol.2015.10.028."
+  },
+  {
+    "id": "18",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Angus",
+        "given": "D.J."
+      },
+      {
+        "family": "Cox",
+        "given": "G.R."
+      },
+      {
+        "family": "Cummings",
+        "given": "N.K."
+      },
+      {
+        "family": "Febbraio",
+        "given": "M.A."
+      },
+      {
+        "family": "Gawthorn",
+        "given": "K."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      },
+      {
+        "family": "Minehan",
+        "given": "M."
+      },
+      {
+        "family": "Martin",
+        "given": "D.T."
+      },
+      {
+        "family": "Hargreaves",
+        "given": "M."
+      }
+    ],
+    "title": "Effect of Fat Adaptation and Carbohydrate Restoration on Metabolism and Performance During Prolonged Cycling",
+    "volume": "89",
+    "type": "article-journal",
+    "container-title": "J Appl Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "page": "2413–2421,",
+    "DOI": "10.1152/jappl.2000.89.6.2413."
+  },
+  {
+    "id": "19",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Ross",
+        "given": "M.L."
+      },
+      {
+        "family": "Garvican‐Lewis",
+        "given": "L.A."
+      },
+      {
+        "family": "Welvaert",
+        "given": "M."
+      },
+      {
+        "family": "Heikura",
+        "given": "I.A."
+      },
+      {
+        "family": "Forbes",
+        "given": "S.G."
+      },
+      {
+        "family": "Mirtschin",
+        "given": "J.G."
+      },
+      {
+        "family": "Cato",
+        "given": "L.E."
+      },
+      {
+        "family": "Strobel",
+        "given": "N."
+      },
+      {
+        "family": "Sharma",
+        "given": "A.P."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      }
+    ],
+    "title": "Low Carbohydrate, High Fat Diet Impairs Exercise Economy and Negates the Performance Benefit From Intensified Training in Elite Race Walkers",
+    "volume": "595",
+    "type": "article-journal",
+    "container-title": "J Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "2785–2807,",
+    "DOI": "10.1113/JP273230."
+  },
+  {
+    "id": "20",
+    "author": [
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Sharma",
+        "given": "A.P."
+      },
+      {
+        "family": "Heikura",
+        "given": "I.A."
+      },
+      {
+        "family": "Forbes",
+        "given": "S.F."
+      },
+      {
+        "family": "Holloway",
+        "given": "M."
+      },
+      {
+        "family": "McKay",
+        "given": "A.K.A."
+      },
+      {
+        "family": "Bone",
+        "given": "J.L."
+      },
+      {
+        "family": "Leckey",
+        "given": "J.J."
+      },
+      {
+        "family": "Welvaert",
+        "given": "M."
+      },
+      {
+        "family": "Ross",
+        "given": "M.L."
+      }
+    ],
+    "title": "Crisis of Confidence Averted: Impairment of Exercise Economy and Performance in Elite Race Walkers by Ketogenic Low Carbohydrate, High Fat (LCHF) Diet Is Reproducible",
+    "volume": "15",
+    "type": "article-journal",
+    "container-title": "PLoS One",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "0234027,",
+    "DOI": "10/gg23h5"
+  },
+  {
+    "id": "21",
+    "author": [
+      {
+        "family": "Durkalec-Michalski",
+        "given": "K."
+      },
+      {
+        "family": "Nowaczyk",
+        "given": "P.M."
+      },
+      {
+        "family": "Siedzik",
+        "given": "K."
+      }
+    ],
+    "title": "Effect of a Four-Week Ketogenic Diet on Exercise Metabolism in Crossfit-Trained Athletes",
+    "volume": "16",
+    "type": "article-journal",
+    "container-title": "J Int Soc Sports Nutr",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "16,",
+    "DOI": "10.1186/s12970-019-0284-9."
+  },
+  {
+    "id": "22",
+    "author": [
+      {
+        "family": "McSwiney",
+        "given": "F.T."
+      },
+      {
+        "family": "Wardrop",
+        "given": "B."
+      },
+      {
+        "family": "Hyde",
+        "given": "P.N."
+      },
+      {
+        "family": "Lafountain",
+        "given": "R.A."
+      },
+      {
+        "family": "Volek",
+        "given": "J.S."
+      },
+      {
+        "family": "Doyle",
+        "given": "L."
+      }
+    ],
+    "title": "Keto-Adaptation Enhances Exercise Performance and Body Composition Responses to Training in Endurance Athletes",
+    "volume": "81",
+    "type": "article-journal",
+    "container-title": "Metabolism",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "25–34,",
+    "DOI": "10.1016/j.metabol.2017.10.010."
+  },
+  {
+    "id": "23",
+    "author": [
+      {
+        "family": "Prins",
+        "given": "P.J."
+      },
+      {
+        "family": "Noakes",
+        "given": "T.D."
+      },
+      {
+        "family": "Welton",
+        "given": "G.L."
+      },
+      {
+        "family": "Haley",
+        "given": "S.J."
+      },
+      {
+        "family": "Esbenshade",
+        "given": "N.J."
+      },
+      {
+        "family": "Atwell",
+        "given": "A.D."
+      },
+      {
+        "family": "Scott",
+        "given": "K.E."
+      },
+      {
+        "family": "Abraham",
+        "given": "J."
+      },
+      {
+        "family": "Raabe",
+        "given": "A.S."
+      },
+      {
+        "family": "Buxton",
+        "given": "J.D."
+      },
+      {
+        "family": "Ault",
+        "given": "D.L."
+      }
+    ],
+    "title": "High Rates of Fat Oxidation Induced by a Low-Carbohydrate, High-Fat Diet, Do Not Impair 5-km Running Performance in Competitive Recreational Athletes",
+    "volume": "18",
+    "type": "article-journal",
+    "container-title": "J Sports Sci Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "738–750,"
+  },
+  {
+    "id": "24",
+    "author": [
+      {
+        "family": "Stepto",
+        "given": "N.K."
+      },
+      {
+        "family": "Carey",
+        "given": "A.L."
+      },
+      {
+        "family": "Staudacher",
+        "given": "H.M."
+      },
+      {
+        "family": "Cummings",
+        "given": "N.K."
+      },
+      {
+        "family": "Burke",
+        "given": "L.M."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      }
+    ],
+    "title": "Effect of Short-Term Fat Adaptation on High-Intensity Training",
+    "volume": "34",
+    "type": "article-journal",
+    "container-title": "Med Sci Sports Exerc",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "page": "449–455,",
+    "DOI": "10.1097/00005768-200203000-00011."
+  },
+  {
+    "id": "25",
+    "author": [
+      {
+        "family": "Zinn",
+        "given": "C."
+      },
+      {
+        "family": "Wood",
+        "given": "M."
+      },
+      {
+        "family": "Williden",
+        "given": "M."
+      },
+      {
+        "family": "Chatterton",
+        "given": "S."
+      },
+      {
+        "family": "Maunder",
+        "given": "E."
+      }
+    ],
+    "title": "Ketogenic Diet Benefits Body Composition and Well-Being but Not Performance in a Pilot Case Study of New Zealand Endurance Athletes",
+    "volume": "14",
+    "type": "article-journal",
+    "container-title": "J Int Soc Sports Nutr",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "DOI": "10.1186/s12970-017-0180-0."
+  },
+  {
+    "id": "26",
+    "author": [
+      {
+        "family": "Shaw",
+        "given": "D.M."
+      },
+      {
+        "family": "Merien",
+        "given": "F."
+      },
+      {
+        "family": "Braakhuis",
+        "given": "A."
+      },
+      {
+        "family": "Maunder",
+        "given": "E.D."
+      },
+      {
+        "family": "Dulson",
+        "given": "D.K."
+      }
+    ],
+    "title": "Effect of a Ketogenic Diet on Submaximal Exercise Capacity and Efficiency in Runners",
+    "volume": "51",
+    "type": "article-journal",
+    "container-title": "Med Sci Sports Exerc",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "2135–2146,",
+    "DOI": "10.1249/MSS.0000000000002008."
+  },
+  {
+    "id": "27",
+    "author": [
+      {
+        "family": "Bergström",
+        "given": "J."
+      },
+      {
+        "family": "Hultman",
+        "given": "E."
+      }
+    ],
+    "title": "A Study of the Glycogen Metabolism During Exercise in Man",
+    "volume": "19",
+    "type": "article-journal",
+    "container-title": "Scand J Clin Lab",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    },
+    "page": "218–228,",
+    "DOI": "10.3109/00365516709090629."
+  },
+  {
+    "id": "28",
+    "author": [
+      {
+        "family": "Phinney",
+        "given": "S.D."
+      },
+      {
+        "family": "Bistrian",
+        "given": "B.R."
+      },
+      {
+        "family": "Evans",
+        "given": "W.J."
+      },
+      {
+        "family": "Gervino",
+        "given": "E."
+      },
+      {
+        "family": "Blackburn",
+        "given": "G.L."
+      }
+    ],
+    "title": "The Human Metabolic Response to Chronic Ketosis Without Caloric Restriction: Preservation of Submaximal Exercise Capability With Reduced Carbohydrate Oxidation",
+    "volume": "32",
+    "type": "article-journal",
+    "container-title": "Metab Clin Exp",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1983
+        ]
+      ]
+    },
+    "page": "769–776,",
+    "DOI": "10.1016/0026-0495(83)90106-3."
+  },
+  {
+    "id": "29",
+    "author": [
+      {
+        "family": "Hill",
+        "given": "J.C."
+      },
+      {
+        "family": "San Millán",
+        "given": "I."
+      }
+    ],
+    "title": "Validation of Musculoskeletal Ultrasound to Assess and Quantify Muscle Glycogen Content",
+    "volume": "42",
+    "type": "article-journal",
+    "container-title": "A Novel Approach. Physician Sportsmed",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "45–52,",
+    "DOI": "10.3810/psm.2014.09.2075."
+  },
+  {
+    "id": "30",
+    "author": [
+      {
+        "family": "blockrand",
+        "given": "Snow G."
+      }
+    ],
+    "title": "Randomization for Block Random Clinical Trials",
+    "genre": "[Online].",
+    "language": "en",
+    "type": "software",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          26
+        ]
+      ]
+    },
+    "URL": "https://CRAN.R-project.org/package=blockrand"
+  },
+  {
+    "id": "31",
+    "author": [
+      {
+        "family": "Team",
+        "given": "R.Core"
+      }
+    ],
+    "title": "R: A Language and Environment for Statistical Computing",
+    "genre": "[Online].",
+    "language": "en",
+    "type": "software",
+    "URL": "https://www.R-project.org/."
+  },
+  {
+    "id": "32",
+    "author": [
+      {
+        "family": "Shan",
+        "given": "Z."
+      },
+      {
+        "family": "Rehm",
+        "given": "C.D."
+      },
+      {
+        "family": "Rogers",
+        "given": "G."
+      },
+      {
+        "family": "Ruan",
+        "given": "M."
+      },
+      {
+        "family": "Wang",
+        "given": "D.D."
+      },
+      {
+        "family": "Hu",
+        "given": "F.B."
+      },
+      {
+        "family": "Mozaffarian",
+        "given": "D."
+      },
+      {
+        "family": "Zhang",
+        "given": "F.F."
+      },
+      {
+        "family": "Bhupathiraju",
+        "given": "S.N."
+      }
+    ],
+    "title": "Trends in Dietary Carbohydrate, Protein, and Fat Intake and Diet Quality Among US Adults, 1999-2016",
+    "volume": "322",
+    "note": "doi: 10/ggdhbs.",
+    "type": "article-journal",
+    "container-title": "JAMA",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "1178–1187,"
+  },
+  {
+    "id": "33",
+    "author": [
+      {
+        "family": "Sports Medicine",
+        "given": "American College",
+        "particle": "of"
+      }
+    ],
+    "title": "ACSM’s Guidelines for Exercise Testing and Prescription",
+    "edition": "10th",
+    "publisher": "Wolters Kluwer Health",
+    "language": "en",
+    "type": "book",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher-place": "Philadelphia, PA"
+  },
+  {
+    "id": "34",
+    "author": [
+      {
+        "family": "Basset",
+        "given": "F.A."
+      },
+      {
+        "family": "Boulay",
+        "given": "M.R."
+      }
+    ],
+    "title": "Specificity of Treadmill and Cycle Ergometer Tests in Triathletes, Runners and Cyclists",
+    "volume": "81",
+    "type": "article-journal",
+    "container-title": "Eur J Appl Physiol",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "page": "214–221,",
+    "DOI": "10.1007/s004210050033."
+  },
+  {
+    "id": "35",
+    "author": [
+      {
+        "family": "Pauw K",
+        "particle": "De"
+      },
+      {
+        "family": "B",
+        "given": "Roelands"
+      },
+      {
+        "family": "SS",
+        "given": "Cheung"
+      },
+      {
+        "family": "Geus B",
+        "particle": "de"
+      },
+      {
+        "family": "G",
+        "given": "Rietjens"
+      },
+      {
+        "family": "R",
+        "given": "Meeusen"
+      }
+    ],
+    "title": "Guidelines to Classify Subject Groups in Sport-Science Research",
+    "volume": "8",
+    "type": "article-journal",
+    "container-title": "Int J Sports Physiol Perform",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "111–122,",
+    "DOI": "10/f4nt76"
+  },
+  {
+    "id": "36",
+    "author": [
+      {
+        "family": "Decroix",
+        "given": "L."
+      },
+      {
+        "family": "Pauw",
+        "given": "K.",
+        "particle": "De"
+      },
+      {
+        "family": "Foster",
+        "given": "C."
+      },
+      {
+        "family": "Meeusen",
+        "given": "R."
+      }
+    ],
+    "title": "Guidelines to Classify Female Subject Groups in Sport-Science Research",
+    "volume": "11",
+    "type": "article-journal",
+    "container-title": "Int J Sports Physiol Perform",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "204–213,",
+    "DOI": "10/ggcfjx"
+  },
+  {
+    "id": "37.",
+    "author": [
+      {
+        "family": "Graybeal",
+        "given": "A.J."
+      },
+      {
+        "family": "Kreutzer",
+        "given": "A."
+      },
+      {
+        "family": "Rack",
+        "given": "P."
+      },
+      {
+        "family": "Moss",
+        "given": "K."
+      },
+      {
+        "family": "Augsburger",
+        "given": "G."
+      },
+      {
+        "family": "Willis",
+        "given": "J.L."
+      },
+      {
+        "family": "Braun-Trocchio",
+        "given": "R."
+      },
+      {
+        "family": "Shah",
+        "given": "M."
+      }
+    ],
+    "title": "Perceptions of Appetite Do Not Match Hormonal Measures of Appetite in Trained Competitive Cyclists and Triathletes Following a Ketogenic Diet Compared to a High-Carbohydrate or Habitual Diet: A Randomized Crossover Trial",
+    "volume": "93",
+    "note": "doi: 10/gmmtch.",
+    "type": "article-journal",
+    "container-title": "Nutr Res",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "111–123,"
+  },
+  {
+    "id": "38",
+    "author": [
+      {
+        "family": "Lakens",
+        "given": "D."
+      },
+      {
+        "family": "Caldwell",
+        "given": "A.R."
+      }
+    ],
+    "title": "Simulation-Based Power Analysis for Factorial Analysis of Variance Designs",
+    "volume": "4",
+    "type": "article-journal",
+    "container-title": "AMPPS",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "2515245920951503,",
+    "DOI": "10/gj2hw8"
+  },
+  {
+    "id": "39",
+    "author": [
+      {
+        "family": "Hall",
+        "given": "K.D."
+      },
+      {
+        "family": "Guo",
+        "given": "J."
+      },
+      {
+        "family": "Courville",
+        "given": "A.B."
+      },
+      {
+        "family": "Boring",
+        "given": "J."
+      },
+      {
+        "family": "Brychta",
+        "given": "R."
+      },
+      {
+        "family": "Chen",
+        "given": "K.Y."
+      },
+      {
+        "family": "Darcey",
+        "given": "V."
+      },
+      {
+        "family": "Forde",
+        "given": "C.G."
+      },
+      {
+        "family": "Gharib",
+        "given": "A.M."
+      },
+      {
+        "family": "Gallagher",
+        "given": "I."
+      },
+      {
+        "family": "Howard",
+        "given": "R."
+      },
+      {
+        "family": "Joseph",
+        "given": "P.V."
+      },
+      {
+        "family": "Milley",
+        "given": "L."
+      },
+      {
+        "family": "Ouwerkerk",
+        "given": "R."
+      },
+      {
+        "family": "Raisinger",
+        "given": "K."
+      },
+      {
+        "family": "Rozga",
+        "given": "I."
+      },
+      {
+        "family": "Schick",
+        "given": "A."
+      },
+      {
+        "family": "Stagliano",
+        "given": "M."
+      },
+      {
+        "family": "Torres",
+        "given": "S."
+      },
+      {
+        "family": "Walter",
+        "given": "M."
+      },
+      {
+        "family": "Walter",
+        "given": "P."
+      },
+      {
+        "family": "Yang",
+        "given": "S."
+      },
+      {
+        "family": "Chung",
+        "given": "S.T."
+      }
+    ],
+    "title": "Effect of a plant-based, low-fat diet versus an animal-based, ketogenic diet on ad libitum energy intake",
+    "volume": "27",
+    "type": "article-journal",
+    "container-title": "Nat Med",
+    "language": "de",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "344–353,",
+    "DOI": "10.1038/s41591-020-01209-1."
+  },
+  {
+    "id": "40",
+    "author": [
+      {
+        "family": "Shilpa",
+        "given": "J."
+      },
+      {
+        "family": "Mohan",
+        "given": "V."
+      }
+    ],
+    "title": "Ketogenic diets: Boon or bane?",
+    "volume": "148",
+    "type": "article-journal",
+    "container-title": "Indian Journal of Medical Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "251–253,",
+    "DOI": "10.4103/ijmr.IJMR_1666_18."
+  },
+  {
+    "id": "41.",
+    "author": [
+      {
+        "family": "Misra",
+        "given": "S."
+      },
+      {
+        "family": "Oliver",
+        "given": "N.S."
+      }
+    ],
+    "title": "Utility of Ketone Measurement in the Prevention, Diagnosis and Management of Diabetic Ketoacidosis",
+    "volume": "32",
+    "type": "article-journal",
+    "container-title": "Diabet Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "14–23,",
+    "DOI": "10.1111/dme.12604."
+  },
+  {
+    "id": "42",
+    "author": [
+      {
+        "family": "Sparks",
+        "given": "A.S."
+      },
+      {
+        "family": "Williams",
+        "given": "E.L."
+      },
+      {
+        "family": "Jones",
+        "given": "H.J."
+      },
+      {
+        "family": "Bridge",
+        "given": "C.A."
+      },
+      {
+        "family": "Marchant",
+        "given": "D."
+      },
+      {
+        "family": "McNaughton",
+        "given": "L."
+      }
+    ],
+    "title": "Test-Retest Reliability of a 16.1 km Time Trial in Trained Cyclists Using the CompuTrainer Ergometer",
+    "volume": "5",
+    "type": "article-journal",
+    "container-title": "J Sci Cycl",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "35–41,",
+    "DOI": "10.28985/jsc.v5i3.272."
+  },
+  {
+    "id": "43",
+    "author": [
+      {
+        "family": "Péronnet",
+        "given": "F."
+      },
+      {
+        "family": "Massicotte",
+        "given": "D."
+      }
+    ],
+    "title": "Table of Nonprotein Respiratory Quotient: An Update",
+    "volume": "16",
+    "type": "article-journal",
+    "container-title": "J Canad Sci Sport",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "page": "23–29,"
+  },
+  {
+    "id": "44",
+    "author": [
+      {
+        "family": "Nieman",
+        "given": "D.C."
+      },
+      {
+        "family": "Shanely",
+        "given": "R.A."
+      },
+      {
+        "family": "Zwetsloot",
+        "given": "K.A."
+      },
+      {
+        "family": "Meaney",
+        "given": "M.P."
+      },
+      {
+        "family": "Farris",
+        "given": "G.E."
+      }
+    ],
+    "title": "Ultrasonic Assessment of Exercise-Induced Change in Skeletal Muscle Glycogen Content",
+    "volume": "7",
+    "type": "article-journal",
+    "container-title": "BMC Sports Sci Med Rehabil",
+    "language": "es",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "9,",
+    "DOI": "10/gb3pw8"
+  },
+  {
+    "id": "45",
+    "author": [
+      {
+        "family": "Bone",
+        "given": "J.L."
+      },
+      {
+        "family": "Ross",
+        "given": "M.L."
+      },
+      {
+        "family": "Tomcik",
+        "given": "K.A."
+      },
+      {
+        "family": "Jeacocke",
+        "given": "N.A."
+      },
+      {
+        "family": "McKay",
+        "given": "A.K.A."
+      },
+      {
+        "family": "Burke",
+        "given": "L.M."
+      }
+    ],
+    "title": "The Validity of Ultrasound Technology in Providing an Indirect Estimate of Muscle Glycogen Concentrations Is Equivocal",
+    "volume": "13",
+    "type": "article-journal",
+    "container-title": "Nutrients",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "2371,",
+    "DOI": "10/gmmtcg"
+  },
+  {
+    "id": "46",
+    "author": [
+      {
+        "family": "Routledge",
+        "given": "H.E."
+      },
+      {
+        "family": "Bradley",
+        "given": "W.J."
+      },
+      {
+        "family": "Shepherd",
+        "given": "S.O."
+      },
+      {
+        "family": "Cocks",
+        "given": "M."
+      },
+      {
+        "family": "Erskine",
+        "given": "R.M."
+      },
+      {
+        "family": "Close",
+        "given": "G.L."
+      },
+      {
+        "family": "Morton",
+        "given": "J.P."
+      }
+    ],
+    "title": "Ultrasound Does Not Detect Acute Changes in Glycogen in Vastus Lateralis of Man",
+    "volume": "51",
+    "note": "doi: 10/gmmtcf.",
+    "type": "article-journal",
+    "container-title": "Med Sci Sports Exerc",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "2286–2293,"
+  },
+  {
+    "id": "47",
+    "title": "The MuscleHealth Company. Position Stand. Science and Application",
+    "language": "en",
+    "type": "other",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher-place": "Denver, CO"
+  },
+  {
+    "id": "48.",
+    "author": [
+      {
+        "family": "Buuren S",
+        "particle": "van"
+      },
+      {
+        "family": "K",
+        "given": "Groothuis-Oudshoorn"
+      }
+    ],
+    "title": "MICE: Multivariate Imputation by Chained Equations in R",
+    "volume": "45",
+    "type": "article-journal",
+    "container-title": "J Stat Softw",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "1–67,",
+    "URL": "https://doi.org/10.18637/jss.v045.i03.",
+    "DOI": "10.18637/jss.v045.i03."
+  },
+  {
+    "id": "49",
+    "author": [
+      {
+        "family": "Schafer",
+        "given": "J.L."
+      },
+      {
+        "family": "Yucel",
+        "given": "R.M."
+      }
+    ],
+    "title": "Computational Strategies for Multivariate Linear Mixed-Effects Models With Missing Values",
+    "volume": "11",
+    "type": "article-journal",
+    "container-title": "J Comput Graph Stat",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "437–457,",
+    "DOI": "10/b4r25x"
+  },
+  {
+    "id": "50",
+    "author": [
+      {
+        "family": "Bates",
+        "given": "D."
+      },
+      {
+        "family": "Maechler",
+        "given": "M."
+      },
+      {
+        "family": "Bolker",
+        "given": "B."
+      },
+      {
+        "family": "Walker",
+        "given": "S."
+      },
+      {
+        "family": "Singmann",
+        "given": "H."
+      },
+      {
+        "family": "Dai",
+        "given": "B."
+      },
+      {
+        "family": "Scheipl",
+        "given": "F."
+      },
+      {
+        "family": "Grothendieck",
+        "given": "G."
+      },
+      {
+        "family": "Green",
+        "given": "P."
+      },
+      {
+        "family": "Fox",
+        "given": "J."
+      },
+      {
+        "family": "Green",
+        "given": "P."
+      },
+      {
+        "family": "Fox",
+        "given": "J."
+      }
+    ],
+    "note": "lme4: Linear Mixed-Effects Models using “Eigen” and S4 [Online].",
+    "language": "nl",
+    "type": "software",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "URL": "https://CRAN.R-project.org/package=lme4"
+  },
+  {
+    "id": "51",
+    "author": [
+      {
+        "family": "Lenth",
+        "given": "R."
+      },
+      {
+        "family": "Singmann",
+        "given": "H."
+      },
+      {
+        "family": "Love",
+        "given": "J."
+      },
+      {
+        "family": "Buerkner",
+        "given": "P."
+      },
+      {
+        "family": "Herve",
+        "given": "M."
+      }
+    ],
+    "note": "emmeans: Estimated Marginal Means, aka Least-Squares Means [Online].",
+    "language": "en",
+    "type": "software",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "URL": "https://CRAN.R-project.org/package=emmeans"
+  },
+  {
+    "id": "52",
+    "author": [
+      {
+        "family": "McSwiney",
+        "given": "F.T."
+      },
+      {
+        "family": "Doyle",
+        "given": "L."
+      },
+      {
+        "family": "Plews",
+        "given": "D.J."
+      },
+      {
+        "family": "Zinn",
+        "given": "C."
+      }
+    ],
+    "title": "Impact Of Ketogenic Diet On Athletes: Current Insights",
+    "volume": "10",
+    "type": "article-journal",
+    "container-title": "Open Access J Sports Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "171–183,",
+    "DOI": "10/ggp3jm"
+  },
+  {
+    "id": "53",
+    "author": [
+      {
+        "family": "Hopkins",
+        "given": "W.G."
+      },
+      {
+        "family": "Schabort",
+        "given": "E.J."
+      },
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      }
+    ],
+    "title": "Reliability of Power in Physical Performance Tests",
+    "volume": "31",
+    "type": "article-journal",
+    "container-title": "Sports Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "page": "211–234,",
+    "DOI": "10/c2mfh9"
+  },
+  {
+    "id": "54",
+    "author": [
+      {
+        "family": "Gribble",
+        "given": "S."
+      }
+    ],
+    "title": "An Interactive Model-Based Calculator of Cycling Power vs",
+    "note": "Speed [Online]. The Computational Cyclist: [date unknown].",
+    "language": "en",
+    "type": "software",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          5
+        ]
+      ]
+    },
+    "URL": "https://www.gribble.org/cycling/power_v_speed.html"
+  },
+  {
+    "id": "55",
+    "author": [
+      {
+        "family": "Brehm",
+        "given": "B.J."
+      },
+      {
+        "family": "Seeley",
+        "given": "R.J."
+      },
+      {
+        "family": "Daniels",
+        "given": "D.’Alessio",
+        "suffix": "SR"
+      },
+      {
+        "given": "D.A."
+      }
+    ],
+    "title": "A Randomized Trial Comparing a Very Low Carbohydrate Diet and a Calorie-Restricted Low Fat Diet on Body Weight and Cardiovascular Risk Factors in Healthy Women",
+    "volume": "88",
+    "type": "article-journal",
+    "container-title": "J Clin Endocrinol Metab",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "page": "1617–1623,",
+    "DOI": "10.1210/jc.2002-021480."
+  },
+  {
+    "id": "56",
+    "author": [
+      {
+        "family": "Brehm",
+        "given": "B.J."
+      },
+      {
+        "family": "Spang",
+        "given": "S.E."
+      },
+      {
+        "family": "Lattin",
+        "given": "B.L."
+      },
+      {
+        "family": "Seeley",
+        "given": "R.J."
+      },
+      {
+        "family": "Daniels",
+        "given": "D.’Alessio",
+        "suffix": "SR"
+      },
+      {
+        "given": "D.A."
+      }
+    ],
+    "title": "The Role of Energy Expenditure in the Differential Weight Loss in Obese Women on Low-Fat and Low-Carbohydrate Diets",
+    "volume": "90",
+    "type": "article-journal",
+    "container-title": "J Clin Endocrinol Metab",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "page": "1475–1482,",
+    "DOI": "10.1210/jc.2004-1540."
+  },
+  {
+    "id": "57",
+    "author": [
+      {
+        "family": "Yancy",
+        "given": "W.S."
+      },
+      {
+        "family": "Olsen",
+        "given": "M.K."
+      },
+      {
+        "family": "Guyton",
+        "given": "Bakst",
+        "suffix": "JR"
+      },
+      {
+        "family": "RP",
+        "given": "Westman E.C.A.Low-Carbohydrate"
+      }
+    ],
+    "title": "Ketogenic Diet Versus a Low-Fat Diet to Treat Obesity and Hyperlipidemia",
+    "volume": "140",
+    "type": "article-journal",
+    "container-title": "Ann Intern Med",
+    "language": "de",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "page": "769–777,",
+    "DOI": "10/gf9nd9"
+  },
+  {
+    "id": "58",
+    "author": [
+      {
+        "family": "Worme",
+        "given": "J.D."
+      },
+      {
+        "family": "Doubt",
+        "given": "T.J."
+      },
+      {
+        "family": "Singh",
+        "given": "A."
+      },
+      {
+        "family": "Ryan",
+        "given": "C.J."
+      },
+      {
+        "family": "Moses",
+        "given": "F.M."
+      },
+      {
+        "family": "Deuster",
+        "given": "P.A."
+      }
+    ],
+    "title": "Dietary Patterns, Gastrointestinal Complaints, and Nutrition Knowledge of Recreational Triathletes",
+    "volume": "51",
+    "type": "article-journal",
+    "container-title": "Am J Clin Nutr",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "page": "690–697,",
+    "DOI": "10.1093/ajcn/51.4.690."
+  },
+  {
+    "id": "59",
+    "author": [
+      {
+        "family": "Sampson",
+        "given": "G."
+      },
+      {
+        "family": "Pugh",
+        "given": "J.N."
+      },
+      {
+        "family": "Morton",
+        "given": "J.P."
+      },
+      {
+        "family": "Areta",
+        "given": "J.L."
+      }
+    ],
+    "title": "Carbohydrate for Endurance Athletes in Competition Questionnaire (CEAC-Q): Validation of a Practical and Time-Efficient Tool for Knowledge Assessment",
+    "volume": "17",
+    "type": "article-journal",
+    "container-title": "Sport Sci Health",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10/gmq2rx"
+  },
+  {
+    "id": "60",
+    "author": [
+      {
+        "family": "Heidel",
+        "given": "R.E."
+      }
+    ],
+    "title": "Causality in Statistical Power: Isomorphic Properties of Measurement, Research Design, Effect Size, and Sample Size",
+    "type": "article-journal",
+    "container-title": "Scientifica (Cairo",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "8920418,",
+    "DOI": "10/gk8w8p"
+  },
+  {
+    "id": "61",
+    "author": [
+      {
+        "family": "Jiang",
+        "given": "D."
+      },
+      {
+        "family": "Pepler",
+        "given": "D."
+      },
+      {
+        "family": "Yao",
+        "given": "H."
+      }
+    ],
+    "title": "The Effect of Population Heterogeneity on Statistical Power in the Design and Evaluation of Interventions",
+    "volume": "34",
+    "note": "doi: 10/b9rbvf.",
+    "type": "article-journal",
+    "container-title": "Int J Behav Dev",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "page": "473–480,"
+  },
+  {
+    "id": "62",
+    "author": [
+      {
+        "family": "Boisgontier",
+        "given": "M.P."
+      },
+      {
+        "family": "Cheval",
+        "given": "B."
+      }
+    ],
+    "title": "The ANOVA to Mixed Model Transition",
+    "volume": "68",
+    "type": "article-journal",
+    "container-title": "Neurosci Biobehav Rev",
+    "language": "da",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "1004–1005,",
+    "DOI": "10/f83jzs"
+  },
+  {
+    "id": "63",
+    "author": [
+      {
+        "family": "DeBruine",
+        "given": "L."
+      },
+      {
+        "family": "Krystalli",
+        "given": "A."
+      },
+      {
+        "family": "faux",
+        "given": "Heiss A."
+      }
+    ],
+    "title": "Simulation for Factorial Designs",
+    "genre": "[Online].",
+    "language": "en",
+    "type": "software",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          8
+        ]
+      ]
+    },
+    "URL": "https://CRAN.R-project.org/package=faux"
+  },
+  {
+    "id": "64",
+    "author": [
+      {
+        "family": "Senn",
+        "given": "S."
+      }
+    ],
+    "title": "Change From Baseline and Analysis of Covariance Revisited",
+    "volume": "25",
+    "type": "article-journal",
+    "container-title": "Stat Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "page": "4334–4344,",
+    "DOI": "10/fdmg6x"
+  },
+  {
+    "id": "65",
+    "author": [
+      {
+        "family": "rstatix",
+        "given": "Kassambara A."
+      }
+    ],
+    "title": "Pipe-Friendly Framework for Basic Statistical Tests",
+    "genre": "[Online].",
+    "language": "en",
+    "type": "software",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          8
+        ]
+      ]
+    },
+    "URL": "https://CRAN.R-project.org/package=rstatix"
+  },
+  {
+    "id": "66",
+    "author": [
+      {
+        "family": "Harrison",
+        "given": "X.A."
+      },
+      {
+        "family": "Donaldson",
+        "given": "L."
+      },
+      {
+        "family": "Correa-Cano",
+        "given": "M.E."
+      },
+      {
+        "family": "Evans",
+        "given": "J."
+      },
+      {
+        "family": "Fisher",
+        "given": "D.N."
+      },
+      {
+        "family": "Goodwin",
+        "given": "C.E.D."
+      },
+      {
+        "family": "Robinson",
+        "given": "B.S."
+      },
+      {
+        "family": "Hodgson",
+        "given": "D.J."
+      },
+      {
+        "family": "Inger",
+        "given": "R."
+      }
+    ],
+    "title": "A Brief Introduction to Mixed Effects Modelling and Multi-Model Inference in Ecology",
+    "volume": "6",
+    "type": "article-journal",
+    "container-title": "PeerJ",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "4794,",
+    "DOI": "10/gdh936"
+  },
+  {
+    "id": "67",
+    "author": [
+      {
+        "family": "Impey",
+        "given": "S.G."
+      },
+      {
+        "family": "Hearris",
+        "given": "M.A."
+      },
+      {
+        "family": "Hammond",
+        "given": "K.M."
+      },
+      {
+        "family": "Bartlett",
+        "given": "J.D."
+      },
+      {
+        "family": "Louis",
+        "given": "J."
+      },
+      {
+        "family": "Close",
+        "given": "G.L."
+      },
+      {
+        "family": "Morton",
+        "given": "J.P."
+      }
+    ],
+    "title": "Fuel for the Work Required: A Theoretical Framework for Carbohydrate Periodization and the Glycogen Threshold Hypothesis",
+    "volume": "48",
+    "type": "article-journal",
+    "container-title": "Sports Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "1031–1048,",
+    "DOI": "10/gdwk98"
+  },
+  {
+    "id": "68",
+    "author": [
+      {
+        "family": "Hiilloskorpi",
+        "given": "H.K."
+      },
+      {
+        "family": "Pasanen",
+        "given": "M.E."
+      },
+      {
+        "family": "Fogelholm",
+        "given": "M.G."
+      },
+      {
+        "family": "Laukkanen",
+        "given": "R.M."
+      },
+      {
+        "family": "Mänttäri",
+        "given": "A.T."
+      }
+    ],
+    "title": "Use of Heart Rate to Predict Energy Expenditure From Low to High Activity Levels",
+    "volume": "24",
+    "type": "article-journal",
+    "container-title": "Int J Sports Med",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "page": "332–336,",
+    "DOI": "10/fbbg7z"
+  },
+  {
+    "id": "69",
+    "author": [
+      {
+        "family": "Quinn",
+        "given": "T.J."
+      },
+      {
+        "family": "Coons",
+        "given": "B.A."
+      }
+    ],
+    "title": "The Talk Test and Its Relationship With the Ventilatory and Lactate Thresholds",
+    "volume": "29",
+    "type": "article-journal",
+    "container-title": "J Sports Sci",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "1175–1182,",
+    "DOI": "10/bgs275"
+  },
+  {
+    "id": "70",
+    "author": [
+      {
+        "family": "Impey",
+        "given": "S.G."
+      },
+      {
+        "family": "Hammond",
+        "given": "K.M."
+      },
+      {
+        "family": "Shepherd",
+        "given": "S.O."
+      },
+      {
+        "family": "Sharples",
+        "given": "A.P."
+      },
+      {
+        "family": "Stewart",
+        "given": "C."
+      },
+      {
+        "family": "Limb",
+        "given": "M."
+      },
+      {
+        "family": "Smith",
+        "given": "K."
+      },
+      {
+        "family": "Philp",
+        "given": "A."
+      },
+      {
+        "family": "Jeromson",
+        "given": "S."
+      },
+      {
+        "family": "Hamilton",
+        "given": "D.L."
+      },
+      {
+        "family": "Close",
+        "given": "G.L."
+      },
+      {
+        "family": "Morton",
+        "given": "J.P."
+      }
+    ],
+    "title": "Fuel for the Work Required: A Practical Approach to Amalgamating Train-Low Paradigms for Endurance Athletes",
+    "volume": "4",
+    "type": "article-journal",
+    "container-title": "Physiol Rep",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "12803,",
+    "DOI": "10.14814/phy2.12803."
   }
-  ]
+]

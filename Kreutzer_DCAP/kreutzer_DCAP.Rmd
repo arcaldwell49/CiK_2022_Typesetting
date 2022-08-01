@@ -1,18 +1,28 @@
 ---
-title: Some Title
+title: "Ketogenic and High-Carbohydrate Diets in Cyclists and Triathletes: Performance Indicators and Methodological Considerations From a Pilot Study"
 date: "`r Sys.Date()`"
 author:
-- name: Some Name
+- name: Andreas Kreutzer
   affiliation: '1'
-- name: Same Name
+- name: Austin J. Graybeal
   affiliation: '1'
-- name: Another Nombre
+- name: Petra P. Rack
+  affiliation: '1'
+- name: Kamiah Moss
+  affiliation: '1'
+- name: Garrett R. Augsburger
+  affiliation: '1'
+- name: Jada L. Willis
   affiliation: '2'
+- name: Robyn Braun-Trocchio
+  affiliation: '1'
+- name: Meena Shah
+  affiliation: '1'
 address:
 - code: '1'
-  address: Fake University
+  address: Department of Kinesiology, Harris College of Nursing & Health Sciences, Texas Christian University, Fort Worth, TX
 - code: '2'
-  address: Fake Place
+  address: Department of Nutritional Sciences, College of Science & Engineering, Texas Christian University, Fort Worth, TX 
 output:
   pdf_document: 
     template: template.tex
@@ -26,21 +36,21 @@ link-citations: true
 always_allow_html: true
 bibliography: refs.json
 csl: apa7th.csl
-corresp_author_name: S. Name
-corresp_author_email: "s.name@fake.edu"
+corresp_author_name: "A. Kruetzer & M. Shah"
+corresp_author_email: "m.shah@tcu.edu; a.kreutzer@tcu.edu"
 article_type: Research
 subject:
-- Another Science
+- Physiology & Nutrition
 keywords:
-- key1
-- key2
-- key3
-abstract: "Endurance athletes frequently employ nutritional strategies to enhance performance. While professional organizations recommend high carbohydrate diets to maximize performance, many athletes, and researchers have recently shown renewed interest in the ketogenic diet in hopes to promote \"fat adaptation\", which would allow athletes to make use of the essentially unlimited energy resources from stored body fat. This would circumvent one fatigue mechanism, the depletion of muscle glycogen stores, that has been considered central to performance outcomes in endurance events. The present study investigated the effects of participants’ habitual diet, high carbohydrate diet, and ketogenic diet on endurance performance in a 30-km simulated cycling time trial, physiological responses during the time trial, and muscle session fuel percentile before and after the time trial using ultrasonic imaging. Due to the COVID-19 pandemic, data collection ceased after only six recreational cyclists and triathletes (f = 4, m = 2; age: 37.2 +/- 12.2; VO2max: 46.8 +/- 6.8 ml/kg/min; weekly cycling distance: 225.3 +/- 64.2 km). Due to the small sample size, we do not report inferential statistics for our primary outcome measure, cycling performance. Participants produced the lowest mean power output   during the time trial following the ketogenic diet (172 +/- 93 W) and the highest mean power output following the high carbohydrate diet (200 +/- 92 W). Oxygen consumption, heart rate, and perceived exertion during the time trial were similar in all conditions. Fat oxidation rates were highest in the ketogenic diet condition (0.62 +/- 0.11 g/min) and lowest in the high carbohydrate condition (0.14 +/- 0.11 g/min). Session fuel percentile was lower following the ketogenic diet compared with the habitual diet (Mean Difference = -10.0 +/- 12.7%) and lower following the time trial compared with fasted resting values across all conditions. We discuss methodological considerations into the use of exercise equipment, nutritional interventions, and statistical analysis strategies for study designs like the present. Further research is needed to assess the impact of high carbohydrate and ketogenic diets on time trial performance in this population. ClinicalTrials.gov Identifier: NCT04097171; OSF preregistration: https://osf.io/ujx6e/ "
+- Endurance Performance
+- Fat Adaptation
+- Muscle Glycogen
+abstract: "Endurance athletes frequently employ nutritional strategies to enhance performance. While professional organizations recommend high carbohydrate diets to maximize performance, many athletes, and researchers have recently shown renewed interest in the ketogenic diet in hopes to promote \"fat adaptation\", which would allow athletes to make use of the essentially unlimited energy resources from stored body fat. This would circumvent one fatigue mechanism, the depletion of muscle glycogen stores, that has been considered central to performance outcomes in endurance events. The present study investigated the effects of participants’ habitual diet, high carbohydrate diet, and ketogenic diet on endurance performance in a 30-km simulated cycling time trial, physiological responses during the time trial, and muscle session fuel percentile before and after the time trial using ultrasonic imaging. Due to the COVID-19 pandemic, data collection ceased after only six recreational cyclists and triathletes (f = 4, m = 2; age: 37.2 [12.2]; VO2max: 46.8 [6.8] ml/kg/min; weekly cycling distance: 225.3 [64.2] km). Due to the small sample size, we do not report inferential statistics for our primary outcome measure, cycling performance. Participants produced the lowest mean power output   during the time trial following the ketogenic diet (172 +/- 93 W) and the highest mean power output following the high carbohydrate diet (200 [92] W). Oxygen consumption, heart rate, and perceived exertion during the time trial were similar in all conditions. Fat oxidation rates were highest in the ketogenic diet condition (0.62 [0.11] g/min) and lowest in the high carbohydrate condition (0.14 [0.11] g/min). Session fuel percentile was lower following the ketogenic diet compared with the habitual diet (Mean Difference = -10.0 [12.7] %) and lower following the time trial compared with fasted resting values across all conditions. We discuss methodological considerations into the use of exercise equipment, nutritional interventions, and statistical analysis strategies for study designs like the present. Further research is needed to assess the impact of high carbohydrate and ketogenic diets on time trial performance in this population. ClinicalTrials.gov Identifier: NCT04097171; OSF preregistration: https://osf.io/ujx6e/ "
 citation: "10.51224/XXXXXXXXX"
-editor: "Sam Somebody"
+editor: "John P. Mills"
 rise: false
 #risenote: "This article is included within the RiSE issue of Communications in Kinesiology at the behest of the editors due to its rigor, reproducibility, and transparency."
-lineno: false
+lineno: true
 site: bookdown::bookdown_site
 header-includes:
     - \usepackage{caption}
@@ -92,7 +102,8 @@ opts_chunk$set(echo=FALSE,
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa @CreativeTag1. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+Nutritional interventions remain at the forefront of strategies employed by athletes to enhance their performance [@1]. Commonly employed approaches among endurance athletes include a high daily intake of dietary carbohydrate (6-10 g/kg/day) and carbohydrate loading (10-12 g/kg/day) before an event, since low muscle glycogen is a well-established cause of fatigue [@2;@3]. Contrary to this traditionally favored strategy, endurance athletes and researchers have recently began expressing increased interest in a low carbohydrate, high fat ketogenic diet again [@4]. When following a ketogenic diet, athletes typically limit their carbohydrate intake to <50 g or 5-10% of their total daily energy intake [@5]. The proposed benefit of this diet approach is “fat adaptation”, enabling the oxidation of fat as the main energy substrate at exercise intensities (e.g. >70% of  maximal oxygen consumption VO~2~max) where the oxidation of carbohydrate would typically predominate [@6;@7;@8]. This would essentially create unlimited energy resources, as the body can store more than 74,000 kcal in subcutaneous, visceral, and intramuscular fat [@9]. Despite its recent resurgence in popularity, the ketogenic diet's restrictive nature counters the current dietary recommendations of several professional organizations, which state that low carbohydrate availability before exercise is a significant component of diminished exercise capacity and performance [@1;@10;@11].   
+
 
 Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien.
 
