@@ -24,14 +24,14 @@ address:
 - code: '2'
   address: Department of Nutritional Sciences, College of Science & Engineering, Texas Christian University, Fort Worth, TX 
 output:
-  html_document:
-    template: simplehtml.html
-    self_contained: no
-  word_document: 
-    keep_md: yes
   pdf_document: 
     template: template.tex
     keep_tex: yes
+  word_document: 
+    keep_md: yes
+  html_document:
+    template: simplehtml.html
+    self_contained: no
 link-citations: true
 always_allow_html: true
 bibliography: refs.json
@@ -45,7 +45,7 @@ keywords:
 - Endurance Performance
 - Fat Adaptation
 - Muscle Glycogen
-abstract: "Endurance athletes frequently employ nutritional strategies to enhance performance. While professional organizations recommend high carbohydrate diets to maximize performance, many athletes, and researchers have recently shown renewed interest in the ketogenic diet in hopes to promote \"fat adaptation\", which would allow athletes to make use of the essentially unlimited energy resources from stored body fat. This would circumvent one fatigue mechanism, the depletion of muscle glycogen stores, that has been considered central to performance outcomes in endurance events. The present study investigated the effects of participants’ habitual diet, high carbohydrate diet, and ketogenic diet on endurance performance in a 30-km simulated cycling time trial, physiological responses during the time trial, and muscle session fuel percentile before and after the time trial using ultrasonic imaging. Due to the COVID-19 pandemic, data collection ceased after only six recreational cyclists and triathletes (f = 4, m = 2; age: 37.2 [12.2]; VO2max: 46.8 [6.8] ml/kg/min; weekly cycling distance: 225.3 [64.2] km). Due to the small sample size, we do not report inferential statistics for our primary outcome measure, cycling performance. Participants produced the lowest mean power output   during the time trial following the ketogenic diet (172 +/- 93 W) and the highest mean power output following the high carbohydrate diet (200 [92] W). Oxygen consumption, heart rate, and perceived exertion during the time trial were similar in all conditions. Fat oxidation rates were highest in the ketogenic diet condition (0.62 [0.11] g/min) and lowest in the high carbohydrate condition (0.14 [0.11] g/min). Session fuel percentile was lower following the ketogenic diet compared with the habitual diet (Mean Difference = -10.0 [12.7] %) and lower following the time trial compared with fasted resting values across all conditions. We discuss methodological considerations into the use of exercise equipment, nutritional interventions, and statistical analysis strategies for study designs like the present. Further research is needed to assess the impact of high carbohydrate and ketogenic diets on time trial performance in this population. ClinicalTrials.gov Identifier: NCT04097171; OSF preregistration: https://osf.io/ujx6e/ "
+abstract: "Endurance athletes frequently employ nutritional strategies to enhance performance. While professional organizations recommend high carbohydrate diets to maximize performance, many athletes, and researchers have recently shown renewed interest in the ketogenic diet in hopes to promote \"fat adaptation\", which would allow athletes to make use of the essentially unlimited energy resources from stored body fat. This would circumvent one fatigue mechanism, the depletion of muscle glycogen stores, that has been considered central to performance outcomes in endurance events. The present study investigated the effects of participants’ habitual diet, high carbohydrate diet, and ketogenic diet on endurance performance in a 30-km simulated cycling time trial, physiological responses during the time trial, and muscle session fuel percentile before and after the time trial using ultrasonic imaging. Due to the COVID-19 pandemic, data collection ceased after only six recreational cyclists and triathletes (f = 4, m = 2; age: 37.2 &pm; 12.2; VO2max: 46.8 &pm; 6.8 ml/kg/min; weekly cycling distance: 225.3 &pm; 64.2 km). Due to the small sample size, we do not report inferential statistics for our primary outcome measure, cycling performance. Participants produced the lowest mean power output   during the time trial following the ketogenic diet (172 &pm; 93 W) and the highest mean power output following the high carbohydrate diet (200 &pm; 92 W). Oxygen consumption, heart rate, and perceived exertion during the time trial were similar in all conditions. Fat oxidation rates were highest in the ketogenic diet condition (0.62 &pm; 0.11 g/min) and lowest in the high carbohydrate condition (0.14 &pm; 0.11 g/min). Session fuel percentile was lower following the ketogenic diet compared with the habitual diet (Mean Difference = -10.0 &pm; 12.7 %) and lower following the time trial compared with fasted resting values across all conditions. We discuss methodological considerations into the use of exercise equipment, nutritional interventions, and statistical analysis strategies for study designs like the present. Further research is needed to assess the impact of high carbohydrate and ketogenic diets on time trial performance in this population. ClinicalTrials.gov Identifier: NCT04097171; OSF preregistration: https://osf.io/ujx6e/ "
 citation: "10.51224/XXXXXXXXX"
 editor: "John P. Mills"
 rise: false
