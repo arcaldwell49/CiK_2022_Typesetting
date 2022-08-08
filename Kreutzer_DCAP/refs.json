@@ -50,7 +50,7 @@
         ]
       ]
     },
-    "page": "669–677,",
+    "page": "669–677",
     "DOI": "10/bnpn7g"
   },
   {
@@ -64,7 +64,7 @@
     "title": "Nutrition for Endurance Sports: Marathon, Triathlon, and Road Cycling",
     "volume": "29 Suppl 1",
     "type": "article-journal",
-    "container-title": "J Sports Sci",
+    "container-title": "Journal of Sports Science",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -73,7 +73,7 @@
         ]
       ]
     },
-    "page": "91–99,",
+    "page": "91–99",
     "DOI": "10/b52hvj"
   },
   {
@@ -87,7 +87,7 @@
     "title": "Low Carb High Fat (LCHF) Diets for Athletes – Third Time Lucky?",
     "volume": "20 Suppl 1: S1",
     "type": "article-journal",
-    "container-title": "J Sci Med Sport",
+    "container-title": "Journal of Science and Medicine in Sport",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -206,10 +206,10 @@
         "given": "N."
       }
     ],
-    "title": "Dietary Carbohydrate Restriction As the First Approach in Diabetes Management",
+    "title": "Dietary Carbohydrate Restriction As the First Approach in Diabetes Management: Critical review and evidence base",
     "volume": "31",
     "type": "article-journal",
-    "container-title": "Critical Review and Evidence Base. Nutrition",
+    "container-title": "Nutrition",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -218,8 +218,8 @@
         ]
       ]
     },
-    "page": "1–13,",
-    "DOI": "10.1016/j.nut.2014.06.011."
+    "page": "1–13",
+    "DOI": "10.1016/j.nut.2014.06.011"
   },
   {
     "id": "6",
@@ -256,7 +256,7 @@
     "title": "Effects of Fat Adaptation and Carbohydrate Restoration on Prolonged Endurance Exercise",
     "volume": "91",
     "type": "article-journal",
-    "container-title": "J Appl Physiol",
+    "container-title": "Journal of Applied Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -265,8 +265,8 @@
         ]
       ]
     },
-    "page": "115–122,",
-    "DOI": "10.1152/jappl.2001.91.1.115."
+    "page": "115–122",
+    "DOI": "10.1152/jappl.2001.91.1.115"
   },
   {
     "id": "7",
@@ -291,7 +291,7 @@
     "title": "Enhanced Endurance in Trained Cyclists During Moderate Intensity Exercise Following 2 Weeks Adaptation to a High Fat Diet",
     "volume": "69",
     "type": "article-journal",
-    "container-title": "Eur J Appl Physiol Occup Physiol",
+    "container-title": "European Journal of Applied Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -300,8 +300,8 @@
         ]
       ]
     },
-    "page": "287–293,",
-    "DOI": "10.1007/bf00392032."
+    "page": "287–293",
+    "DOI": "10.1007/bf00392032"
   },
   {
     "id": "8",
@@ -330,7 +330,7 @@
     "title": "Nutritional Strategies for Promoting Fat Utilization and Delaying the Onset of Fatigue During Prolonged Exercise",
     "volume": "15",
     "type": "article-journal",
-    "container-title": "J Sports Sci",
+    "container-title": "Journal of Sports Science",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -339,7 +339,7 @@
         ]
       ]
     },
-    "page": "315–24,",
+    "page": "315–24",
     "DOI": "10.1080/026404197367326."
   },
   {
@@ -442,9 +442,9 @@
     ],
     "title": "International Association of Athletics Federations Consensus Statement 2019: Nutrition for Athletics",
     "volume": "29",
-    "note": "doi: 10/gjbrp2.",
+    "doi": "10/gjbrp2",
     "type": "article-journal",
-    "container-title": "Int J Sport Nutr Exerc Metab",
+    "container-title": "International Journal of Sport Nutrition and Exercise Metabolism",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -453,7 +453,7 @@
         ]
       ]
     },
-    "page": "73–84,"
+    "page": "73–84"
   },
   {
     "id": "11",
@@ -477,7 +477,7 @@
     "title": "The Effect of Different Diets and of Insulin on the Hormonal Response to Prolonged Exercise",
     "volume": "107",
     "type": "article-journal",
-    "container-title": "Acta Physiol Scand",
+    "container-title": "Acta Physiologica",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -504,7 +504,7 @@
     "title": "The Effects of Exercise and Diet Manipulation on the Capacity to Perform Prolonged Exercise in the Heat and in the Cold in Trained Humans",
     "volume": "517",
     "type": "article-journal",
-    "container-title": "J Physiol",
+    "container-title": "Journal of Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -551,7 +551,7 @@
     "title": "Metabolic Adaptations to a High-Fat Diet in Endurance Cyclists",
     "volume": "48",
     "type": "article-journal",
-    "container-title": "Metab Clin Exp",
+    "container-title": "Metabolism: Clinical and Experimental",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -560,8 +560,8 @@
         ]
       ]
     },
-    "page": "1509–1517,",
-    "DOI": "10.1016/s0026-0495(99)90238-x."
+    "page": "1509–1517",
+    "DOI": "10.1016/s0026-0495(99)90238-x"
   },
   {
     "id": "15",
@@ -578,7 +578,7 @@
     "title": "Effects of Short-Term Fat Adaptation on Metabolism and Performance of Prolonged Exercise",
     "volume": "34",
     "type": "article-journal",
-    "container-title": "Med Sci Sports Exerc",
+    "container-title": "Medicine & Science in Sports & Exercise",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -587,8 +587,8 @@
         ]
       ]
     },
-    "page": "1492–1498,",
-    "DOI": "10.1097/00005768-200209000-00015."
+    "page": "1492–1498",
+    "DOI": "10.1097/00005768-200209000-00015"
   },
   {
     "id": "16",
@@ -637,7 +637,7 @@
     "title": "Adaptation to a Low Carbohydrate High Fat Diet Is Rapid but Impairs Endurance Exercise Metabolism and Performance Despite Enhanced Glycogen Availability",
     "volume": "599",
     "type": "article-journal",
-    "container-title": "J Physiol",
+    "container-title": "Journal of Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -646,7 +646,7 @@
         ]
       ]
     },
-    "page": "771–790,",
+    "page": "771–790",
     "DOI": "10/ghvh2b"
   },
   {
@@ -725,8 +725,8 @@
         ]
       ]
     },
-    "page": "100–110,",
-    "DOI": "10.1016/j.metabol.2015.10.028."
+    "page": "100–110",
+    "DOI": "10.1016/j.metabol.2015.10.028"
   },
   {
     "id": "18",
@@ -775,7 +775,7 @@
     "title": "Effect of Fat Adaptation and Carbohydrate Restoration on Metabolism and Performance During Prolonged Cycling",
     "volume": "89",
     "type": "article-journal",
-    "container-title": "J Appl Physiol",
+    "container-title": "Journal of Applied Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -784,7 +784,7 @@
         ]
       ]
     },
-    "page": "2413–2421,",
+    "page": "2413–2421",
     "DOI": "10.1152/jappl.2000.89.6.2413."
   },
   {
@@ -838,7 +838,7 @@
     "title": "Low Carbohydrate, High Fat Diet Impairs Exercise Economy and Negates the Performance Benefit From Intensified Training in Elite Race Walkers",
     "volume": "595",
     "type": "article-journal",
-    "container-title": "J Physiol",
+    "container-title": "Journal of Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -847,7 +847,7 @@
         ]
       ]
     },
-    "page": "2785–2807,",
+    "page": "2785–2807",
     "DOI": "10.1113/JP273230."
   },
   {
@@ -906,7 +906,7 @@
         ]
       ]
     },
-    "page": "0234027,",
+    "page": "0234027",
     "DOI": "10/gg23h5"
   },
   {
@@ -928,7 +928,7 @@
     "title": "Effect of a Four-Week Ketogenic Diet on Exercise Metabolism in Crossfit-Trained Athletes",
     "volume": "16",
     "type": "article-journal",
-    "container-title": "J Int Soc Sports Nutr",
+    "container-title": "Journal of the International Society of Sports Nutrition",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -937,8 +937,8 @@
         ]
       ]
     },
-    "page": "16,",
-    "DOI": "10.1186/s12970-019-0284-9."
+    "page": "16",
+    "DOI": "10.1186/s12970-019-0284-9"
   },
   {
     "id": "22",
@@ -980,8 +980,8 @@
         ]
       ]
     },
-    "page": "25–34,",
-    "DOI": "10.1016/j.metabol.2017.10.010."
+    "page": "25–34",
+    "DOI": "10.1016/j.metabol.2017.10.010"
   },
   {
     "id": "23",
@@ -1034,7 +1034,7 @@
     "title": "High Rates of Fat Oxidation Induced by a Low-Carbohydrate, High-Fat Diet, Do Not Impair 5-km Running Performance in Competitive Recreational Athletes",
     "volume": "18",
     "type": "article-journal",
-    "container-title": "J Sports Sci Med",
+    "container-title": "Journal of Sports Science and Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1043,8 +1043,8 @@
         ]
       ]
     },
-    "page": "738–750,"
-  },
+    "page": "738–750",
+    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6873122/" },
   {
     "id": "24",
     "author": [
@@ -1076,7 +1076,7 @@
     "title": "Effect of Short-Term Fat Adaptation on High-Intensity Training",
     "volume": "34",
     "type": "article-journal",
-    "container-title": "Med Sci Sports Exerc",
+    "container-title": "Medicine & Science in Sports & Exercise",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1085,8 +1085,8 @@
         ]
       ]
     },
-    "page": "449–455,",
-    "DOI": "10.1097/00005768-200203000-00011."
+    "page": "449–455",
+    "DOI": "10.1097/00005768-200203000-00011"
   },
   {
     "id": "25",
@@ -1115,7 +1115,7 @@
     "title": "Ketogenic Diet Benefits Body Composition and Well-Being but Not Performance in a Pilot Case Study of New Zealand Endurance Athletes",
     "volume": "14",
     "type": "article-journal",
-    "container-title": "J Int Soc Sports Nutr",
+    "container-title": "Journal of the International Society of Sports Nutrition",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1153,7 +1153,7 @@
     "title": "Effect of a Ketogenic Diet on Submaximal Exercise Capacity and Efficiency in Runners",
     "volume": "51",
     "type": "article-journal",
-    "container-title": "Med Sci Sports Exerc",
+    "container-title": "Medicine & Science in Sports & Exercise",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1162,7 +1162,7 @@
         ]
       ]
     },
-    "page": "2135–2146,",
+    "page": "2135–2146",
     "DOI": "10.1249/MSS.0000000000002008."
   },
   {
@@ -1180,7 +1180,7 @@
     "title": "A Study of the Glycogen Metabolism During Exercise in Man",
     "volume": "19",
     "type": "article-journal",
-    "container-title": "Scand J Clin Lab",
+    "container-title": "Scandinavian Journal of Clinical and Laboratory Investigation",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1189,8 +1189,8 @@
         ]
       ]
     },
-    "page": "218–228,",
-    "DOI": "10.3109/00365516709090629."
+    "page": "218–228",
+    "DOI": "10.3109/00365516709090629"
   },
   {
     "id": "28",
@@ -1219,7 +1219,7 @@
     "title": "The Human Metabolic Response to Chronic Ketosis Without Caloric Restriction: Preservation of Submaximal Exercise Capability With Reduced Carbohydrate Oxidation",
     "volume": "32",
     "type": "article-journal",
-    "container-title": "Metab Clin Exp",
+    "container-title": "Metabolism: Clinical and Experimental",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1228,7 +1228,7 @@
         ]
       ]
     },
-    "page": "769–776,",
+    "page": "769–776",
     "DOI": "10.1016/0026-0495(83)90106-3."
   },
   {
@@ -1246,7 +1246,7 @@
     "title": "Validation of Musculoskeletal Ultrasound to Assess and Quantify Muscle Glycogen Content",
     "volume": "42",
     "type": "article-journal",
-    "container-title": "A Novel Approach. Physician Sportsmed",
+    "container-title": "The Physician and Sportsmedicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1255,42 +1255,25 @@
         ]
       ]
     },
-    "page": "45–52,",
-    "DOI": "10.3810/psm.2014.09.2075."
+    "page": "45–52",
+    "DOI": "10.3810/psm.2014.09.2075"
   },
   {
     "id": "30",
     "author": [
       {
-        "family": "blockrand",
-        "given": "Snow G."
+        "family": "Snow",
+        "given": "Greg"
       }
     ],
-    "title": "Randomization for Block Random Clinical Trials",
-    "genre": "[Online].",
+    "title": "blockrand: Randomization for Block Random Clinical Trials",
     "language": "en",
     "type": "software",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          10,
-          26
-        ]
-      ]
-    },
     "URL": "https://CRAN.R-project.org/package=blockrand"
   },
   {
     "id": "31",
-    "author": [
-      {
-        "family": "Team",
-        "given": "R.Core"
-      }
-    ],
     "title": "R: A Language and Environment for Statistical Computing",
-    "genre": "[Online].",
     "language": "en",
     "type": "software",
     "URL": "https://www.R-project.org/."
@@ -1337,7 +1320,7 @@
     ],
     "title": "Trends in Dietary Carbohydrate, Protein, and Fat Intake and Diet Quality Among US Adults, 1999-2016",
     "volume": "322",
-    "note": "doi: 10/ggdhbs.",
+    "doi": "10/ggdhbs",
     "type": "article-journal",
     "container-title": "JAMA",
     "language": "en",
@@ -1348,7 +1331,7 @@
         ]
       ]
     },
-    "page": "1178–1187,"
+    "page": "1178–1187"
   },
   {
     "id": "33",
@@ -1388,7 +1371,7 @@
     "title": "Specificity of Treadmill and Cycle Ergometer Tests in Triathletes, Runners and Cyclists",
     "volume": "81",
     "type": "article-journal",
-    "container-title": "Eur J Appl Physiol",
+    "container-title": "European Journal of Applied Physiology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1397,8 +1380,8 @@
         ]
       ]
     },
-    "page": "214–221,",
-    "DOI": "10.1007/s004210050033."
+    "page": "214–221",
+    "DOI": "10.1007/s004210050033"
   },
   {
     "id": "35",
@@ -1431,7 +1414,7 @@
     "title": "Guidelines to Classify Subject Groups in Sport-Science Research",
     "volume": "8",
     "type": "article-journal",
-    "container-title": "Int J Sports Physiol Perform",
+    "container-title": "International Journal of Sports Physiology and Performance",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1440,7 +1423,7 @@
         ]
       ]
     },
-    "page": "111–122,",
+    "page": "111–122",
     "DOI": "10/f4nt76"
   },
   {
@@ -1467,7 +1450,7 @@
     "title": "Guidelines to Classify Female Subject Groups in Sport-Science Research",
     "volume": "11",
     "type": "article-journal",
-    "container-title": "Int J Sports Physiol Perform",
+    "container-title": "International Journal of Sports Physiology and Performance",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1476,11 +1459,11 @@
         ]
       ]
     },
-    "page": "204–213,",
+    "page": "204–213",
     "DOI": "10/ggcfjx"
   },
   {
-    "id": "37.",
+    "id": "37",
     "author": [
       {
         "family": "Graybeal",
@@ -1517,9 +1500,9 @@
     ],
     "title": "Perceptions of Appetite Do Not Match Hormonal Measures of Appetite in Trained Competitive Cyclists and Triathletes Following a Ketogenic Diet Compared to a High-Carbohydrate or Habitual Diet: A Randomized Crossover Trial",
     "volume": "93",
-    "note": "doi: 10/gmmtch.",
+    "doi": "10/gmmtch",
     "type": "article-journal",
-    "container-title": "Nutr Res",
+    "container-title": "Nutrition Research",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1528,7 +1511,7 @@
         ]
       ]
     },
-    "page": "111–123,"
+    "page": "111–123"
   },
   {
     "id": "38",
@@ -1554,7 +1537,7 @@
         ]
       ]
     },
-    "page": "2515245920951503,",
+    "page": "2515245920951503",
     "DOI": "10/gj2hw8"
   },
   {
@@ -1656,7 +1639,7 @@
     "title": "Effect of a plant-based, low-fat diet versus an animal-based, ketogenic diet on ad libitum energy intake",
     "volume": "27",
     "type": "article-journal",
-    "container-title": "Nat Med",
+    "container-title": "Nature Medicine",
     "language": "de",
     "issued": {
       "date-parts": [
@@ -1665,7 +1648,7 @@
         ]
       ]
     },
-    "page": "344–353,",
+    "page": "344–353",
     "DOI": "10.1038/s41591-020-01209-1."
   },
   {
@@ -1692,11 +1675,11 @@
         ]
       ]
     },
-    "page": "251–253,",
+    "page": "251–253",
     "DOI": "10.4103/ijmr.IJMR_1666_18."
   },
   {
-    "id": "41.",
+    "id": "41",
     "author": [
       {
         "family": "Misra",
@@ -1710,7 +1693,7 @@
     "title": "Utility of Ketone Measurement in the Prevention, Diagnosis and Management of Diabetic Ketoacidosis",
     "volume": "32",
     "type": "article-journal",
-    "container-title": "Diabet Med",
+    "container-title": "Diabetic Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1719,8 +1702,8 @@
         ]
       ]
     },
-    "page": "14–23,",
-    "DOI": "10.1111/dme.12604."
+    "page": "14–23",
+    "DOI": "10.1111/dme.12604"
   },
   {
     "id": "42",
@@ -1753,7 +1736,7 @@
     "title": "Test-Retest Reliability of a 16.1 km Time Trial in Trained Cyclists Using the CompuTrainer Ergometer",
     "volume": "5",
     "type": "article-journal",
-    "container-title": "J Sci Cycl",
+    "container-title": "Journal of Science and Cycling",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1762,7 +1745,7 @@
         ]
       ]
     },
-    "page": "35–41,",
+    "page": "35–41",
     "DOI": "10.28985/jsc.v5i3.272."
   },
   {
@@ -1780,7 +1763,7 @@
     "title": "Table of Nonprotein Respiratory Quotient: An Update",
     "volume": "16",
     "type": "article-journal",
-    "container-title": "J Canad Sci Sport",
+    "container-title": "Canadian Journal of Sport Science",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1789,7 +1772,7 @@
         ]
       ]
     },
-    "page": "23–29,"
+    "page": "23–29"
   },
   {
     "id": "44",
@@ -1818,7 +1801,7 @@
     "title": "Ultrasonic Assessment of Exercise-Induced Change in Skeletal Muscle Glycogen Content",
     "volume": "7",
     "type": "article-journal",
-    "container-title": "BMC Sports Sci Med Rehabil",
+    "container-title": "BMC Sports Science, Medicine, and Rehabilitation",
     "language": "es",
     "issued": {
       "date-parts": [
@@ -1827,7 +1810,7 @@
         ]
       ]
     },
-    "page": "9,",
+    "page": "9",
     "DOI": "10/gb3pw8"
   },
   {
@@ -1870,7 +1853,7 @@
         ]
       ]
     },
-    "page": "2371,",
+    "page": "2371",
     "DOI": "10/gmmtcg"
   },
   {
@@ -1907,9 +1890,9 @@
     ],
     "title": "Ultrasound Does Not Detect Acute Changes in Glycogen in Vastus Lateralis of Man",
     "volume": "51",
-    "note": "doi: 10/gmmtcf.",
+    "doi": "10/gmmtcf",
     "type": "article-journal",
-    "container-title": "Med Sci Sports Exerc",
+    "container-title": "Medicine & Science in Sports & Exercise",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1918,7 +1901,7 @@
         ]
       ]
     },
-    "page": "2286–2293,"
+    "page": "2286–2293"
   },
   {
     "id": "47",
@@ -1935,7 +1918,7 @@
     "publisher-place": "Denver, CO"
   },
   {
-    "id": "48.",
+    "id": "48",
     "author": [
       {
         "family": "Buuren S",
@@ -1949,7 +1932,7 @@
     "title": "MICE: Multivariate Imputation by Chained Equations in R",
     "volume": "45",
     "type": "article-journal",
-    "container-title": "J Stat Softw",
+    "container-title": "Journal of Statistical Software",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1958,9 +1941,9 @@
         ]
       ]
     },
-    "page": "1–67,",
+    "page": "1–67",
     "URL": "https://doi.org/10.18637/jss.v045.i03.",
-    "DOI": "10.18637/jss.v045.i03."
+    "DOI": "10.18637/jss.v045.i03"
   },
   {
     "id": "49",
@@ -1977,7 +1960,7 @@
     "title": "Computational Strategies for Multivariate Linear Mixed-Effects Models With Missing Values",
     "volume": "11",
     "type": "article-journal",
-    "container-title": "J Comput Graph Stat",
+    "container-title": "Journal of Computational and Graphical Statistics",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -1986,7 +1969,7 @@
         ]
       ]
     },
-    "page": "437–457,",
+    "page": "437–457",
     "DOI": "10/b4r25x"
   },
   {
@@ -2116,7 +2099,7 @@
     "title": "Impact Of Ketogenic Diet On Athletes: Current Insights",
     "volume": "10",
     "type": "article-journal",
-    "container-title": "Open Access J Sports Med",
+    "container-title": "Open Access Journal of Sports Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2125,7 +2108,7 @@
         ]
       ]
     },
-    "page": "171–183,",
+    "page": "171–183",
     "DOI": "10/ggp3jm"
   },
   {
@@ -2147,7 +2130,7 @@
     "title": "Reliability of Power in Physical Performance Tests",
     "volume": "31",
     "type": "article-journal",
-    "container-title": "Sports Med",
+    "container-title": "Sports Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2156,7 +2139,7 @@
         ]
       ]
     },
-    "page": "211–234,",
+    "page": "211–234",
     "DOI": "10/c2mfh9"
   },
   {
@@ -2205,7 +2188,7 @@
     "title": "A Randomized Trial Comparing a Very Low Carbohydrate Diet and a Calorie-Restricted Low Fat Diet on Body Weight and Cardiovascular Risk Factors in Healthy Women",
     "volume": "88",
     "type": "article-journal",
-    "container-title": "J Clin Endocrinol Metab",
+    "container-title": "Journal of Clinical Endocrinology and Metabolism",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2214,8 +2197,8 @@
         ]
       ]
     },
-    "page": "1617–1623,",
-    "DOI": "10.1210/jc.2002-021480."
+    "page": "1617–1623",
+    "DOI": "10.1210/jc.2002-021480"
   },
   {
     "id": "56",
@@ -2248,7 +2231,7 @@
     "title": "The Role of Energy Expenditure in the Differential Weight Loss in Obese Women on Low-Fat and Low-Carbohydrate Diets",
     "volume": "90",
     "type": "article-journal",
-    "container-title": "J Clin Endocrinol Metab",
+    "container-title": "Journal of Clinical Endocrinology and Metabolism",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2257,7 +2240,7 @@
         ]
       ]
     },
-    "page": "1475–1482,",
+    "page": "1475–1482",
     "DOI": "10.1210/jc.2004-1540."
   },
   {
@@ -2293,7 +2276,7 @@
         ]
       ]
     },
-    "page": "769–777,",
+    "page": "769–777",
     "DOI": "10/gf9nd9"
   },
   {
@@ -2336,7 +2319,7 @@
         ]
       ]
     },
-    "page": "690–697,",
+    "page": "690–697",
     "DOI": "10.1093/ajcn/51.4.690."
   },
   {
@@ -2392,7 +2375,7 @@
         ]
       ]
     },
-    "page": "8920418,",
+    "page": "8920418",
     "DOI": "10/gk8w8p"
   },
   {
@@ -2413,9 +2396,9 @@
     ],
     "title": "The Effect of Population Heterogeneity on Statistical Power in the Design and Evaluation of Interventions",
     "volume": "34",
-    "note": "doi: 10/b9rbvf.",
+    "doi": "10/b9rbvf",
     "type": "article-journal",
-    "container-title": "Int J Behav Dev",
+    "container-title": "International Journal of Behavioral Development",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2424,7 +2407,7 @@
         ]
       ]
     },
-    "page": "473–480,"
+    "page": "473–480"
   },
   {
     "id": "62",
@@ -2441,7 +2424,7 @@
     "title": "The ANOVA to Mixed Model Transition",
     "volume": "68",
     "type": "article-journal",
-    "container-title": "Neurosci Biobehav Rev",
+    "container-title": "Neuroscience & Biobehavioral Reviews",
     "language": "da",
     "issued": {
       "date-parts": [
@@ -2450,7 +2433,7 @@
         ]
       ]
     },
-    "page": "1004–1005,",
+    "page": "1004–1005",
     "DOI": "10/f83jzs"
   },
   {
@@ -2495,7 +2478,7 @@
     "title": "Change From Baseline and Analysis of Covariance Revisited",
     "volume": "25",
     "type": "article-journal",
-    "container-title": "Stat Med",
+    "container-title": "Statistics in Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2504,7 +2487,7 @@
         ]
       ]
     },
-    "page": "4334–4344,",
+    "page": "4334–4344",
     "DOI": "10/fdmg6x"
   },
   {
@@ -2582,7 +2565,7 @@
         ]
       ]
     },
-    "page": "4794,",
+    "page": "4794",
     "DOI": "10/gdh936"
   },
   {
@@ -2620,7 +2603,7 @@
     "title": "Fuel for the Work Required: A Theoretical Framework for Carbohydrate Periodization and the Glycogen Threshold Hypothesis",
     "volume": "48",
     "type": "article-journal",
-    "container-title": "Sports Med",
+    "container-title": "Sports Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2629,7 +2612,7 @@
         ]
       ]
     },
-    "page": "1031–1048,",
+    "page": "1031–1048",
     "DOI": "10/gdwk98"
   },
   {
@@ -2659,7 +2642,7 @@
     "title": "Use of Heart Rate to Predict Energy Expenditure From Low to High Activity Levels",
     "volume": "24",
     "type": "article-journal",
-    "container-title": "Int J Sports Med",
+    "container-title": "International Journal of Sports Medicine",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2668,7 +2651,7 @@
         ]
       ]
     },
-    "page": "332–336,",
+    "page": "332–336",
     "DOI": "10/fbbg7z"
   },
   {
@@ -2686,7 +2669,7 @@
     "title": "The Talk Test and Its Relationship With the Ventilatory and Lactate Thresholds",
     "volume": "29",
     "type": "article-journal",
-    "container-title": "J Sports Sci",
+    "container-title": "Journal of Sports Science",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2695,7 +2678,7 @@
         ]
       ]
     },
-    "page": "1175–1182,",
+    "page": "1175–1182",
     "DOI": "10/bgs275"
   },
   {
@@ -2753,7 +2736,7 @@
     "title": "Fuel for the Work Required: A Practical Approach to Amalgamating Train-Low Paradigms for Endurance Athletes",
     "volume": "4",
     "type": "article-journal",
-    "container-title": "Physiol Rep",
+    "container-title": "Physiological Reports",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -2762,7 +2745,57 @@
         ]
       ]
     },
-    "page": "12803,",
+    "page": "12803",
     "DOI": "10.14814/phy2.12803."
-  }
+  },
+  {"id": "poole2017measurement",
+  "type": "article-journal",
+  "title": "Measurement of the maximum oxygen uptake Vo2max: Vo2peak is no longer acceptable",
+  "author": [
+      {
+        "family": "Poole",
+        "given": "D.C."
+      },
+      {
+        "family": "Jones",
+        "given": "A.M."
+      }
+    ],
+  "container-title": "Journal of Applied Physiology",
+    "language": "en",
+  "page": "997-1002",
+      "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    }
+},
+{"id": "hawley1992",
+  "title": "Peak power output predicts maximal oxygen uptake and performance time in trained cyclists",
+  "author": [
+      {
+        "family": "Hawley",
+        "given": "J.A."
+      },
+      {
+        "family": "Noakes",
+        "given": "T.D."
+      }
+    ],
+    "type": "article-journal",
+  "container-title": "European Journal of Applied Physiology",
+    "language": "en",
+  "page": "79-83",
+      "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "doi": "10.1007/BF01466278"
+}
+
 ]
