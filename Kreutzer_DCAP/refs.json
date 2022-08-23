@@ -1273,7 +1273,16 @@
   },
   {
     "id": "31",
-    "title": "R: A Language and Environment for Statistical Computing",
+    "title": "R version 4.1.1",
+        "organization" = "R Foundation for Statistical Computing",
+    "address" = "Vienna, Austria",
+        "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
     "language": "en",
     "type": "software",
     "URL": "https://www.R-project.org/."

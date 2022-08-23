@@ -22,6 +22,8 @@ address:
 - code: '1'
   address: Department of Kinesiology, Harris College of Nursing & Health Sciences, Texas Christian University, Fort Worth, TX
 - code: '2'
+  address: School of Kinesiology and Nutrition, College of Education and Human Sciences, University of Southern Mississippi, Hattiesburg, MS
+- code: '3'
   address: Department of Nutritional Sciences, College of Science & Engineering, Texas Christian University, Fort Worth, TX 
 output:
   pdf_document: 
@@ -31,13 +33,13 @@ output:
     keep_md: yes
   html_document:
     template: simplehtml.html
-    self_contained: no
+    self_contained: yes
 link-citations: true
 always_allow_html: true
 bibliography: refs.json
 csl: apa7th.csl
-corresp_author_name: "A. Kruetzer & M. Shah"
-corresp_author_email: "m.shah@tcu.edu; a.kreutzer@tcu.edu"
+corresp_author_name: "A. Kreutzer & M. Shah"
+corresp_author_email: "akreutzer82@gmail.com; m.shah@tcu.edu"
 article_type: Research & Methodological Tutorial
 subject:
 - Physiology & Nutrition
@@ -274,11 +276,11 @@ Participants completed a simulated 30-km time trial 180 min following ingestion 
 Respiratory gas measurements were collected using an open circuit automated gas analysis system (TrueOne2400, Parvo Medics, Sandy, UT). Participants breathed through a two-way valve (Hans Rudolph, Shawnee, KS) attached to a 7450 Series Silicone V2TM Oro-Nasal Mask (Hans Rudolph) for three min at each collection time point. Substrate oxidation was calculated using the following equations [@43], which assume a non-protein RER:
 
 $$
-Carbohydrate \space oxidation \space (g/min) = 4.585 \cdot VCO_2 - 3.226 \cdot VO_2 
+Carbohydrate \text{  } oxidation \text{  } (g/min) = 4.585 \cdot VCO_2 - 3.226 \cdot VO_2 
 $$
 
 $$
-Fat \space oxidation \space (g/min) = 1.695 \cdot VO_2 - 1.701 \cdot VCO_2
+Fat \text{  } oxidation \text{  } (g/min) = 1.695 \cdot VO_2 - 1.701 \cdot VCO_2
 $$
 
 ### Muscle Ultrasound

@@ -89,7 +89,9 @@ Meena Shah$^{1}$}
 \address{
   $^{1}$Department of Kinesiology, Harris College of Nursing \& Health
 Sciences, Texas Christian University, Fort Worth, TX\\
-  $^{2}$Department of Nutritional Sciences, College of Science \&
+  $^{2}$School of Kinesiology and Nutrition, College of Education and
+Human Sciences, University of Southern Mississippi, Hattiesburg, MS\\
+  $^{3}$Department of Nutritional Sciences, College of Science \&
 Engineering, Texas Christian University, Fort Worth, TX}
 %%%% Subject entries to be placed here %%%%
 \subject{
@@ -103,9 +105,9 @@ Muscle Glycogen}
 
 %%%% Insert corresponding author and its email address}
 \corres{
-  A. Kruetzer \& M. Shah\\
-{\footnotesize \href{mailto:m.shah@tcu.edu}{\nolinkurl{m.shah@tcu.edu}};
-\href{mailto:a.kreutzer@tcu.edu}{\nolinkurl{a.kreutzer@tcu.edu}}}
+  A. Kreutzer \& M. Shah\\
+{\footnotesize \href{mailto:akreutzer82@gmail.com}{\nolinkurl{akreutzer82@gmail.com}};
+\href{mailto:m.shah@tcu.edu}{\nolinkurl{m.shah@tcu.edu}}}
 }
 \inserttype{
 {\large Research \& Methodological Tutorial}
@@ -343,16 +345,16 @@ their own control. Participants adhered to 14 days each of a ketogenic
 and a high carbohydrate diet in a counter-balanced randomized order.
 Diet order was randomized employing block randomization in the blockrand
 package (\protect\hyperlink{ref-30}{Snow, n.d.}) in R
-(\protect\hyperlink{ref-31}{\emph{R: A Language and Environment for
-Statistical Computing}, n.d.}). The syntax for the block randomization
-can be found at \url{https://osf.io/ujx6e/}. Participant eligibility,
-anthropometric measurements, and VO\textsubscript{2}max were determined
-during two screening visits. During the third visit, all participants
-completed the experimental procedures following their habitual diet and
-ingesting a test meal with macronutrient contents similar to a typical
-American diet (\protect\hyperlink{ref-32}{Shan et al., 2019}). During
-the ketogenic and high carbohydrate trials, participants underwent the
-same procedures, but consumed a test meal corresponding to their diet
+(\protect\hyperlink{ref-31}{\emph{R Version 4.1.1}, 2021}). The syntax
+for the block randomization can be found at \url{https://osf.io/ujx6e/}.
+Participant eligibility, anthropometric measurements, and
+VO\textsubscript{2}max were determined during two screening visits.
+During the third visit, all participants completed the experimental
+procedures following their habitual diet and ingesting a test meal with
+macronutrient contents similar to a typical American diet
+(\protect\hyperlink{ref-32}{Shan et al., 2019}). During the ketogenic
+and high carbohydrate trials, participants underwent the same
+procedures, but consumed a test meal corresponding to their diet
 condition. A diagram showing the experimental design is presented in
 Figure 1. The study was approved by the TCU Institutional Review Board
 (IRB). All procedures were performed according to the Declaration of
@@ -472,28 +474,27 @@ lasting effects on swallowing or digestion.
 
 We performed a simulation-based power analysis using the Superpower
 package (\protect\hyperlink{ref-38}{Lakens \& Caldwell, 2021}) in R
-(\protect\hyperlink{ref-31}{\emph{R: A Language and Environment for
-Statistical Computing}, n.d.}). Based on unpublished data collected in
-our lab in a representative sample, we expected the time trial to take
-approximately 60 ± 6 min. The within-subjects correlation between
-repeated time trials in our pilot work was 0.98; high within-subjects
-correlations (r = 0.89) have been shown in the existing literature
-(\protect\hyperlink{ref-18}{Burke et al., 1985}). To employ a
-conservative approach, we elected to use the average of the
-within-subjects correlation in our pilot work and in Burke et al.
-(\protect\hyperlink{ref-18}{1985}), resulting in r = 0.93 for our power
-analysis. We analyzed finishing times from the past four years
-(2015-2018) of the Texas State Time Trial Championships to establish a
-practically meaningful effect size. In male and female athletes of age
-groups up to 55+ years old, the average finishing time of the top 10
-riders was 61 ± 6 min. On average, an improvement of 1.5 min would have
-resulted in a rider moving up by one place in the final standings.
-Therefore, we decided on a meaningful difference of 90 seconds for our
-power analysis. All finishing times used in our analysis can be found at
-\url{https://osf.io/ujx6e/}. At an alpha level of 0.05, our power
-analysis revealed that 30 participants would have yielded 90\% power for
-the omnibus linear model for time to completion of the 30-km time trial.
-The syntax for the power analysis can be found at
+(\protect\hyperlink{ref-31}{\emph{R Version 4.1.1}, 2021}). Based on
+unpublished data collected in our lab in a representative sample, we
+expected the time trial to take approximately 60 ± 6 min. The
+within-subjects correlation between repeated time trials in our pilot
+work was 0.98; high within-subjects correlations (r = 0.89) have been
+shown in the existing literature (\protect\hyperlink{ref-18}{Burke et
+al., 1985}). To employ a conservative approach, we elected to use the
+average of the within-subjects correlation in our pilot work and in
+Burke et al. (\protect\hyperlink{ref-18}{1985}), resulting in r = 0.93
+for our power analysis. We analyzed finishing times from the past four
+years (2015-2018) of the Texas State Time Trial Championships to
+establish a practically meaningful effect size. In male and female
+athletes of age groups up to 55+ years old, the average finishing time
+of the top 10 riders was 61 ± 6 min. On average, an improvement of 1.5
+min would have resulted in a rider moving up by one place in the final
+standings. Therefore, we decided on a meaningful difference of 90
+seconds for our power analysis. All finishing times used in our analysis
+can be found at \url{https://osf.io/ujx6e/}. At an alpha level of 0.05,
+our power analysis revealed that 30 participants would have yielded 90\%
+power for the omnibus linear model for time to completion of the 30-km
+time trial. The syntax for the power analysis can be found at
 \url{https://osf.io/ujx6e/}. As discussed, we were unable to reach our
 desired sample size due to COVID-19 restrictions on in-person research.
 Therefore, we do not present any inferential statistics for our primary
@@ -697,11 +698,11 @@ oxidation was calculated using the following equations
 a non-protein RER:
 
 \[
-Carbohydrate \space oxidation \space (g/min) = 4.585 \cdot VCO_2 - 3.226 \cdot VO_2 
+Carbohydrate \text{  } oxidation \text{  } (g/min) = 4.585 \cdot VCO_2 - 3.226 \cdot VO_2 
 \]
 
 \[
-Fat \space oxidation \space (g/min) = 1.695 \cdot VO_2 - 1.701 \cdot VCO_2
+Fat \text{  } oxidation \text{  } (g/min) = 1.695 \cdot VO_2 - 1.701 \cdot VCO_2
 \]
 
 \hypertarget{muscle-ultrasound}{%
@@ -781,11 +782,11 @@ these outcome measures; inferential statistics are not presented.
 \subsubsection{Statistical Analysis}\label{statistical-analysis}}
 
 All analyses were performed in the R statistical environment
-(\protect\hyperlink{ref-31}{\emph{R: A Language and Environment for
-Statistical Computing}, n.d.}). One participant with missing data for
-one-time trial (tire failure at 26 km) was removed from the analysis of
-average power output. All analysis scripts and data used in this
-manuscript can be found at \url{https://osf.io/ujx6e/}.
+(\protect\hyperlink{ref-31}{\emph{R Version 4.1.1}, 2021}). One
+participant with missing data for one-time trial (tire failure at 26 km)
+was removed from the analysis of average power output. All analysis
+scripts and data used in this manuscript can be found at
+\url{https://osf.io/ujx6e/}.
 
 \hypertarget{exploratory-analyses}{%
 \subsubsection{Exploratory Analyses}\label{exploratory-analyses}}
@@ -1986,8 +1987,7 @@ With the Ventilatory and Lactate Thresholds. \emph{Journal of Sports
 Science}, \emph{29}, 1175--1182. \url{https://doi.org/bgs275}
 
 \leavevmode\vadjust pre{\hypertarget{ref-31}{}}%
-\emph{R: A Language and Environment for Statistical Computing}. (n.d.).
-\url{https://www.R-project.org/.}
+\emph{R version 4.1.1}. (2021). \url{https://www.R-project.org/.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-46}{}}%
 Routledge, H. E., Bradley, W. J., Shepherd, S. O., Cocks, M., Erskine,
