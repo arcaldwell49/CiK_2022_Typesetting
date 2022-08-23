@@ -52,7 +52,7 @@ citation: "10.51224/cik.2022.42"
 editor: "John P. Mills"
 rise: false
 #risenote: "This article is included within the RiSE issue of Communications in Kinesiology at the behest of the editors due to its rigor, reproducibility, and transparency."
-lineno: true
+lineno: false
 site: bookdown::bookdown_site
 header-includes:
     - \usepackage{caption}
