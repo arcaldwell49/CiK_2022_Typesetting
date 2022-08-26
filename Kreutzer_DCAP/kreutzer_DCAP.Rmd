@@ -26,14 +26,14 @@ address:
 - code: '3'
   address: Department of Nutritional Sciences, College of Science & Engineering, Texas Christian University, Fort Worth, TX 
 output:
-  pdf_document: 
-    template: template.tex
-    keep_tex: yes
-  word_document: 
-    keep_md: yes
   html_document:
     template: simplehtml.html
     self_contained: yes
+  word_document: 
+    keep_md: yes
+  pdf_document: 
+    template: template.tex
+    keep_tex: yes
 link-citations: true
 always_allow_html: true
 bibliography: refs.json
