@@ -1116,10 +1116,10 @@
 \fi
 
 \def\supertitlefont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{24}{26}\selectfont\raggedright}
-\def\titlefont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{20}{22}\selectfont\raggedright\color{jobcolor}} % 17 20
+\def\titlefont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{17}{20}\selectfont\raggedright\color{jobcolor}} % 17 20
 \def\authorfont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{11}{18}\selectfont\raggedright\color{jobcolor}}
 \def\addressfont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{11}{15}\selectfont\raggedright}
-\def\abstractfont{\fontfamily{\rmdefault}\fontseries{m}\fontshape{n}\fontsize{10}{15}\selectfont\parindent1em} % 9 12
+\def\abstractfont{\fontfamily{\rmdefault}\fontseries{m}\fontshape{n}\fontsize{9}{12}\selectfont\parindent1em} % 9 12
 \def\keywordfont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{15}\selectfont\raggedright\mathversion{bold}}
 \def\subjectfont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{15}\selectfont\raggedright\mathversion{bold}}
 \def\researchfont{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{15}\selectfont\raggedright\mathversion{bold}}
