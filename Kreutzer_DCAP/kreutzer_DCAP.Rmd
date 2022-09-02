@@ -22,22 +22,24 @@ address:
 - code: '1'
   address: Department of Kinesiology, Harris College of Nursing & Health Sciences, Texas Christian University, Fort Worth, TX
 - code: '2'
+  address: School of Kinesiology and Nutrition, College of Education and Human Sciences, University of Southern Mississippi, Hattiesburg, MS
+- code: '3'
   address: Department of Nutritional Sciences, College of Science & Engineering, Texas Christian University, Fort Worth, TX 
 output:
+  html_document:
+    template: simplehtml.html
+    self_contained: yes
+  word_document: 
+    keep_md: yes
   pdf_document: 
     template: template.tex
     keep_tex: yes
-  word_document: 
-    keep_md: yes
-  html_document:
-    template: simplehtml.html
-    self_contained: no
 link-citations: true
 always_allow_html: true
 bibliography: refs.json
 csl: apa7th.csl
-corresp_author_name: "A. Kruetzer & M. Shah"
-corresp_author_email: "m.shah@tcu.edu; a.kreutzer@tcu.edu"
+corresp_author_name: "A. Kreutzer & M. Shah"
+corresp_author_email: "akreutzer82@gmail.com; m.shah@tcu.edu"
 article_type: Research & Methodological Tutorial
 subject:
 - Physiology & Nutrition
@@ -45,12 +47,12 @@ keywords:
 - Endurance Performance
 - Fat Adaptation
 - Muscle Glycogen
-abstract: "Endurance athletes frequently employ nutritional strategies to enhance performance. While professional organizations recommend high carbohydrate diets to maximize performance, many athletes, and researchers have recently shown renewed interest in the ketogenic diet in hopes to promote \"fat adaptation\", which would allow athletes to make use of the essentially unlimited energy resources from stored body fat. This would circumvent one fatigue mechanism, the depletion of muscle glycogen stores, that has been considered central to performance outcomes in endurance events. The present study investigated the effects of participants’ habitual diet, high carbohydrate diet, and ketogenic diet on endurance performance in a 30-km simulated cycling time trial, physiological responses during the time trial, and muscle session fuel percentile before and after the time trial using ultrasonic imaging. Due to the COVID-19 pandemic, data collection ceased after only six recreational cyclists and triathletes (f = 4, m = 2; age: 37.2 &pm; 12.2; VO2max: 46.8 &pm; 6.8 ml/kg/min; weekly cycling distance: 225.3 &pm; 64.2 km). Due to the small sample size, we do not report inferential statistics for our primary outcome measure, cycling performance. Participants produced the lowest mean power output   during the time trial following the ketogenic diet (172 &pm; 93 W) and the highest mean power output following the high carbohydrate diet (200 &pm; 92 W). Oxygen consumption, heart rate, and perceived exertion during the time trial were similar in all conditions. Fat oxidation rates were highest in the ketogenic diet condition (0.62 &pm; 0.11 g/min) and lowest in the high carbohydrate condition (0.14 &pm; 0.11 g/min). Session fuel percentile was lower following the ketogenic diet compared with the habitual diet (Mean Difference = -10.0 &pm; 12.7 %) and lower following the time trial compared with fasted resting values across all conditions. We discuss methodological considerations into the use of exercise equipment, nutritional interventions, and statistical analysis strategies for study designs like the present. Further research is needed to assess the impact of high carbohydrate and ketogenic diets on time trial performance in this population. ClinicalTrials.gov Identifier: NCT04097171; OSF preregistration: https://osf.io/ujx6e/ "
-citation: "10.51224/XXXXXXXXX"
+abstract: "Endurance athletes frequently employ nutritional strategies to enhance performance. While professional organizations recommend high carbohydrate diets to maximize performance, many athletes, and researchers have recently shown renewed interest in the ketogenic diet in hopes to promote \"fat adaptation\", which would allow athletes to make use of the essentially unlimited energy resources from stored body fat. This would circumvent one fatigue mechanism, the depletion of muscle glycogen stores, that has been considered central to performance outcomes in endurance events. The present study investigated the effects of participants’ habitual diet, high carbohydrate diet, and ketogenic diet on endurance performance in a 30-km simulated cycling time trial, physiological responses during the time trial, and muscle session fuel percentile before and after the time trial using ultrasonic imaging. Due to the COVID-19 pandemic, data collection ceased after only six recreational cyclists and triathletes (f = 4, m = 2; age: 37.2 &pm; 12.2; VO~2~max: 46.8 &pm; 6.8 ml/kg/min; weekly cycling distance: 225.3 &pm; 64.2 km). Due to the small sample size, we do not report inferential statistics for our primary outcome measure, cycling performance. Participants produced the lowest mean power output   during the time trial following the ketogenic diet (172 &pm; 93 W) and the highest mean power output following the high carbohydrate diet (200 &pm; 92 W). Oxygen consumption, heart rate, and perceived exertion during the time trial were similar in all conditions. Fat oxidation rates were highest in the ketogenic diet condition (0.62 &pm; 0.11 g/min) and lowest in the high carbohydrate condition (0.14 &pm; 0.11 g/min). Session fuel percentile was lower following the ketogenic diet compared with the habitual diet (Mean Difference = -10.0 &pm; 12.7 %) and lower following the time trial compared with fasted resting values across all conditions. We discuss methodological considerations into the use of exercise equipment, nutritional interventions, and statistical analysis strategies for study designs like the present. Further research is needed to assess the impact of high carbohydrate and ketogenic diets on time trial performance in this population. ClinicalTrials.gov Identifier: NCT04097171; OSF preregistration: https://osf.io/ujx6e/ "
+citation: "10.51224/cik.2022.42"
 editor: "John P. Mills"
 rise: false
 #risenote: "This article is included within the RiSE issue of Communications in Kinesiology at the behest of the editors due to its rigor, reproducibility, and transparency."
-lineno: true
+lineno: false
 site: bookdown::bookdown_site
 header-includes:
     - \usepackage{caption}
@@ -106,86 +108,68 @@ Nutritional interventions remain at the forefront of strategies employed by athl
 
 Two factors influencing the effect of low carbohydrate diets on endurance performance appear to be the length of adaptation and the duration and intensity of the event. Short-term low carbohydrate diets of one to four days lead to impaired glycogen storage [@12], which can cause substantial decreases in exercise performance [@12;@13]. However, even with as little as five days of implementing low carbohydrate diets, increased fat oxidation rates have been reported [@14;@15;@16]. While this increase in fat oxidation is a consistent finding among most studies investigating the effect of low carbohydrate diets in endurance athletes [@6;@17;@18;@19;@20;@21;@22;@23;@24;@25;@26], the results regarding exercise performance are less clear. 
 
-Recent studies comparing ketogenic to habitual or mixed control diets have shown decreases (25) or no differences (26) in time to exhaustion following prolonged diet adherence. However, early studies employing a direct comparison of ketogenic and high carbohydrate diets and their effects on prolonged endurance exercise performance have produced ambiguous results (7, 12, 27, 28). @7 reported improved time to exhaustion at moderate cycling intensity (50% of peak power output) following two weeks of a ketogenic compared with a high carbohydrate diet, but not at high intensity (85 % of peak power output). Similarly, @18 reported no difference in 7 kJ/kg time trial performance immediately following 120 min of steady state cycling at 70% of VO~2~max after a five-day low carbohydrate diet (2.4 g/kg/day carbohydrate; 4 g/kg/day fat) with one-day carbohydrate restoration compared with an isoenergetic high carbohydrate diet (9.6 g/kg/day carbohydrate; 0.7 g/kg/day fat). Prins et al. (23) compared the effects of 42-day ketogenic and high-carbohydrate diets on 5 km running performance at four separate points of each diet. They reported that running time was significantly faster during high carbohydrate (60–65% carbohydrate; 20% fat) when compared with the ketogenic diet (< 50 g/day carbohydrate; 75-80% fat) on day four of each diet, but not at any other point during the diets. This again indicates that exercise performance might be maintained at higher intensities. However, in a more recent study, Burke et al. (19) compared the effect of a 3-week high carbohydrate diet (8.6 g/kg/day carbohydrate; 1.2 g/kg/day fat), a periodized carbohydrate diet (8.3 g/kg/day carbohydrate; 1.2 g/kg/day fat), and a ketogenic diet (< 50 g/day carbohydrate; 4.7 g/kg/day fat) on 10 km race-walking performance; they found that race time improved significantly in the high carbohydrate and periodized carbohydrate groups, but remained unchanged in the ketogenic diet group. A recent replication study (20) produced similar results. Additionally, Burke et al. (16, 19, 20) have elucidated a potential mechanism for performance impairment following a ketogenic diet at higher intensities; specifically, they showed that exercise economy is reduced following a ketogenic compared to high carbohydrate and periodized carbohydrate diets.
+Recent studies comparing ketogenic to habitual or mixed control diets have shown decreases [@25] or no differences [@26] in time to exhaustion following prolonged diet adherence. However, early studies employing a direct comparison of ketogenic and high carbohydrate diets and their effects on prolonged endurance exercise performance have produced ambiguous results [@7;@12;@27;@28]. @7 reported improved time to exhaustion at moderate cycling intensity (50% of peak power output) following two weeks of a ketogenic compared with a high carbohydrate diet, but not at high intensity (85 % of peak power output). Similarly, @18 reported no difference in 7 kJ/kg time trial performance immediately following 120 min of steady state cycling at 70% of VO~2~max after a five-day low carbohydrate diet (2.4 g/kg/day carbohydrate; 4 g/kg/day fat) with one-day carbohydrate restoration compared with an isoenergetic high carbohydrate diet (9.6 g/kg/day carbohydrate; 0.7 g/kg/day fat). @23 compared the effects of 42-day ketogenic and high-carbohydrate diets on 5 km running performance at four separate points of each diet. They reported that running time was significantly faster during high carbohydrate (60–65% carbohydrate; 20% fat) when compared with the ketogenic diet (< 50 g/day carbohydrate; 75-80% fat) on day four of each diet, but not at any other point during the diets. This again indicates that exercise performance might be maintained at higher intensities. However, in a more recent study, @19 compared the effect of a 3-week high carbohydrate diet (8.6 g/kg/day carbohydrate; 1.2 g/kg/day fat), a carbohydrate diet (8.3 g/kg/day carbohydrate; 1.2 g/kg/day fat), and a ketogenic diet (< 50 g/day carbohydrate; 4.7 g/kg/day fat) on 10 km race-walking performance; they found that race time improved significantly in the high carbohydrate and periodized carbohydrate groups, but remained unchanged in the ketogenic diet group. A recent replication study [@20] produced similar results. Additionally, Burke et al. [-@16;-@19;-@20] have elucidated a potential mechanism for performance impairment following a ketogenic diet at higher intensities; specifically, they showed that exercise economy is reduced following a ketogenic compared to high carbohydrate and periodized carbohydrate diets.
 
-Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac 
+While a number of studies have investigated the effect of ketogenic and high carbohydrate diets on exercise performance, results remain conflicting [@7;@16;@18;@19;@20;@22;@23], in part due to small sample sizes, limited participation of female athletes across a wide age range, heterogenous interventions, and testing protocols. Our current study employed a performance assessment (time trial) that was representative of the type of races in which our population competes. This approach maximized the external validity of our study while still allowing measurements in a controlled laboratory setting. While previous studies have evaluated performance under ecological conditions, such as during officially sanctioned races [@19;@20], we believe our approach is unique in allowing participants to use their own equipment while completing a representative performance assessment that maximized control of the measurements. Finally, to our knowledge, no studies have used a randomized crossover design that directly compares the effects of habitual, ketogenic, and high carbohydrate diets on prolonged endurance performance. 
 
-\newpage
+We intended to address the gaps in the literature with the present study and aimed to collect data from 30 male and female cyclists across a wide age range (18-70 years old). We hypothesized that the high carbohydrate diet would lead to improved performance (faster time trial completion) compared with the ketogenic and habitual diets. However, due to restrictions on data collection caused by the COVID-19 pandemic, the results presented in the present manuscript should be considered as insights from a pilot study only, i.e., we were unable to address the issues of small sample sizes in this area of research. Since the originally estimated sample size to detect a meaningful difference in performance (see [Power Analysis](#power-analysis) section) was not achieved, primary outcomes are presented as means and standard deviations only; reflections on potential inferential statistical analysis techniques and other methodological considerations regarding performance measurement, muscle glycogen estimation in response to the diets using high-frequency ultrasound [@29], and participant adherence to the interventions are presented. 
 
 # Methods
 
-## Greek
+## Study Preregistration
 
-Many times greek letters/symbols need to be provided outside of math mode. So you may say $\beta$
+This study was preregistered at Open Science Framework (https://osf.io/ujx6e/) and at ClinicalTrials.gov (NCT04097171).
 
-## Superscript
+## Experimental Design
 
-You can give Superscript^1^ or Subscript~2~
+The study employed crossover design, where each participant served as their own control. Participants adhered to 14 days each of a ketogenic and a high carbohydrate diet in a counter-balanced randomized order. Diet order was randomized employing block randomization in the blockrand package [@30] in R [@31]. The syntax for the block randomization can be found at https://osf.io/ujx6e/. Participant eligibility, anthropometric measurements, and VO~2~max were determined during two screening visits. During the third visit, all participants completed the experimental procedures following their habitual diet and ingesting a test meal with macronutrient contents similar to a typical American diet [@32]. During the ketogenic and high carbohydrate trials, participants underwent the same procedures, but consumed a test meal corresponding to their diet condition. A diagram showing the experimental design is presented in Figure 1. The study was approved by the TCU Institutional Review Board (IRB). All procedures were performed according to the Declaration of Helsinki principles for research involving human participants. 
 
-## Quotes and Block Quotes
-
-> This can easily be done
->
-> - ME
-
-
-## Links
-
-```
-A [linked phrase][id].
-```
-
-At the bottom of the document:
-```
-[id]: http://example.com/ "Title"
-```
-
-## Images
-
-```
-![alt text][id]
-```
-
-## Math
-
-Fortunately the math formulas do not differ too much for HTML and PDF documents. For inline math a single `$` is necessary while `$$` creates formula on its own line.
-
-$$
-BSIc \space (mg^2/mm^4) = ToD^2 \space (mg/cm^3/1000) \cdot ToA.tb^2 \space (mm^2) \space 
-$$
-
-
-\newpage
-
-# Results
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-
-```{r fig1pdf, fig.cap="Figure 1: Somtimes greek in captions as well $\\beta$ but make sure to use double backslash", out.width = "100%"}
+```{r fig1pdf,fig.cap="Figure 1: Study Design. VO~2~max = maximal oxygen consumption", out.width = "100%"}
 if(!knitr::is_html_output()){
-  knitr::include_graphics("STORK_overlay_blk.pdf")
+  knitr::include_graphics(here::here("figures","figure1.pdf"))
 }
 # Include for PDF
 
 ```
 
-```{r fig1html, fig.cap="Figure 1: Somtimes greek in captions as well $\\beta$ but make sure to use double backslash", out.width = "100%"}
+```{r fig1html, fig.cap="Figure 1: Study Design. VO~2~max = maximal oxygen consumption", out.width = "100%"}
 # Include for html
 if(knitr::is_html_output()){
-  knitr::include_graphics("STORK_overlay_black.png")
+  knitr::include_graphics(here::here("figures","figure1.png"))
 }
 ```
 
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, 
 
-\newpage
+## Participants
 
-```{r}
+Endurance-trained recreational cyclists and triathletes were recruited from the local cycling and triathlon community using flyers, social media, and word of mouth. A total of 46 individuals were assessed for eligibility, 19 of which were unable to begin the study due to COVID-19 restrictions on in-person research. A further six participants started the study, but were unable to finish the entire protocol due to these restrictions. Thus, six participants (m = 2, f = 4) completed the study. The study was unable to achieve the originally estimated sample size of 30 participants due to data collection restrictions caused by the COVID-19 pandemic. Figure 2 presents a CONSORT diagram for the present study
+
+```{r fig2pdf,fig.cap="Figure 2: CONSORT Diagram", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure2.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig2html, fig.cap="Figure 2: CONSORT Diagram", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure2.png"))
+}
+```
+
+Participants were considered endurance trained if they self-reported $\geq$ 100 km/wk of cycling for the past year and achieved a VO~2~max above the 80th percentile for their sex and age group according to guidelines put forth by the American College of Sports Medicine [@33] with a 5% adjustment for comparing cycle ergometry values to the treadmill derived ACSM norms [@34]. Participants included one male in Performance Level 2 and one male in Performance Level 1 as described by @35. Further, our study included three female participants in Performance Level 3 and one in Performance Level 1 according to criteria established by @36.  We used relative VO~2~max as the primary criterion for categorization of our participants [@35;@36]. However, it is important to note that all participants achieved at least Performance Level 3 based on weekly mileage and cycling experience. Further, the male participant classified as Performance Level 2 would have achieved Performance Level 4 or Performance Level 5 based on absolute or relative peak power output respectively. Participant characteristics are shown in Table 1 and have in part been previously reported elsewhere [@37].
+
+```{r tab1html}
+table1 = read.csv(here::here("tables", "table1.csv")) %>% column_to_rownames(var = "X1")
+  
 if(knitr::is_latex_output() == FALSE){
-    kableExtra::kable(mtcars[1:2, 1:2],
-    caption = "**Table 1**: Example.",
-    col.names = c("MPG",
-                  "Cylinder")
+    kableExtra::kable(table1,
+    caption = "**Table 1**: Participants Characteristics at Screening.",
+    col.names = c("Total (n=6)",
+                  "Male (n=2)",
+                  "Female (n=4)")
     ) %>%
   #landscape() %>%
   #kable_styling(position = "left",
@@ -193,66 +177,427 @@ if(knitr::is_latex_output() == FALSE){
   #column_spec(1, width = "13em") %>% 
   #column_spec(2, width = "22em") %>% 
   kable_styling(full_width = T, position = "center") %>%
-  footnote(general = "x = note 1; y = note 2.",
+  footnote(general = "Mean ± Standard Deviation",
            general_title = "Note.",
            threeparttable = TRUE)
 }
 
 ```
 
-```{r}
+```{r tab1pdf}
 if(knitr::is_latex_output() == TRUE){
   
-  kableExtra::kable(mtcars[1:2, 1:2],
+  kableExtra::kable(table1,
     longtable = TRUE,
     booktabs = TRUE,
     escape = TRUE,
     linesep = "\\addlinespace",
-    caption = "\\textbf{Table 1}:Example.",
-    col.names = c("MPG",
-                  "Cylinder")
+    caption = "\\textbf{Table 1}: Participants Characteristics at Screening.",
+    col.names = c("Total (n=6)",
+                  "Male (n=2)",
+                  "Female (n=4)")
     ) %>%
   #landscape() %>%
   #kable_styling(position = "left",
   #              font_size = 11) %>%
   #column_spec(1, width = "13em") %>% 
   #column_spec(2, width = "22em") %>% 
-  footnote(general = "x = note 1; y = note 2.",
+  footnote(general = "Mean ± Standard Deviation",
            general_title = "Note.",
            threeparttable = TRUE)
 }
 
 ```
 
+Exclusion criteria included the self-reported use of medications or supplements to lose weight, following a ketogenic (<10% or less of total energy intake from carbohydrates), a high carbohydrate diet (>65% of total energy intake from carbohydrate), or weight loss diet. Further, nicotine use or heavy alcohol consumption (>14 units of alcohol/week for males; >7 units of alcohol/week for females) were considered reasons for exclusion. Potential participants were also excluded if they self-reported any food allergies to ingredients used in our test meals. Known cardiovascular disease was cause for exclusion unless participation was approved by the participant’s cardiologist. Self-reported presence of diabetes, stroke, anemia, eating disorders, uncontrolled hypertension, or pulmonary, liver, kidney, and untreated thyroid disease, or orthopedic, arthritis, or musculoskeletal problems that would have prevented exercise excluded prospective participants from enrolling in the study. Potential participants were also excluded if they had undergone surgery that had lasting effects on swallowing or digestion.
+
+## Power Analysis {#power-analysis}
+
+We performed a simulation-based power analysis using the Superpower package [@38] in R [@31]. Based on unpublished data collected in our lab in a representative sample, we expected the time trial to take approximately 60 ± 6 min. The within-subjects correlation between repeated time trials in our pilot work was 0.98; high within-subjects correlations (r = 0.89) have been shown in the existing literature [@18]. To employ a conservative approach, we elected to use the average of the within-subjects correlation in our pilot work and in @18, resulting in r = 0.93 for our power analysis. We analyzed finishing times from the past four years (2015-2018) of the Texas State Time Trial Championships to establish a practically meaningful effect size. In male and female athletes of age groups up to 55+ years old, the average finishing time of the top 10 riders was 61 ± 6 min. On average, an improvement of 1.5 min would have resulted in a rider moving up by one place in the final standings. Therefore, we decided on a meaningful difference of 90 seconds for our power analysis. All finishing times used in our analysis can be found at https://osf.io/ujx6e/. At an alpha level of 0.05, our power analysis revealed that 30 participants would have yielded 90% power for the omnibus linear model for time to completion of the 30-km time trial. The syntax for the power analysis can be found at https://osf.io/ujx6e/. As discussed, we were unable to reach our desired sample size due to COVID-19 restrictions on in-person research. Therefore, we do not present any inferential statistics for our primary outcome measure.
+
+## Screening
+
+### Visit 1
+
+Following a 12-hour overnight fast, participants reported the laboratory for Visit 1, which included completing informed consent and demographic, behavioral, and health questionnaires. Additionally, participants underwent anthropometric measurements (height, body mass, waist, and hip circumference). Further, we assessed participants’ body composition using air displacement plethysmography with measured thoracic lung volume (BOD POD, COSMED USA Inc., Concord, CA). Following body composition and anthropometric measurements, we assessed participants’ resting metabolic rate via indirect calorimetry using the ParvoMedics TrueOne® 2400 metabolic cart (ParvoMedics, Sandy, UT, USA) with a ventilated hood system.
+
+### Visit 2
+
+At Visit 2, participants performed an incremental exercise test to task failure to determine VO~2~max using a CompuTrainer® ergometer (RacerMate Inc., Seattle, WA). Participants were instructed to refrain from any exercise in the 24 hours leading up to VO~2~max testing and to only perform light or moderate exercise 24-48 hours before testing. 
+
+## Experimental Trials
+
+Participants reported to the laboratory following a 12-hour overnight fast. Additionally, they performed only light to moderate exercise 24-48 hours prior to testing and refrained from all exercise in the 24 hours leading up to the experimental trials. Upon arrival, participants underwent measurements of body mass, capillary beta-hydroxybutyrate concentration, and an ultrasonic assessment of the right and left rectus femoris. Following resting measures, participants consumed a liquid test meal approximately 180 min prior to the start of the time trial. They were allowed ten minutes to consume the test meal in its entirety; time to consume the meal was standardized between trials based on the time taken for consumption of the meal during the initial trial. Following 180 minutes of supine rest and postprandial measures described elsewhere [@37], participants underwent rectus femoris ultrasound assessment and provided capillary samples for beta-hydroxybutyrate measurement. Then, they completed a 30-km simulated cycling time trial. A diagram showing all measures performed during each experimental trial is presented in Figure 3.
+
+```{r fig3pdf, fig.cap="Figure 3: Experimental Trial Procedures. RPE = Rating of Perceived Exertion", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure3.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig3html, fig.cap="Figure 3: Experimental Trial Procedures. RPE = Rating of Perceived Exertion", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure3.png"))
+}
+```
+
+## Dietary Interventions, Compliance, and Training
+
+Dietary interventions, compliance measures, and experimental controls regarding physical activity are described in detail elsewhere [@37]. We did not prescribe energy and nutrient intake during the habitual diet; rather, participants completed 3-day dietary records to quantify their habitual intake before Experimental Trial 1. The average energy and macronutrient content of the habitual diet is shown in Table 2. Thereafter, they followed a ketogenic (<10% carbohydrate, 75-85% fat, 15% protein) and high carbohydrate diet (>65% carbohydrate, <20% fat, 15% protein) in randomized order. Similar to previous studies, we did not include a washout period between diets to maximize participant retention [@39]. Considering that adaptations to the ketogenic diet can be rapid and quickly reversed by reintroducing carbohydrate, we believe that the lack of a washout period did not have undue influence on our results [@40]. We considered participants to be compliant with the diet if they met carbohydrate macronutrient percentages on at least 80% of days. Compliance with the diets was assessed by a registered dietitian via daily diet logging and daily check-ins using mobile applications (WhatsApp, WhatsApp Inc., Mountain View, CA; NutritIO, Bucharest, Romania). Further, participants provided capillary beta-hydroxybutyrate samples at each experimental trial and seven days into each diet, as well as daily images of urinary ketone body test strips (VALI, CA) to test for ketosis, i.e., urinary beta-hydroxybutyrate concentration $\ge$ 0.5 mmol/L [@41]. We instructed participants to attempt to maintain body mass throughout the study and considered weight maintenance as a body mass loss or gain of no more than 5%.
+	
+During experimental trials, participants consumed liquid test meals containing 60% of the participants’ measured Resting Metabolic Rate (kcals/day). All meals were dairy-based shakes, which have been described in detail elsewhere [@37]. Test meal compositions corresponded to a typical American Diet, as outlined by @32, for the habitual diet (31.4% fat, 53.4% carbohydrate, 15.2% protein) and to the respective dietary interventions following the high carbohydrate diet (15.7% fat, 69.1% carbohydrate, 15.2% protein) and the ketogenic diet (75.1% fat, 9.5% carbohydrate, 15.4% protein); test meal volumes and caloric content were the same across conditions. Test meals were consumed in the same amount of time in each condition. Participants consumed standardized amounts of water during the postprandial period and were provided with and instructed to ingest the same volume of water during each time trial. 
+We instructed participants to keep their training levels stable throughout the study. We monitored training using self-reported written training logs including distance covered, time spent, and rating of perceived exertion for the session (RPE; 1-10). We calculated session RPE by multiplying the indicated RPE by the time elapsed during the session.
+
+## Measures
+### Exercise Equipment
+
+To ensure familiarity with the exercise equipment and to avoid learning effects across trials, participants completed all testing on their personal bicycles mounted to a CompuTrainer® cycling ergometer (RacerMate Inc., Seattle, WA), which has previously been shown to be reliable in time trial tasks similar to the present study [@42]. The CompuTrainer® was calibrated according to manufacturer’s recommendations, and tire pressure was standardized for each trial at 100 psi or the maximal tire pressure recommended by the manufacturer. Participants were asked to remove devices from their bicycles or deactivate any devices that could give them feedback on their exercise performance, such as power meters and cycle computers. The only data displayed to participants during the time trial were distance and gradient of the road.
+
+### VO~2~max Testing
+
+For the 24 hours leading up to testing, participants were asked to refrain from all exercise. For the initial incremental maximal exercise test, participants warmed up for 5 min at a self-selected intensity. Thereafter, participants began the incremental test at a load of 50-100 watts (W). Exercise intensity was increased by 25 W per minute until task failure. Oxygen uptake (VO~2~) was continuously monitored using a TrueOne 2400 metabolic cart (Parvo Medics, Sandy, UT, USA) and heart rate was collected throughout the test using a Polar H7 HR monitor (Polar Inc., Lake Success, NY). VO~2~max was defined as the highest 30-second VO~2~ value obtained during the test. To ensure validity of the VO~2~max measurement, participants performed a validation bout at 110% of their peak power output achieved in the initial test following at least 15 min rest as described by @poole2017measurement. Peak power output was calculated as described by @hawley1992:
+
+$$
+PPO=P_{final}+\frac{t}{60} \cdot 25
+$$
+
+where Pfinal is the highest work rate achieved and t is the time completed in the final stage. 
+Following a two-minute warmup at 100 W, participants performed a steady work rate test that achieved exhaustion within three to six min. If the greatest VO~2~ measured during this validation test did not exceed the VO~2~max measured during the incremental test, considering a possible ~3% measurement error based on the equipment used, the achievement of a VO~2~2 plateau was accepted. When the VO~2~ achieved during validation exceeded that measured during the incremental test, a new incremental test was performed on a separate day.
+
+### Performance Assessment
+
+Participants completed a simulated 30-km time trial 180 min following ingestion of the test meal. With their personal bicycle mounted to the CompuTrainer® and tire pressures standardized, participants performed a 10-minute warm up followed by calibration of the press-on force of the load generator per manufacturer’s guidelines. Participants then completed the 30-km time trial on a virtual course in the RacerMate One™ software (RacerMate Inc., Seattle, WA). A copy of the course file can be found at https://osf.io/ujx6e/. Participants were instructed to complete the time trial as quickly as possible and were verbally encouraged throughout the trial. Participants’ heart rate was monitored continuously using a Polar H7 heart rate sensor and chest strap (Polar Electro Oy, Kempele, Finland). Respiratory gas measurements and ratings of perceived exertion (RPE) on a 6-20 Borg Scale were collected at 3 km and every 6 km thereafter. 
+
+### Respiratory Gas Analysis
+
+Respiratory gas measurements were collected using an open circuit automated gas analysis system (TrueOne2400, Parvo Medics, Sandy, UT). Participants breathed through a two-way valve (Hans Rudolph, Shawnee, KS) attached to a 7450 Series Silicone V2TM Oro-Nasal Mask (Hans Rudolph) for three min at each collection time point. Substrate oxidation was calculated using the following equations [@43], which assume a non-protein RER:
+
+$$
+Carbohydrate \text{  } oxidation \text{  } (g/min) = 4.585 \cdot VCO_2 - 3.226 \cdot VO_2 
+$$
+
+$$
+Fat \text{  } oxidation \text{  } (g/min) = 1.695 \cdot VO_2 - 1.701 \cdot VCO_2
+$$
+
+### Muscle Ultrasound
+
+Session fuel percentile was determined using ultrasonic assessment of the right and left rectus femoris. Session fuel percentile provides an estimate of the muscle content of glycogen and other constituents based on the mean pixel intensity of an ultrasound image. Ultrasonic imaging was performed with a diagnostic high-resolution GE LOGIQ-e (GE Healthcare, Milwaukee, WI) using a 9L transducer at 8 Hz. Images from both rectus femoris muscles were taken in triplicate. Ultrasound images were uploaded via DICOM to a secure cloud-based web application (MuscleSound Inc, Denver, CO), which analyzes the echogenicity of the ultrasound image as an estimate of the content of muscle glycogen and other constituents. This method has been shown to correlate highly with glycogen content measured by muscle biopsy [@29;@44]. However, some studies have questioned the validity and utility of this technique [@45;@46]. In the present study, we investigated whether the MuscleSound® system was able to detect assumed changes in muscle glycogen content resulting from dietary interventions and a 30-km time trial. Following recommendations in personal communications with the company, we used the session fuel percentile score, which was implemented after publication of the MuscleSound® position stand on the application of the system [@47]. 
+
+### Resting Metabolic Rate
+
+Resting Metabolic Rate was measured by indirect calorimetry using the TrueOne® 2400 (ParvoMedics, Sandy, UT, USA) indirect calorimeter with a ventilated hood system following a 12-hour overnight fast from food, supplements, and medication and a 24-hour abstinence from exercise. The first ten min of the 30 min measurement period were used to allow the participants to achieve resting status; the final 15 min were used for analysis. 
+
+### Air Displacement Plethysmography
+
+Participants entered the BOD POD (COSMED USA Inc., Concord, CA) wearing a bathing suit or cycling kit with all hair collected into a swim cap. Thoracic lung volume were measured during the test using the BOD POD system.
+
+## Data Analysis
+
+### Time to Completion and Average Power Output
+
+As described above, the study was powered based on a time to completion analysis of finishing times at the Texas State Time Trial Championships. Thus, we deemed time to completion for the present time trial our primary outcome measure. However, following the completion of three participants, we identified an error in our protocol that caused assigned rider weights in the RacerMate One™ software to be incorrect for some participants/conditions. The software calculates the speed the avatar achieves on the virtual course using rider weight, bike weight, road gradient, and measured power output. Thus, several finishing times were incorrect. Therefore, we present the average power outputs during the time trial as our measure of endurance performance below. Further, we discuss considerations regarding the calculations that produce speed output from power input in the RacerMate One™ software in the Discussion section. As detailed above, since we did not achieve the desired statistical power, we only present means and standard deviations for these outcome measures; inferential statistics are not presented.
+
+### Statistical Analysis
+
+All analyses were performed in the R statistical environment [@31]. One participant with missing data for one-time trial (tire failure at 26 km) was removed from the analysis of average power output. All analysis scripts and data used in this manuscript can be found at https://osf.io/ujx6e/.
+
+
+### Exploratory Analyses
+
+Missing data for exploratory analyses (e.g., session fuel percentile) were imputed using the MICE package in R [@48] using the PAN method created by @49. Exploratory variables were analyzed using a linear mixed-effects model with a Holm-Bonferroni post hoc test using the lme4 and emmeans packages in R [@50;@51]. Fixed effects for these models include diet (habitual, ketogenic, high carbohydrate) and time trial time points (3km, 9km, 15km, 21km, 27km). Participant intercept was treated as a random effect. While prior research would have allowed the generation of directional hypotheses regarding respiratory exchange ratio, substrate oxidation, and RPE, we treated these variables as exploratory, since we did not power the study to these variables. Alpha level was set at 0.05 for all exploratory analyses.
+
+### Control Variables
+
+Dietary intake, body mass, physical activity, environmental conditions during the time trial, and capillary beta-hydroxy-butyrate were treated as control variables. Potential mean differences in body mass by diet condition, dietary intake, and capillary beta-hydroxybutyrate were analyzed using linear mixed-effects models as explained above. Differences in environmental conditions (humidity and fluid intake), were analyzed using standard linear models. We did not perform statistical analysis of lab temperature, since the temperature was 22.0 degrees during all but four trials, where the temperature was 21.0 degrees. Potential mean differences in physical activity (total distance and sRPE) between diet conditions were assessed using paired t-tests. 
+
+### Assumption Checks
+
+Visual inspection of residual plots confirmed that normality and homoscedasticity assumptions were met for all analyses.
+
+### Interventional Control
+
+Means and standard deviations for all control variables are reported in Table 2 and have been in part reported elsewhere [@37].
+
+```{r tab2html}
+table2 = read.csv(here::here("tables", "table2.csv")) %>% column_to_rownames(var = "X")
+  
+if(knitr::is_latex_output() == FALSE){
+    kableExtra::kable(table2,
+    caption = "**Table 2**: Control variables for the three diet conditions (n = 6).",
+    col.names = c("Habitual","Ketogenic", "High Carbohydrate")
+    ) %>%
+  #landscape() %>%
+  #kable_styling(position = "left",
+  #              font_size = 11) %>%
+  #column_spec(1, width = "13em") %>% 
+  #column_spec(2, width = "22em") %>% 
+  kable_styling(full_width = T, position = "center") %>%
+  footnote(general = "Mean ± Standard Deviation. RPE = rating of perceived exertion ",
+           general_title = "Note.",
+           threeparttable = TRUE)
+}
+
+```
+
+```{r tab2pdf}
+if(knitr::is_latex_output() == TRUE){
+  
+  kableExtra::kable(table2,
+    longtable = TRUE,
+    booktabs = TRUE,
+    escape = TRUE,
+    linesep = "\\addlinespace",
+    caption = "\\textbf{Table 2}: Control variables for the three diet conditions (n = 6).",
+    col.names = c("Habitual","Ketogenic", "High Carbohydrate")
+    ) %>%
+  #landscape() %>%
+  #kable_styling(position = "left",
+  #              font_size = 11) %>%
+  #column_spec(1, width = "13em") %>% 
+  #column_spec(2, width = "22em") %>% 
+  footnote(general = "Mean ± Standard Deviation. RPE = rating of perceived exertion ",
+           general_title = "Note.",
+           threeparttable = TRUE)
+}
+
+```
+
+
+### Dietary Intake and Beta-Hydroxybutyrate
+
+Detailed dietary intake and beta-hydroxybutyrate results are reported elsewhere [@37]. Briefly, participants consumed similar amounts of total daily energy. Further, participants had the greatest protein intake during the ketogenic when compared with the habitual and high carbohydrate diets. As intended, carbohydrate consumption was greatest in the high carbohydrate condition and lowest in the ketogenic condition. Fat consumption was highest in the ketogenic and lowest in the high carbohydrate condition.
+
+Capillary beta-hydroxybutyrate was greater following the ketogenic when compared with the high carbohydrate and habitual conditions, indicating successful compliance with the diet. This is further reflected in the daily urinary ketone measurements during the ketogenic diet, which averaged 1.82 ± 0.52 mmol/L.
+
+### Body Mass
+
+Detailed changes in boy mass during the interventions are reported elsewhere (37). Briefly, participants weighed significantly less following the ketogenic compared with the habitual and high carbohydrate diets. There was no significant difference in body mass between the habitual and the high carbohydrate conditions. It is important to note that, while all participants lost weight during the ketogenic diet, none of them surpassed our threshold of 5% body mass loss.
+
+### Training
+
+As reported by @37, participants’ training was similar between the high carbohydrate and the ketogenic condition. There were no significant differences in total kilometers cycled or sRPE when comparing the two diet conditions.
+
+### Water Intake During the Time Trial
+Water intake during the time trial was similar between conditions, $F(2, 15) = 0.214, p = 0.810, \eta^2_p = 0.028$. Participants consumed 383 ± 74 mL, 352 ± 146 mL, and 343 ± 100 mL of water during the habitual, ketogenic, and high carbohydrate conditions respectively.
+
+### Environmental Conditions During the Time Trial
+Temperature in the lab was consistent across all trials averaging 21.8 ± 0.4 °C during the habitual, 21.7 ± 0.5 °C during the ketogenic, and 21.8 ± 0.4 °C during high carbohydrate conditions. There was a significant effect of condition on relative humidity during the time trial, $F(2, 15) = 5.037, p = 0.021, \eta^2_p = 0.402$. Humidity was greatest during the habitual condition (51.3 ± 6.0 %); it was similar between ketogenic (36.8 ± 8.4 %) and high carbohydrate conditions (36.5 ± 12.3 %).
+
+
+# Results
+
+## Cycling Performance
+### Average Power Output
+
+Five participants completed all three time trials (m = 1, f = 4). One additional participant completed the time trial in the habitual and high carbohydrate conditions but had to abort the trial in the ketogenic diet condition due to a tire failure at 26 km; he completed all other measures in the ketogenic condition. Average power output during the time trial was greatest following the high carbohydrate diet (199.7 ± 92.2 W), followed by the habitual (188.0 ± 80.6 W) and ketogenic diets (172.0 ± 93.2 W). A boxplot of average power outputs is presented in Figure 4. 
+
+## Physiological Responses During the Time Trial
+### Oxygen Consumption
+VO~2~ during the time trial was similar in all conditions across all time points. During the habitual and high carbohydrate condition, participants relative VO~2~ was 29.9 ± 7.1 ml/kg/min (63.8 ± 10.0% VO~2~max) and 29.9 ± 7.1 ml/kg/min (63.6 ± 6.9 % VO~2~max) respectively. In the ketogenic condition, participants cycled at 58.6 ± 15.4 % of their VO~2~max (27.8 ± 7.1 ml/kg/min). There were no main effects for condition, $F(2, 69) = 1.853, p = 0.165, \eta^2_p = 0.05$, or time, $F(4, 69) = 0.995, p = 0.416, \eta^2_p = 0.05$, and no time x condition interaction $F(8, 69) = 0.556, p = 0.810, \eta^2_p = 0.06$.
+
+```{r fig4pdf,fig.cap="Figure 4: Average Power Output During the Time Trial (n = 5). Red Circles = Female Participants; Blue Circles = Male Participant.", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure4.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig4html, fig.cap="Figure 4: Average Power Output During the Time Trial (n = 5). Red Circles = Female Participants; Blue Circles = Male Participant.", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure4.png"))
+}
+```
+
+### Heart Rate
+
+There was no main effect for condition, $F(2, 69) = 0.387, p = 0.680, \eta^2_p = 0.01$, and no time by condition interaction, $F(8, 69) = 0.270, p = 0.974, \eta^2_p = 0.03$, for heart rate during the time trial. Participants’ heart rate was 163 ± 17 beats/min, 161 ± 22 beats/min, and 162 ± 21 during habitual, ketogenic, and high carbohydrate conditions respectively. Mean heart rate rose throughout all trials (3km: 159 ± 17 beats/min; 27km: 167 ± 23 beats/min), but this increase was not statistically significant, $F(4, 69) = 2.439, p = 0.055, \eta^2_p = 0.12$.
+
+### Substrate Oxidation
+
+There were main effects for condition ($F(2, 69) = 118.178, p < 0.001, \eta^2_p = 0.77$) and time ($F(4, 69) = 6.855, p < 0.001, \eta^2_p = 0.28$) for carbohydrate oxidation, but not time x condition interaction ($F(8, 69) = 1.177, p = 0.326, \eta^2_p = 0.12$). During the ketogenic condition, participants oxidized significantly more carbohydrate compared with the habitual (Mean Difference [MD] = -1.11 g/min; 95% CI [95CI] = -1.37, -0.86; t(69) = -10.856; p < 0.001) and high carbohydrate conditions (MD = -1.53 g/min; 95CI = -1.78, -1.28; t(69) = -14.9; p < 0.001). Additionally, carbohydrate oxidation was significantly greater in the high carbohydrate condition compared with habitual condition (MD = 0.42 g/min; 95CI = 0.06, 1.58; $t(69) = 3.41; p < 0.001$). Across all conditions, carbohydrate oxidation decreased significantly following the 3km measurement (1.87 ± 0.75 g/min) with the lowest average carbohydrate oxidation measured at 21km (1.54 ± 0.76. g/min).
+Fat oxidation opposed the pattern of carbohydrate oxidation: it was greatest in ketogenic (0.62 ± 0.11 g/min), followed by the habitual (0.32 ± 0.11 g/min), and the high carbohydrate conditions (0.14 ± 0.11 g/min), $F(2, 69)  = 69.101, p < 0.001, \eta^2_p = 0.74$. Averaged across conditions, fat oxidation was lowest at 3km (0.26 ± .12 g/min) and highest at 15km (0.41 ± 0.12 g/min); a main effect for time was observed, $F(4, 69)  = 3.629, p = 0.010, \eta^2_p = 0.17$. There was no time x condition interaction for fat oxidation, $F(8, 69)  = 0.445, p = 0.890, \eta^2_p = 0.05$. Individual substrate oxidation responses during the time trial are presented in Figure 5.
+
+```{r fig5pdf,fig.cap="Figure 5: Individual Substrate Oxidation Responses During the Time Trial.", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure5.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig5html, fig.cap="Figure 5: Individual Substrate Oxidation Responses During the Time Trial.", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure5.png"))
+}
+```
+
+### Perceived Exertion
+
+RPE was similar across all three conditions, $F(2, 69) = 2.244, p = 0.114, \eta^2_p = 0.06$; participants reported RPE of 14.5 ± 1.2 for the habitual, 14.9 ± 0.8 for the ketogenic,  and 15.0 ± 1.1 for the high carbohydrate condition. Perceived exertion significantly increased throughout the trial from 13.1 ± 1.2 at 3km to 16.3 ± 1.0 at 27km (time main effect: $F(4, 69) = 23.655 p < 0.001, \eta^2_p = 0.58$). Individual RPE responses throughout the time trial are shown in Figure 6.
+
+```{r fig6pdf,fig.cap="Figure 6: Individual Rating of Perceived Exertion Responses During the Time Trial.", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure6.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig6html, fig.cap="Figure 6: Individual Rating of Perceived Exertion Responses During the Time Trial.", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure6.png"))
+}
+```
+
+### Muscle Ultrasound
+
+Figure 7 shows estimated mean differences in session fuel percentile by condition and time following 100 imputations of missing data using the MICE package with the PAN method, as described above. Pooled estimates across the 100 imputations were compatible with a lower session fuel percentile following two weeks of the ketogenic diet compared with the habitual diet, MD = -10.0, 95CI [-21.0, 0.6], p = 0.063.  Similarly, pooled estimates were compatible with lower session fuel percentile following the time trial compared with baseline measures, MD = -8.8, 95CI [-19.0, 1.3], p = .0085. Session fuel percentile was similar between habitual and high carbohydrate conditions, as well as between baseline and pre time trial measures. There appeared to be no interactions between condition and time.
+
+```{r fig7pdf, fig.cap= "Figure 7: Estimated Mean Difference in Session Fuel Percentile (n = 6) following 100 imputations of missing data. Error bars represent 95\\% Confidence Intervals. Baseline = Fasted; Pre Time-Trial = 180 min following the test meal, immediately prior to the Time Trial; Post Time Trial = immediately following the Time Trial.", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure7.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig7html, fig.cap="Figure 7: Estimated Mean Difference in Session Fuel Percentile (n = 6) following 100 imputations of missing data. Error bars represent 95% Confidence Intervals. Baseline = Fasted; Pre Time-Trial = 180 min following the test meal, immediately prior to the Time Trial; Post Time Trial = immediately following the Time Trial.", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure7.png"))
+}
+```
+
+
 # Discussion
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+Our results suggest that recreational endurance athletes’ power output during a cycling time trial is potentially reduced following 14 days of a ketogenic diet when compared with 14-days of a high carbohydrate diet. This reduction suggests that the observed increase in fat oxidation during the time trial did not translate to a performance improvement or maintenance. This could be in part due to reduced muscle glycogen availability prior to the time trial following the ketogenic diet, which we observed in the form of decreased session fuel percentile measured using skeletal muscle ultrasound.
 
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+Our findings are in accordance with Burke et al. [-@19;-@20], who demonstrated endurance performance decrements following a ketogenic diet despite increased fat oxidation, which they attributed to reduced exercise economy. While we were unable to directly assess cycling efficiency due to our protocol, this could be a potential mechanism explaining the decreased power output during the ketogenic diet condition in the present study. Studies investigating longer and lower-intensity exercise tasks have demonstrated potential benefits of the ketogenic diet on endurance performance [@7;@22]. While lower than originally expected, participants in the present study worked at higher relative intensities for shorter durations compared with those investigations. Thus, it appears that endurance athletes might benefit or experience no performance decrements following a ketogenic diet  when competing in longer, lower-intensity events, while adverse effects might arise during shorter, higher-intensity tasks. A recent review by @52 details the effect of KD on a variety of exercise tasks across different populations.
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
+The increase in fat oxidation rates exhibited by participants in the present study was lower than what has been reported by other investigators [@6], while overall substrate oxidation patterns were similar to the existing literature [@6;@16;@17;@18;@19;@20;@21;@22;@23;@24]. However, it is important to note that we measured substrate oxidation during a self-paced time trial, rather than during a constant-load exercise task. 
+	
+While some studies have questioned the validity and utility of using skeletal muscle ultrasound to estimate muscle glycogen content [@45;@46], we successfully detected expected decreases in muscle "fuel" using the MuscleSound® session fuel percentile score. Although our analyses did not achieve statistical significance, we observed strong directional results suggesting reduced muscle fuel following the ketogenic diet as well as following the time trial across all conditions. While we did not measure muscle glycogen content directly, and thus cannot speak to the relationship between session fuel percentile and muscle glycogen directly, we believe that SFP is a measure that is sensitive enough to detect changes induced by exercise and diet. Due to its non-invasive nature and ease of application, this ultrasonic technique appears to be a valuable tool that allows athletes and practitioners to estimate muscle "fuel" changes in response to dietary and exercise interventions.
 
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac 
+## Methodological Insights and Considerations
 
-## Conclusion
+### Cycle Ergometer
 
-orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+Based on participant feedback during previous studies and pilot work as well as to minimize learning effects, we chose to use the CompuTrainer® cycle ergometer as our testing device. This allowed participants to mount their own bicycle to the ergometer maximizing familiarity with the equipment. In prior work in our laboratory, some participants had voiced concerns that bicycle fit was suboptimal with other ergometers, such as the Velotron Pro (RacerMate Inc., Seattle, WA) and Monark Ergomedic 894e (Monark, Sweden). In a meta-analysis by @53, cycle ergometers that allowed participants to use their own bicycles produced some of the smallest coefficients of variation in the study. Participants in the present study expressed that they favored using their own equipment over using other ergometers, validating our choice of equipment. 
+
+However, certain challenges can come with the use of ergometers that allow participants to use their own bicycles. First, tire inflation pressure, and press-on force between the tire and the friction roller of the load generator must be standardized for each condition between conditions. The manufacturer’s manual for the CompuTrainer® suggests inflating tires to the maximum rated tire pressure and provides a guide for setting the POF based on maximal road gradients or maximal expected power output during the exercise bout. We decided to standardize tire pressure at 100 psi unless the tires were rated for lower pressure. However, unbeknownst to the investigators present at the trial, one of our participants used an inner tube in a tubeless tire during one time trial, causing over inflation and tire failure. This illuminates another challenge in allowing participants to use their own bicycles: the need to ensure that participants don’t make changes to their equipment between trials. One of our participants changed tires between conditions; the new tires were rated at a lower pressure than the ones he used in the initial trial. However, the participant had discarded the old tires, thus making it impossible to keep tire pressure constant across trials. Data for this participant are not included in this manuscript, since we had to terminate the study prior to his final experimental trial due to COVID-19 regulations. 
+
+### Performance Measure
+
+To maximize external validity, we decided to use a time trial that was similar in length (time) to what our participants typically experience in competition. To align our statistical inference with this strategy, we powered our study to be able to detect a practical meaningful difference of 90 seconds between the high carbohydrate and ketogenic conditions, which, on average, reflected an improvement of one position in the final standings of the Texas State Time Trial Championships across the past four years. Thus, we selected time to completion as our primary outcome measure. While we have used time to completion successfully in previous work using the Velotron and Monark 894e, the use of this measure with the CompuTrainer® created additional challenges. As described above, an error in our protocol caused inconsistencies in the rider weight used during CompuTrainer® setup. While the RacerMate One™ software manual provides load curves for the ergometer, we were unable to determine the exact formula to translate power output (W) to speed (km/h); one factor influencing this is the built-in Drag FactorTM function, which allows users to set a percentage based “drag factor” equivalent to an estimated coefficient of aerodynamic drag multiplied by the frontal area of the rider. The default value for this and rolling resistance are unknown to the authors. Our initial strategy was to recalculate finishing times for each participant by using the speed achieved per watt measured during the initial time trial (following their habitual diet). We applied this speed-per-watt factor to the measured power outputs for all other trials to recalculate finishing times (Supplemental Table S1). Calculation scripts and speed-per-watt data for each rider by road gradient can be found at https://osf.io/ujx6e/. 
+
+Using the crude estimation of speed-per-watt employed for our recalculation of time to completion, it appears that even when setting the rider weight and press-on-force to nearly identical values a meaningful difference in speed and finishing time arises. Participant 17 completed the time trial in the ketogenic condition (rider weight: 68.0 kg; bike weight: 10 kg; POF: 3.06 lbs.; drag factor: 100%) and high carbohydrate condition (rider weight: 68.0 kg; bike weight: 10 kg; press-on-force: 3.07; drag factor: 100%) with nearly identical settings but received meaningfully different speed-per-watt values. This is in part due to the increase in coefficient of aerodynamic drag with increasing speed, as the wind resistance experienced by a rider becomes greater at higher speed. With the participant riding slower during the time trial in the ketogenic condition, the software correctly generated greater speed-per-watt in this condition compared with the high carbohydrate condition. To control this factor and to further investigate the speed achieved for the power applied, we analyzed speed-per-watt at different power outputs across the two trials. Further, we compared these numbers to a model of overground road cycling [@54], which allows manual entry of all parameters associated to cycling (Figure 8). 
+
+We limited the analysis to flat stretches of the TT to eliminate the effect of road gradient and only included power outputs between 100 W and 200 W. It was apparent, that speed-per-watt values fluctuated greatly immediately following return from a descent to a flat stretch on the course After removing the 20 seconds following each descent and large outliers based on visual inspection of the graph, we fit a power function for all three analyses. 
+
+```{r fig8pdf,fig.cap="Figure 8: Speed-per-Watt at Different Power Outputs.", out.width = "100%"}
+if(!knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure8.pdf"))
+}
+# Include for PDF
+
+```
+
+```{r fig8html, fig.cap="Figure 8: Speed-per-Watt at Different Power Outputs.", out.width = "100%"}
+# Include for html
+if(knitr::is_html_output()){
+  knitr::include_graphics(here::here("figures","figure8.png"))
+}
+```
 
 \newpage
+
+Even small differences in the speed-per-watts conversion can have meaningful effects on finishing time during a simulated time trial (see Supplemental Table S2) At a fictitious power output of 150 in a flat time trial, the conversion alone would lead to a difference of 44.4 seconds in time to completion. These conversion calculations were highly sensitive to the inclusion/exclusion of individual datapoints as the same power input can result in different instantaneous speed output. Actual differences might not be as large, as individual data points account for only one second of the speed achieved. However, in the high carbohydrate trial shown above, power output was measured at 150W on flat road sections 41 times, with speed-per-watt ranging from 0.179 km/h/W (26.8 km/h) to 0.202 km/h/W (30.3 km/h). It is important to note, that despite these challenges, the CompuTrainer® very closely mirrors the time achieved in an overground road cycling time trial.
+
+Despite some limitations regarding the conversion of power output to speed and the challenges of standardizing between conditions, we believe the CompuTrainer® is an effective tool for performance analysis. The familiarity of participants with their own equipment and the positive feedback regarding bicycle fit and feel may outweigh any challenges faced with implementing this performance assessment. Based on our experience in this project, we recommend using mean power output during a time trial as the performance outcome variable rather than time to completion. We also suggest extensive piloting of the time trial course and protocols to ensure all important factors are kept constant between conditions. Further, we recommend giving participants written instructions to avoid any changes to their equipment and checking all aspects of the bicycle setup (including tires) on the day of the trial.  
+
+Additionally, we would recommend researchers employing a repeated measures design use participant’s actual body mass on the day of each trial as rider weight. Since the RacerMate One™ software accurately models differences in rider weight, potential benefits from decreased body mass on cycling speed, especially during uphill sections of a course, should be captured by the performance assessment.
+
+## Nutrition Intervention
+
+A multi-week nutrition intervention like the one applied in the present study requires considerable labor and time from the investigators as well as personal investment from participants. The following section discusses insights and considerations regarding the nutritional intervention.
+
+### Diet Tracking and Meal Planning.
+
+Following dietary interventions like the ones employed in the present study requires careful tracking of nutrition intake and exercise energy expenditure. The participants in our study provided verbal feedback that tracking their dietary intake and finding foods to match the macronutrient requirements for each diet added a sizeable burden to their daily routines. With this in mind, it is unsurprising that less than 20% of recreational cyclists regularly track their nutritional intake (unpublished data from a survey study conducted in our laboratory). In fact, in our pre-study screening questionnaire, none of the participants in the present study reported tracking total energy intake or macronutrients nor following a specific diet. It stands to reason that keeping a record of dietary intake and planning meals to achieve certain nutritional goals might create a steep barrier for recreational athletes trying to follow high carbohydrate or ketogenic diets.
+
+Similarly, participants reported struggling to consume the high percentage of carbohydrate to fulfill the requirements of the high carbohydrate diet without resorting to sugary drinks and foods. This could be one reason why our own findings and those of other researchers [@58] suggest, that free-living recreational endurance athletes consume less carbohydrate than what is recommended for optimizing performance [@1]. The strongest experimental design regarding diet adherence would include supplying food for participants throughout the study. This would take the burden of diet tracking and meal planning off the participants. However, this is difficult and costly with a free-living cohort such as ours.   
+
+### Diet Adherence.
+
+Our three-day dietary records indicated that participants followed the intervention diets as prescribed, with the exception of higher-than-desired protein intake during the ketogenic diet (Supplemental Table S1). Yet, based on levels of beta-hydroxybutyrate in urine and blood during the ketogenic diet, participants met our requirement of being in a ketogenic state. Based on verbal and written feedback from our participants, even with the daily feedback they received from the registered dietitian, participants struggled to find high-fat foods that limited their intake of protein. However, it appears that the protein intake in our ketogenic diet condition (26.0 ± 2.9% of total energy intake) was similar to what other studies have reported when participants were allowed to consume protein ad libitum [@55;@56;@57]. Thus, allowing ad libitum intake of protein during the ketogenic diet condition appears to be a practical way to reduce the burden on participants to find low-protein high-fat foods. To control for the effect of changes in fat-free body mass, which could have an impact on exercise performance, we suggest measuring body composition following each diet, if resources allow it. In the present study, equipment availability prohibited us from performing these measurements.
+
+### Blinding
+
+Blinding of participants to the study condition is impossible in a study design like the present. Participants’ effort during training and performance assessment could be influenced by preconceived opinions about the interventions employed. Recent research has shown that recreational endurance athletes are more aware of the effects of carbohydrate intake before, during, and after events than the general public [@59]. Thus, participants might have expected to perform worse during the ketogenic diet condition. This became apparent in the present study from verbal comments by the participants, who mentioned not looking forward to completing the ketogenic diet condition. Additionally, during the ketogenic diet, they reported feeling like they could not produce the same amount of power and fatiguing more quickly during training rides. One participant completed the time trial approximately 13 min slower during the ketogenic condition than during the habitual and high carbohydrate conditions. This participant specifically expressed feeling fatigued during the ketogenic diet. It is unclear whether a preconceived notion of the ketogenic diet on endurance performance might have impacted the participant’s effort during the time trial or whether the participant truly experienced such strong effects of the diet. 
+
+## Statistical Analysis
+## Sample Heterogeneity and Statistical Power
+
+Our goal for the present study was to collect data from men and women across a wider age-range than previously reported in the literature. However, this has important implications on statistical power. Based on our analysis of the Texas State Time Trial Championships, finishing times and standard deviations of the top 10 athletes in male and female age groups up to 55+ years old (61 ± 6 min) was similar to pilot work on the CompuTrainer® course in our own lab (60 ± 6). However, our final sample comprised athletes with much greater heterogeneity in the main performance outcome. This sample heterogeneity has a drastic impact on statistical power in a frequentist framework [@60;61]. 
+
+We attempted to limit sample heterogeneity by requiring minimum training experience and distance along with a VO~2~max criterion for enrollment in the study. Average time to completion of the time trial was similar to what we expected, but standard deviations in our sample ranged from 8.0 min (habitual condition) to 13.2 min (ketogenic condition). Simply raising the standard deviation in our power analysis from 6.0 to 10.2 (average of our observed standard deviations), while leaving all other parameters the same would decrease statistical power for the omnibus test with 30 participants from 90% to 45%. One avenue to further limit this heterogeneity and increase statistical power, would be employing a time trial as part of the screening process to ensure participants can complete the course in a predetermined maximal time or at a predetermined minimal average power output. This trial could also serve as a familiarization trial for participants to become accustomed to the laboratory and the bike setup.
+
+### Analysis Options.
+
+A common strategy to analyze data like the present is to employ repeated measures analysis of variance (RM-ANOVA). However, other fields including psychology, biology, and medicine, have transitioned to using linear mixed-effects models for designs similar to ours [@62]. In the following section we present different analysis options for our primary outcome (time to completion) and for one example of a secondary outcomes (carbohydrate oxidation). To avoid reporting inferential statistics based on observed data of our primary outcome, we used simulated data to show the different analysis options. All simulations and analysis scripts can be found here: https://osf.io/ujx6e/ 
+
+We investigated the outcome of three statistical methods to analyze our primary outcome (TTC) with simulated data based on the following parameters using the faux package in R [@63]: 
+
+- n = 18
+- Habitual condition: $\mu$ = 61.0 min; $\sigma$ = 8.0 min
+- High carbohydrate condition: $\mu$  = 60.0 min; $\sigma$ = 9.0 min
+- Ketogenic condition: $\mu$  = 62.5 min; $\sigma$ = 10.5 min
+
+These parameters are loosely based on our actual data in combination with the practically meaningful effect size of 90 seconds discussed above. The three methods investigated were: 1) linear mixed-effects models using the lme4 package, 2) standard RM-ANOVA using the afex package, and 3) analysis of covariance (ANCOVA), as recommended by @64 using the rstatix package [@65].  As an example of the secondary outcome analysis, we chose observed data for carbohydrate oxidation and analyzed them using 1) linear mixed-effects models and 2) condition x time RM-ANOVA. Inferential statistics for all analyses are shown in Supplemental Table S3.
+
+To further analyze statistical outcomes of these strategies, we investigated pairwise comparisons of the estimated marginal mean differences using the emmeans and statix packages. Results for time to completion are shown in Supplemental Table S4. We used a Holm correction for multiple comparisons and a Bonferroni correction for the 95% confidence intervals reported.
+
+All three strategies result in similar omnibus test for time to completion leading to the same inferential interpretation. As expected, the results for time to completion were nearly identical between models. Interestingly, there were important differences in the comparisons for estimated marginal mean differences. While the point estimates for mean differences between conditions were exactly the same for linear mixed-effects models and RM-ANOVA, the 95% CI differed considerably, leading to a different inferential interpretation (see Supplemental Table S4) The RM-ANOVA yielded a statistically significant difference between habitual and high carbohydrate conditions, whereas the linear mixed-effects model did not. Confidence intervals were wider in the linear mixed-effects model for the habitual vs. high carbohydrate comparison only, but narrower for the other comparisons. One downside to the ANCOVA approach is that it only allowed for pairwise comparison between high carbohydrate and ketogenic conditions, since time to completion from the time trial in the habitual condition was used as a covariate. 
+
+When analyzing carbohydrate oxidation, the omnibus tests for both models indicated main effects for condition and time without an interaction. However, only the linear mixed-effects model showed significant differences in the follow-up pairwise comparisons. The results for post hoc comparison of estimated marginal means in the linear mixed-effects model indicated significant difference when comparing carbohydrate oxidation at the 3km mark in the time trial compared with all other time points. Interestingly, while the omnibus test for the RM-ANOVA did indicate a main effect for time, none of the follow-up pairwise comparisons were statistically significant.
+
+Based on this analysis, we suggest researchers explore the option of using a linear mixed-effects model in similar designs. The linear mixed-effects model as applied here allows for a random intercept for each participant; further benefits of linear mixed-effects model allow the specification of additional random effects (e.g., participant-level slopes) and using multiple imputation to handle missing data [@66] as employed in our analysis of the muscle ultrasound data. When deciding between an RM-ANOVA and an ANCOVA, researchers should consider the study design and research questions. In the present study, we chose the linear mixed-effects model over ANCOVA to allow for the pairwise comparison of all three conditions. It could be argued, that an ANCOVA approach would have been prudent, since we did not control diet in the habitual condition; thus, the habitual condition would have lent itself as a true baseline test used as a covariate in the comparison of high carbohydrate and ketogenic conditions. However, we believe that this also allowed a true comparison of a truly habitual condition compared to two controlled conditions. 
+
+## Conclusions
+We found that participants completed a simulated 30-km time trial at the lowest mean power output following two weeks of the ketogenic diet. We also showed that fat oxidation was greatest during the time trial following the ketogenic diet and lowest following the high carbohydrate diet. Further, MuscleSound® session fuel percentile, an estimate of muscle “fuel” was lower following the ketogenic diet compared to the habitual diet; additionally, session fuel percentile was lower following the time trial compared to fasted baseline measures and 3-hour post-meal measures. In summary, while this study did not achieve the desired sample size to make inferential claims about the effects of the ketogenic and high carbohydrate diets on endurance exercise performance, we believe that the insights gained from our work could be valuable to other researchers, athletes, and practitioners. We argue that allowing participants to use their own bicycles for studies like this on a cycle ergometer such as the CompuTrainer® reduces learning effects and minimizes the need for familiarization; further, it provides a valid measurement of endurance exercise performance, as long as standardization protocols are followed and appropriate outcome measures (e.g., mean power output during a time trial) are selected. Further, we contend that employing linear mixed-effects models should be the preferred analysis technique for repeated measures design in a frequentist framework. Linear mixed-effects models offer the option to include random intercepts at the participant level, which allows modeling of inter-individual response differences better than using a fixed intercept. Further, linear mixed-effects models allow multiple imputation of missing data, providing a route for researchers to use partial data for participants rather than being forced to delete data listwise, as is typically done using RM-ANOVA. Depending on the study design and research question, ANCOVA with baseline performance as the covariate also offers a valid analysis strategy. In light of the findings by Burke et al. [-@19;-@20] that exercise economy might be reduced following a ketogenic diet, we suggest that future studies should include steady-state exercise that allows the measurement of mechanical efficiency or exercise economy. Finally, we believe that using muscle ultrasound for a determination of muscle “fuel” using the MuscleSound® session fuel percentile offers a valuable and easy-to-use tool for practitioners and athletes.
+
+## Practical Applications
+
+From a practical perspective, following strict diets in the long-term adds considerable burdens to recreational athletes’ lives. Thus, a more reasonable approach might be to “fuel for the work required”, as proposed by @67. In this paradigm, athletes base their carbohydrate requirements on the work anticipated and/or performed on a given day. Often, recreational cyclists will complete longer training sessions (five to six hours) on weekends and more intense sessions on one or two days during the week. To minimize the added labor and stress of daily macronutrient and energy tracking, athletes could increase carbohydrate intake on the day prior to and during longer and/or more intense training sessions, while eating entirely ad libitum on days with easier rides. Recreational athletes using power meters, could calculate energy expenditure based on the average power produced during a ride. In fact, most exercise tracking applications, which are popular among this population, already provide energy expenditure measures based on actual work performed when power meter data are included. Those who do not use power meters, could use heart rate and/or the talk test to estimate energy expenditure and exercise intensity  [@68;@69]. These calculations would allow recreational athletes to fuel longer and harder sessions adequately, while not needing to invest the time and energy to plan and track dietary intake on shorter and easier days. 
+
+Single-session carbohydrate restriction for certain low to moderate intensity workouts, i.e., “training low”, has been shown to be effective in augmenting gene expression, cell signaling, and oxidative enzyme activity related with improved endurance performance [@67;@70]. These strategies might be more feasible and sensible for elite athletes, who typically work with nutrition professionals and often have already optimized all other aspects of their training and racing. However, recreational cyclists looking to use this strategy could implement a higher intensity training session in the morning followed by carbohydrate restriction and a lower intensity training session in the evening [@70]. 
+
+In summary, recreational athletes looking to improve their cycling performance using nutrition interventions might be better served by focusing on “fueling for the work required” [@67] and interspersing occasional training session with low carbohydrate availability than by trying to implement a daily diet designed to restrict or enhance the intake of carbohydrate.
+
 
 # Additional Information
 
 ## Data Accessibility
 
-Data is available via a .... 
+All data and analysis code used for this manuscript are available at https://osf.io/ujx6e/ 
 
 ## Author Contributions
 
-- Contributed to conception and design:
-- Contributed to acquisition of data: 
-- Contributed to analysis and interpretation of data: 
-- Drafted and/or revised the article: 
-- Approved the submitted version for publication:
+- Contributed to conception and design: AK, AJG, PPR, JLW, MS
+- Contributed to acquisition of data: AK, AJG, PPR, KM, GRA
+- Contributed to analysis and interpretation of data: AK, AJG, MS
+- Drafted and/or revised the article: AK, AJG, PPR, KM, GRA, JLW, RB-T, MS
+- Approved the submitted version for publication: AK, AJG, PPR, KM, GRA, JLW, RB-T, MS
+
 
 ## Conflict of Interest
 
@@ -260,15 +605,15 @@ Authors have no conflicts of interest to declare.
   
 ## Funding
 
-Support provided by ....
+This work was supported in part by the Harris College of Nursing & Health Sciences Graduate Student Research Grant.
 
 ## Acknowledgments
 
-We thank everybody.
+We would like to acknowledge Sadie Oakley, Emma Kate Wichman, Jordy Trudel, Megan Conger, Rachel Huther, and Mackenzie Minnick for their contribution to data collection. Further, we would like to thank all participants for their time and efforts.
 
 ## Preprint
 
-The pre-publication version of this manuscript can be found on SportRxiv (DOI: XXXXXXXXXX).
+The pre-publication version of this manuscript can be found on SportRxiv: 	https://doi.org/10.51224/SRXIV.19 
 
 \newpage
 
