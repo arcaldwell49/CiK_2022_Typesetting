@@ -10,11 +10,11 @@ author:
     email         : "matthew.tenan@hsc.wvu.edu"
   - name          : "Aaron R. Caldwell"
     affiliation   : "2"
-affiliation:
-  - id            : "1"
-    institution   : "Rockefeller Neuroscience Institute, West Virginia University, Morgantown, West Virginia, USA"
-  - id            : "2"
-    institution   : "Natick, MA"
+address:
+- code: '1'
+  address: "Rockefeller Neuroscience Institute, West Virginia University, Morgantown, West Virginia, USA"
+- code: '2'
+  address: "Natick, MA"
 abstract: |
   Recently, a group of editors from physiotherapy journals wrote a joint editorial on the use of statistics in their journals. Like many editorials before them, the editors, who were not statistical experts themselves, put forth numerous recommendations to physiotherapy researchers on how to analyze and report their statistical analyses. This editorial unfortunately suffers from numerous mischaracterizations or outright falsehoods regarding statistics. After a thorough review, two major issues appear throughout the editorial. First, the editors incorrectly state that the use of confidence intervals (CI) would alleviate some of the issues with significance testing. Second, the editors incorrectly assume "smallest worthwhile change" statistics are immutable facts related to some ground truth of treatment effects. In this critical review, we briefly outline some of the problematic statements made by the editors, point out why it is too premature to adopt an estimation approach relying on a minimal clinically relevant difference, and offer some simple alternatives that we believe are statistically sound and easy for the average physiotherapy researcher to implement.
 keywords          : "Statistics, Physiotherapy, Estimation, Significance, Confidence Interval"
