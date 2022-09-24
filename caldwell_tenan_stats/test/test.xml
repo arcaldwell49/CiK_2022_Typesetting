@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>John Doe</string-name>
+</contrib>
+<contrib contrib-type="author">
+<string-name>Second Person</string-name>
+</contrib>
+<contrib contrib-type="author">
+<string-name>Third Person</string-name>
+</contrib>
+</contrib-group>
+<abstract>
+<p>Place your abstract here. Use Markdown to style the abstract,
+e.g. write <monospace>*word*</monospace> to print a
+<italic>word</italic> in italics. You can use the Latex command
+<monospace>\newline\</monospace> to create a linebreak in the abstract.
+ <italic>Explanation</italic>: The second backslash ensures that styling
+can be applied directly after the linebreak. This document is only a
+demo explaining how to use the template. This document is only a demo
+explaining how to use the template. This document is only a demo
+explaining how to use the template. This document is only a demo
+explaining how to use the template. This document is only a demo
+explaining how to use the template. This document is only a demo
+explaining how to use the template. This document is only a demo
+explaining how to use the template.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<sec id="introduction">
+  <title>Introduction</title>
+  <p>This is a template for submissions to the
+  <ext-link ext-link-type="uri" xlink:href="https://sportrxiv.org/index.php/server">SportRxiv</ext-link>
+  pre-print server. It uses
+  <ext-link ext-link-type="uri" xlink:href="https://quarto.org/">Quarto</ext-link>
+  to generate a PDF file in the desired style.</p>
+  <p>To get this template set up on your device, follow the instructions
+  on
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/smnnlt/sportrxiv/">GitHub</ext-link>.</p>
+  <p>Once everything is in place, you can start by editing the .qmd
+  file. First, replace the <monospace>articletitle</monospace>,
+  <monospace>author</monospace> and <monospace>affiliation</monospace>
+  info in the YAML header at the top of the document. Render the
+  document in an appropriate GUI (e.g. R Studio, Jupyter Lab, VS Studio)
+  or via the command line to see the resulting PDF file. Then modify the
+  <monospace>abstract</monospace>, <monospace>keywords</monospace> and
+  optionally other variables of the YAML header.</p>
+  <p>To write the main text of your article you can use
+  <ext-link ext-link-type="uri" xlink:href="https://www.markdownguide.org/basic-syntax/">Markdown
+  syntax</ext-link>. You can use <italic>italics</italic>,
+  <ext-link ext-link-type="uri" xlink:href="https://www.urbandictionary.com/define.php?term=Link">links</ext-link>,
+  or</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Lists</p>
+    </list-item>
+    <list-item>
+      <p>Either</p>
+    </list-item>
+    <list-item>
+      <p>ordered</p>
+    </list-item>
+    <list-item>
+      <p>or unordered</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="methods">
+  <title>Methods</title>
+  <sec id="citations-and-references">
+    <title>Citations and References</title>
+    <p>Use the <monospace>bibliography.bib</monospace> file as your
+    reference library. You can cite references in the text (Allaire et
+    al. 2022). The easiest way to streamline this process, is by using
+    the Visual Editor for Quarto in R Studio in combination with Zotero.
+    This allows you to insert citations from your Zotero data base,
+    while simultaneously updating your .bib file.</p>
+  </sec>
+  <sec id="figures-and-tables">
+    <title>Figures and Tables</title>
+    <p>You can include Figures and Tables via the Markdown syntax. A
+    different approach is to include/generate these via code chunks.</p>
+  </sec>
+  <sec id="code-chunks">
+    <title>Code Chunks</title>
+    <p>You can insert Quarto code chunk to render arbitrary code
+    (e.g. R, Python, Julia, …). By default, only the output of
+    code-chunks is displayed, but you can override this with the local
+    code-chunk options.</p>
+  </sec>
+  <sec id="math">
+    <title>Math</title>
+    <p>You can display math using LaTex either inline
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[x = \sigma²]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mi>²</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
+    or in blocks:</p>
+    <p><styled-content id="eq-norm"><disp-formula><tex-math><![CDATA[
+    f(x) = {{1}\over{\sigma}\sqrt{2\pi}}e^{-{1\over{2}}({x-\mu\over{\sigma}})^2}
+     \qquad(1)]]></tex-math></disp-formula></styled-content></p>
+    <p>Insert an equation label at the end of the equation to create the
+    equation number on the right side.</p>
+  </sec>
+  <sec id="cross-references">
+    <title>Cross References</title>
+    <p>You can create cross references to images, tables and equations.
+    You first need to insert an reference label (e.g.{#eq-norm}) next to
+    the part you want to reference to. Then you can link to it in your
+    Markdown text, for example
+    <xref alt="Equation 1" rid="eq-norm">Equation 1</xref>.</p>
+  </sec>
+</sec>
+<sec id="results">
+  <title>Results</title>
+  <p>You may change the general structure of the document by creating
+  new or modifying existing (sub)headings.</p>
+</sec>
+<sec id="discussion">
+  <title>Discussion</title>
+  <p>Place your discussion here</p>
+</sec>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Here is my summary.</p>
+</sec>
+<sec id="contributions">
+  <title>Contributions</title>
+  <p>Authors should report the contributions of each author in the a
+  specific contribution section based on the guidelines set forth by the
+  International Committee of Medical Journal Editors.</p>
+  <p>Please indicate author contributions as clearly as possible,
+  according to the following criteria:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p>Substantial contributions to conception and design</p>
+    </list-item>
+    <list-item>
+      <p>Acquisition of data</p>
+    </list-item>
+    <list-item>
+      <p>Analysis and interpretation of data</p>
+    </list-item>
+    <list-item>
+      <p>Drafting the article or revising it critically for important
+      intellectual content</p>
+    </list-item>
+    <list-item>
+      <p>Final approval of the version to be published</p>
+    </list-item>
+  </list>
+</sec>
+<sec id="acknowledgements">
+  <title>Acknowledgements</title>
+  <p>People who contributed to the work but do not fit our author
+  criteria should be listed in the acknowledgements, along with their
+  contributions. You must ensure that anyone named in the
+  acknowledgements agrees to being so named.</p>
+  <p>Funding sources should not be included in the acknowledgements, but
+  in the section below.</p>
+</sec>
+<sec id="funding-information">
+  <title>Funding Information</title>
+  <p>Please provide a list of the sources of funding, as well as the
+  relevant grant numbers, where possible. List the authors associated
+  with specific funding sources. You will also enter this information in
+  a form during the submission process, but it must be repeated
+  here.</p>
+</sec>
+<sec id="data-and-supplementary-material-accessibility">
+  <title>Data and Supplementary Material Accessibility</title>
+  <p>This should list the database(s) and, if appropriate, the
+  respective accession numbers and DOIs for all data or supplementary
+  material for the manuscript that has been made publicly available on a
+  trusted digital repository. If no data, code, or supplementary
+  material are available for this manuscript then the reason for this
+  should be explained here.</p>
+</sec>
+<sec id="bibliography">
+  <title>References</title>
+</sec>
+</body>
+<back>
+<ref-list>
+  <ref id="ref-allaire2022">
+    <mixed-citation>Allaire, J. J., Charles Teague, Carlos Scheidegger,
+    Yihui Xie, and Christophe Dervieux. 2022. <italic>Quarto</italic>.
+    <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.5960048">https://doi.org/10.5281/zenodo.5960048</ext-link>.</mixed-citation>
+  </ref>
+</ref-list>
+</back>
+</article>

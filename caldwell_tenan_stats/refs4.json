@@ -1,0 +1,952 @@
+[
+    {
+        "id": "hopewell2009",
+        "author": [
+            {
+                "family": "Hopewell",
+                "given": "S"
+            },
+            {
+                "family": "Loudon",
+                "given": "K"
+            },
+            {
+                "family": "Clarke",
+                "given": "M.J."
+            },
+            {
+                "family": "Oxman",
+                "given": "A.D."
+            },
+            {
+                "family": "Dickersin",
+                "given": "K"
+            }
+        ],
+        "title": "Publication bias in clinical trials due to statistical significance or direction of trial results",
+        "type": "article-journal",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        },
+        "container-title": "Cochrane Database of Systematic Reviews",
+        "doi": "10.1002/14651858.MR000006.pub3",
+        "url": "doi.org/10.1002/14651858.MR000006.pub3",
+        "volume": "1",
+        "pages": "1465-1858"
+    },
+    {
+        "id": "altman2003",
+        "author": [
+            {
+                "family": "Altman",
+                "given": "D.G."
+            }
+        ],
+        "title": "Statistics notes: Interaction revisited: The difference between two estimates",
+        "volume": "326",
+        "url": "https://doi.org/10.1136/bmj.326.7382.219",
+        "type": "article-journal",
+        "container-title": "BMJ",
+        "issue": "7382",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        },
+        "page": "219–219"
+    },
+    {
+        "id": "altman2011",
+        "author": [
+            {
+                "family": "Altman",
+                "given": "D.G."
+            },
+            {
+                "family": "Bland",
+                "given": "J.M."
+            }
+        ],
+        "title": "How to obtain the confidence interval from a p value",
+        "volume": "343",
+        "url": "https://doi.org/10.1136/bmj.d2090",
+        "type": "article-journal",
+        "container-title": "BMJ",
+        "issue": "aug08 1",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "page": "2090– 2090"
+    },
+    {
+        "id": "boos",
+        "author": [
+            {
+                "family": "Boos",
+                "given": "D.D."
+            },
+            {
+                "family": "Stefanski",
+                "given": "L.A."
+            }
+        ],
+        "title": "P-value precision and reproducibility",
+        "volume": "65",
+        "url": "https://doi.org/10.1198/tas.2011.10129",
+        "type": "article-journal",
+        "container-title": "The American Statistician",
+        "issue": "4",
+        "language": "it",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "page": "213–221"
+    },
+    {
+        "id": "caldwell2019",
+        "author": [
+            {
+                "family": "Caldwell",
+                "given": "A.R."
+            },
+            {
+                "family": "Cheuvront",
+                "given": "S.N."
+            }
+        ],
+        "title": "Basic statistical considerations for physiology: The journal temperature toolbox",
+        "volume": "6",
+        "type": "article-journal",
+        "container-title": "Temperature",
+        "issue": "3",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "181–210",
+        "URL": "https://doi.org/10.1080/23328940.2019.1624131",
+        "DOI": "10.1080/23328940.2019.1624131"
+    },
+    {
+        "id": "campbell2018",
+        "author": [
+            {
+                "family": "Campbell",
+                "given": "H."
+            },
+            {
+                "family": "Gustafson",
+                "given": "P."
+            }
+        ],
+        "title": "Conditional equivalence testing: An alternative remedy for publication bias",
+        "volume": "13",
+        "url": "https://doi.org/10.1371/journal.pone.0195145",
+        "type": "article-journal",
+        "container-title": "PLOS ONE",
+        "issue": "4",
+        "language": "fr",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "0195145"
+    },
+    {
+        "id": "vigex",
+        "author": [
+            {
+                "family": "Deyle",
+                "given": "G.D."
+            },
+            {
+                "family": "Allen",
+                "given": "C.S."
+            },
+            {
+                "family": "Allison",
+                "given": "S.C."
+            },
+            {
+                "family": "Gill",
+                "given": "N.W."
+            },
+            {
+                "family": "Hando",
+                "given": "B.R."
+            },
+            {
+                "family": "Petersen",
+                "given": "E.J."
+            },
+            {
+                "family": "Dusenberry",
+                "given": "D.I."
+            },
+            {
+                "family": "Rhon",
+                "given": "D.I."
+            }
+        ],
+        "title": "Physical therapy versus glucocorticoid injection for osteoarthritis of the knee",
+        "volume": "382",
+        "url": "https://doi.org/10.1056/NEJMoa1905877",
+        "type": "article-journal",
+        "container-title": "New England Journal of Medicine",
+        "issue": "15",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "1420–1429"
+    },
+    {
+        "id": "elkinsres",
+        "author": [
+            {
+                "family": "Elkins",
+                "given": "M.R."
+            },
+            {
+                "family": "Pinto",
+                "given": "R.Z."
+            },
+            {
+                "family": "Verhagen",
+                "given": "A."
+            },
+            {
+                "family": "Grygorowicz",
+                "given": "M."
+            },
+            {
+                "family": "Soderlund",
+                "given": "A."
+            },
+            {
+                "family": "Guemann",
+                "given": "M."
+            },
+            {
+                "family": "Gomez-Conesa",
+                "given": "A."
+            },
+            {
+                "family": "Blanton",
+                "given": "S."
+            },
+            {
+                "family": "Brismee",
+                "given": "J.M."
+            },
+            {
+                "family": "Agarwal",
+                "given": "S."
+            },
+            {
+                "family": "Jette",
+                "given": "A."
+            },
+            {
+                "family": "Harms",
+                "given": "M."
+            },
+            {
+                "family": "Verheyden",
+                "given": "G."
+            },
+            {
+                "family": "Sheikh",
+                "given": "U."
+            }
+        ],
+        "title": "Correspondence: Response to lakens",
+        "volume": "68",
+        "url": "https://doi.org/10.1016/j.jphys.2022.06.003",
+        "type": "article-journal",
+        "container-title": "Journal of Physiotherapy",
+        "issue": "3",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "214"
+    },
+    {
+        "id": "elkins2022",
+        "author": [
+            {
+                "family": "Elkins",
+                "given": "M.R."
+            },
+            {
+                "family": "Pinto",
+                "given": "R.Z."
+            },
+            {
+                "family": "Verhagen",
+                "given": "A"
+            },
+            {
+                "family": "Grygorowicz",
+                "given": "M"
+            },
+            {
+                "family": "Soderlund",
+                "given": "A"
+            },
+            {
+                "family": "Guemann",
+                "given": "M"
+            },
+            {
+                "family": "Gomez-Conesa",
+                "given": "A"
+            },
+            {
+                "family": "Blanton",
+                "given": "S"
+            },
+            {
+                "family": "Brismee",
+                "given": "J.M."
+            },
+            {
+                "family": "Ardern",
+                "given": "C"
+            },
+            {
+                "family": "Agarwal",
+                "given": "S"
+            },
+            {
+                "family": "Jette",
+                "given": "A"
+            },
+            {
+                "family": "Karstens",
+                "given": "S"
+            },
+            {
+                "family": "Harms",
+                "given": "M"
+            },
+            {
+                "family": "Verheyden",
+                "given": "G"
+            },
+            {
+                "family": "Sheikh",
+                "given": "U"
+            }
+        ],
+        "title": "Statistical inference through estimation: Recommendations from the international society of physiotherapy journal editors",
+        "volume": "68",
+        "url": "https://doi.org/10.1016/j.jphys.2021.12.001",
+        "type": "article-journal",
+        "container-title": "Journal of Physiotherapy",
+        "issue": "1",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "1–4"
+    },
+    {
+        "id": "ferreira2018",
+        "author": [
+            {
+                "family": "Ferreira",
+                "given": "M."
+            }
+        ],
+        "title": "Research note: The smallest worthwhile effect of a health intervention",
+        "volume": "64",
+        "url": "https://doi.org/10.1016/j.jphys.2018.07.008",
+        "type": "article-journal",
+        "container-title": "Journal of Physiotherapy",
+        "issue": "4",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "272–274"
+    },
+    {
+        "id": "cochrane6",
+        "author": [
+            {
+                "family": "Higgins",
+                "given": "J.P."
+            },
+            {
+                "family": "Li",
+                "given": "T."
+            },
+            {
+                "family": "Deeks",
+                "given": "J.J."
+            }
+        ],
+        "title": "Choosing effect measures and computing estimates of effect",
+        "container-title": "Cochrane Handbook for Systematic Reviews of Interventions",
+        "url": "https://training.cochrane.org/handbook/current/chapter-06",
+        "language": "en",
+        "type": "article-journal",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "143–176"
+    },
+    {
+        "id": "hoekstra2014",
+        "author": [
+            {
+                "family": "Hoekstra",
+                "given": "R."
+            },
+            {
+                "family": "Morey",
+                "given": "R.D."
+            },
+            {
+                "family": "Rouder",
+                "given": "J.N."
+            },
+            {
+                "family": "Wagenmakers",
+                "given": "E.-J."
+            }
+        ],
+        "title": "Robust misinterpretation of confidence intervals",
+        "volume": "21",
+        "url": "https://doi.org/10.3758/s13423-013-0572-3",
+        "type": "article-journal",
+        "container-title": "Psychonomic Bulletin & Review",
+        "issue": "5",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "1157–1164"
+    },
+    {
+        "id": "lakensres",
+        "author": [
+            {
+                "family": "Lakens",
+                "given": "D."
+            }
+        ],
+        "title": "Correspondence: Reward, but do not yet require, interval hypothesis tests",
+        "volume": "68",
+        "url": "https://doi.org/10.1016/j.jphys.2022.06.004",
+        "type": "article-journal",
+        "container-title": "Journal of Physiotherapy",
+        "issue": "3",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "213–214"
+    },
+    {
+        "id": "lakens2018",
+        "author": [
+            {
+                "family": "Lakens",
+                "given": "D."
+            },
+            {
+                "family": "Scheel",
+                "given": "A.M."
+            },
+            {
+                "family": "Isager",
+                "given": "P.M."
+            }
+        ],
+        "title": "Equivalence testing for psychological research: A tutorial",
+        "container-title": "Advances in Methods and Practices in Psychological Science",
+        "volume": "1",
+        "url": "https://doi.org/10.1177/2515245918770963",
+        "issue": "2",
+        "language": "en",
+        "type": "article-journal",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "259–269"
+    },
+    {
+        "id": "lindley",
+        "author": [
+            {
+                "family": "Lindley",
+                "given": "D.V."
+            }
+        ],
+        "title": "A statistical paradox",
+        "volume": "44",
+        "url": "https://doi.org/10.1093/biomet/44.1-2.187",
+        "type": "article-journal",
+        "container-title": "Biometrika",
+        "issue": "1-2",
+        "language": "it",
+        "issued": {
+            "date-parts": [
+                [
+                    1957
+                ]
+            ]
+        },
+        "page": "187–192"
+    },
+    {
+        "id": "maier2022",
+        "author": [
+            {
+                "family": "Maier",
+                "given": "M."
+            },
+            {
+                "family": "Lakens",
+                "given": "D."
+            }
+        ],
+        "title": "Justify your alpha: A primer on two practical approaches",
+        "volume": "5",
+        "url": "https://doi.org/10.1177/25152459221080396",
+        "type": "article-journal",
+        "container-title": "Advances in Methods and Practices in Psychological Science",
+        "issue": "2",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "page": "251524592210803"
+    },
+    {
+        "id": "mayo2021",
+        "author": [
+            {
+                "family": "Mayo",
+                "given": "D.G."
+            }
+        ],
+        "title": "The statistics wars and intellectual conflicts of interest",
+        "type": "article-journal",
+        "container-title": "Conservation Biology",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2021
+                ]
+            ]
+        },
+        "URL": "https://doi.org/10.1111/cobi.13861",
+        "DOI": "10.1111/cobi.13861"
+    },
+    {
+        "id": "mazzolari2022",
+        "author": [
+            {
+                "family": "Mazzolari",
+                "given": "R."
+            },
+            {
+                "family": "Porcelli",
+                "given": "S."
+            },
+            {
+                "family": "Bishop",
+                "given": "D.J."
+            },
+            {
+                "family": "Lakens",
+                "given": "D."
+            }
+        ],
+        "title": "Myths and methodologies: The use of equivalence and non-inferiority tests for interventional studies in exercise physiology and sport science",
+        "genre": "Experimental Physiology.",
+        "language": "en",
+        "type": "article-journal",
+        "issued": {
+            "date-parts": [
+                [
+                    2022
+                ]
+            ]
+        },
+        "URL": "https://doi.org/10.1113/ep090171",
+        "DOI": "10.1113/ep090171"
+    },
+    {
+        "id": "morey2015",
+        "author": [
+            {
+                "family": "Morey",
+                "given": "R.D."
+            },
+            {
+                "family": "Hoekstra",
+                "given": "R."
+            },
+            {
+                "family": "Rouder",
+                "given": "J.N."
+            },
+            {
+                "family": "Lee",
+                "given": "M.D."
+            },
+            {
+                "family": "Wagenmakers",
+                "given": "E.-J."
+            }
+        ],
+        "title": "The fallacy of placing confidence in confidence intervals",
+        "volume": "23",
+        "url": "https://doi.org/10.3758/s13423-015-0947-8",
+        "type": "article-journal",
+        "container-title": "Psychonomic Bulletin & Review",
+        "issue": "1",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "103–123"
+    },
+    {
+        "id": "rafi2020",
+        "author": [
+            {
+                "family": "Rafi",
+                "given": "Z."
+            },
+            {
+                "family": "Greenland",
+                "given": "S."
+            }
+        ],
+        "title": "Semantic and cognitive tools to aid statistical science: Replace confidence and significance by compatibility and surprise",
+        "volume": "20",
+        "type": "article-journal",
+        "container-title": "BMC Medical Research Methodology",
+        "issue": "1",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "URL": "https://doi.org/10.1186/s12874-020-01105-9",
+        "DOI": "10.1186/s12874-020-01105-9"
+    },
+    {
+        "id": "rouder2009bayesian",
+        "author": [
+            {
+                "family": "Rouder",
+                "given": "J.N."
+            },
+            {
+                "family": "Speckman",
+                "given": "P.L."
+            },
+            {
+                "family": "Sun",
+                "given": "D."
+            },
+            {
+                "family": "Morey",
+                "given": "R.D."
+            },
+            {
+                "family": "Iverson",
+                "given": "G."
+            }
+        ],
+        "title": "Bayesian t tests for accepting and rejecting the null hypothesis",
+        "volume": "16",
+        "type": "article-journal",
+        "container-title": "Psychonomic Bulletin & Review",
+        "issue": "2",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        },
+        "page": "225–237"
+    },
+    {
+        "id": "sainani2020",
+        "author": [
+            {
+                "family": "Sainani",
+                "given": "K.L."
+            },
+            {
+                "family": "Borg",
+                "given": "D.N."
+            },
+            {
+                "family": "Caldwell",
+                "given": "A.R."
+            },
+            {
+                "family": "Butson",
+                "given": "M.L."
+            },
+            {
+                "family": "Tenan",
+                "given": "M.S."
+            },
+            {
+                "family": "Vickers",
+                "given": "A.J."
+            },
+            {
+                "family": "Vigotsky",
+                "given": "A.D."
+            },
+            {
+                "family": "Warmenhoven",
+                "given": "J."
+            },
+            {
+                "family": "Nguyen",
+                "given": "R."
+            },
+            {
+                "family": "Lohse",
+                "given": "K.R."
+            },
+            {
+                "family": "Knight",
+                "given": "E.J."
+            },
+            {
+                "family": "Bargary",
+                "given": "N."
+            }
+        ],
+        "title": "Call to increase statistical collaboration in sports science, sport and exercise medicine and sports physiotherapy",
+        "volume": "55",
+        "url": "https://doi.org/10.1136/bjsports-2020-102607",
+        "type": "article-journal",
+        "container-title": "British Journal of Sports Medicine",
+        "issue": "2",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "118–122"
+    },
+    {
+        "id": "senn2005dichotomania",
+        "author": [
+            {
+                "family": "Senn",
+                "given": "S."
+            }
+        ],
+        "title": "Dichotomania: An obsessive compulsive disorder that is badly affecting the quality of analysis of pharmaceutical trials",
+        "container-title": "Proceedings of the International Statistical Institute, 55th Session",
+        "language": "en",
+        "type": "paper-conference",
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "publisher-place": "Sydney",
+        "URL": "https://www.isi-web.org/isi.cbs.nl/iamamember/CD6-Sydney2005/ISI2005_Papers/398.pdf"
+    },
+    {
+        "id": "tenan2020",
+        "author": [
+            {
+                "family": "Tenan",
+                "given": "M.S."
+            },
+            {
+                "family": "Simon",
+                "given": "J.E."
+            },
+            {
+                "family": "Robins",
+                "given": "R.J."
+            },
+            {
+                "family": "Lee",
+                "given": "I."
+            },
+            {
+                "family": "Sheean",
+                "given": "A.J."
+            },
+            {
+                "family": "Dickens",
+                "given": "J.F."
+            }
+        ],
+        "title": "Anchored minimal clinically important difference metrics: Considerations for bias and regression to the mean",
+        "volume": "56",
+        "url": "https://doi.org/10.4085/1062-6050-0368.20",
+        "type": "article-journal",
+        "container-title": "Journal of Athletic Training",
+        "issue": "9",
+        "language": "en",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "1042–1049"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0235318",
+        "ISSN": "1932-6203",
+        "URL": "http://dx.doi.org/10.1371/journal.pone.0235318",
+        "author": [
+            {
+                "family": "Lohse",
+                "given": "Keith R."
+            },
+            {
+                "family": "Sainani",
+                "given": "Kristin L."
+            },
+            {
+                "family": "Taylor",
+                "given": "J. Andrew"
+            },
+            {
+                "family": "Butson",
+                "given": "Michael L."
+            },
+            {
+                "family": "Knight",
+                "given": "Emma J."
+            },
+            {
+                "family": "Vickers",
+                "given": "Andrew J."
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "container-title-short": "PLoS ONE",
+        "editor": [
+            {
+                "family": "Bender",
+                "given": "Ralf"
+            }
+        ],
+        "id": "lohse2020systematic",
+        "is-referenced-by-count": "14",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    6,
+                    26
+                ]
+            ]
+        },
+        "language": "en",
+        "member": "340",
+        "page": "e0235318",
+        "prefix": "10.1371",
+        "providerkey": "doi",
+        "publisher": "Public Library of Science (PLoS)",
+        "reference-count": "71",
+        "references-count": "71",
+        "score": "1",
+        "source": "Crossref",
+        "subject": "Multidisciplinary",
+        "title": "Systematic review of the use of “magnitude-based inference” in sports science and medicine",
+        "type": "article-journal",
+        "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+        "volume": "15"
+    }
+]
