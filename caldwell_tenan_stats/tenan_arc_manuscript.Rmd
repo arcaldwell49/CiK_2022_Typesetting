@@ -1,9 +1,9 @@
 ---
 title             : "Confidence Intervals and Smallest Worthwhile Change Are Not a Panacea: A Response to Physiotherapy Journal Editors"
-corresp_author_name: M. Tenan
+corresp_author_name: M.S. Tenan
 corresp_author_email: "matthew.tenan@hsc.wvu.edu"
 author: 
-  - name          : "Matthew Tenan"
+  - name          : "Matthew S. Tenan"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
     address       : "West Virginia University"
@@ -32,7 +32,7 @@ output:
   html_document:
     template: simplehtml.html
     self_contained: no
-citation: "10.51224/XXXXXXXXX"
+citation: "10.51224/cik.2022.45"
 editor: "Matthieu Boisgontier"
 rise: false
 #risenote: "This article is included within the RiSE issue of Communications in Kinesiology at the behest of the editors due to its rigor, reproducibility, and transparency."
@@ -58,7 +58,7 @@ At a foundational level, the goal of NHST is to make inferences with an eye towa
 
 Table 1 also makes some very peculiar assumptions about interventions in clinical trials by stating without evidence that "Almost all interventions would be expected to have some effect, even if that effect was trivially small".[^2] It is possible this is inelegant wording, and the intention was to state that, within a given trial, it is highly unlikely for a measured construct to be exactly nil. It could be that the the Editors [-@elkins2022] are making a vague allusion to Lindley's paradox [@lindley] and, that given a large enough sample size (i.e., high statistical power), NHST will yield a significant effect even when the difference is itself of no practical value [@rouder2009bayesian]. In fact, in situations of very high statistical power, a p-value close to the significance threshold (e.g., p = 0.045) would be more likely under the null hypothesis than the alternative hypothesis [@maier2022]. All of this is technically true, but it ignores that the alpha does not need to be fixed at 5%. The statement by the Editors [-@elkins2022] ignores the Neyman-Pearson approach of balancing type 1 and type 2 errors. The alpha level could be lowered in situations where negligible effects could be detected (thereby balancing the type 1 and type 2 error rates) [@maier2022]. Even if the null were never exactly true (which we believe is a unjustified claim), secondary equivalence testing could be utilized to prevent small effects from being declared as "significant" when they are practically equivalent [@campbell2018]. The related statement in the Editorial [-@elkins2022] that "All trials should therefore identify an effect" (Table 1), is simply not justifiable in any case that we can envision. It is often unclear if the Editorial [-@elkins2022] is talking about an effect measured by a statistical model/test (which can always be wrong for a variety of reasons) or a "real" effect which can never be truly known in empirical work.
 
-[^2]: Bizarrely, the @elkinsres doubles down on this assertion in their response to @lakensres, who makes a strong case for the null at least sometimes being true. In their response @elkinsres simple state that their assertion is "self-evident". For this peculiar claim, we believe Hitchen's razor is apt response to these editors: "What can be asserted without evidence can also be dismissed without evidence."
+[^2]: Bizarrely, the @elkinsres doubles down on this assertion in their response to @lakensres, who makes a strong case for the null at least sometimes being true. In their response @elkinsres simply state that their assertion is "self-evident". For this peculiar claim, we believe Hitchen's razor is an apt response to these editors: "What can be asserted without evidence can also be dismissed without evidence."
 
 Finally, there is a bit of irony in that while the Editorial [-@elkins2022] states, "it is possible to put a confidence interval around any statistic, regardless of its use, including mean difference, risk, odds, relative risk, odds ratio, hazard ratio, correlation, proportion, absolute risk reduction, relative risk reduction, number needed to treat, sensitivity, specificity, likelihood ratios, diagnostic odds ratios, and difference in medians." They omit the fact that SWE or Minimal Clinically Important Difference (MCID) metrics can and should also be reported with confidence intervals. These estimates of "clinical relevance" are subject to the same sampling errors as an estimate of treatment effect.
 
@@ -66,7 +66,7 @@ Finally, there is a bit of irony in that while the Editorial [-@elkins2022] stat
 
 A failure to recognize the empirical ambiguity in the SWE/MCID metric is a fatal flaw in the Editorial [-@elkins2022] as the primary thesis and remediation for supposed ills of NHST are to examine the overlap between effect estimates and the SWE/MCID. While SWE/MCID can be useful concept, it is not an immutable ground truth. We have no problem with establishing some SWE/MCID threshold for an individual study, but care has to be taken in the usage and interpretation of such thresholds. Many researchers, including one author of this manuscript [@tenan2020], have noted that there are a multitude of issues with SWE/MCID measures reported in the literature. Additionally, evidence from previous attempts to abandon NHST (i.e., "magnitude based inference" or "MBI") indicates that researchers are more likely to adopt standard thresholds[^3] rather than develop empirically based MCIDs [@lohse2020systematic]. All of these issues with MCIDs/SWEs preclude the *immediate* use of the "estimation" method suggested in the Editorial [-@elkins2022], and should give some pause when establishing or utilizing an SWE/MCID.
 
-[^3]: The review by @lohse2020systematic indicates that when researchers MBI, which requires setting a SWE, they always defaulted to 0.2 standard deviations of a difference. This, like a significance cutoff of 0.05, is an arbitrary threshold.
+[^3]: The review by @lohse2020systematic indicates that when researchers use MBI, which requires setting a SWE, they always defaulted to 0.2 standard deviations of a difference. This, like a significance cutoff of 0.05, is an arbitrary threshold.
 
 ## Potential Issues with MCID
 
