@@ -1,6 +1,6 @@
 ---
 title             : "Confidence Intervals and Smallest Worthwhile Change Are Not a Panacea: A Response to Physiotherapy Journal Editors"
-corresp_author_name: M.S. Tenan
+corresp_author_name: Matthew S. Tenan
 corresp_author_email: "matthew.tenan@hsc.wvu.edu"
 author: 
   - name          : "Matthew S. Tenan"
@@ -15,8 +15,7 @@ address:
   address: "Rockefeller Neuroscience Institute, West Virginia University, Morgantown, West Virginia, USA"
 - code: '2'
   address: "Natick, MA"
-abstract: |
-  Recently, a group of editors from physiotherapy journals wrote a joint editorial on the use of statistics in their journals. Like many editorials before them, the editors, who were not statistical experts themselves, put forth numerous recommendations to physiotherapy researchers on how to analyze and report their statistical analyses. This editorial unfortunately suffers from numerous mischaracterizations or outright falsehoods regarding statistics. After a thorough review, two major issues appear throughout the editorial. First, the editors incorrectly state that the use of confidence intervals (CI) would alleviate some of the issues with significance testing. Second, the editors incorrectly assume "smallest worthwhile change" statistics are immutable facts related to some ground truth of treatment effects. In this critical review, we briefly outline some of the problematic statements made by the editors, point out why it is too premature to adopt an estimation approach relying on a minimal clinically relevant difference, and offer some simple alternatives that we believe are statistically sound and easy for the average physiotherapy researcher to implement.
+abstract: "Recently, a group of editors from physiotherapy journals wrote a joint editorial on the use of statistics in their journals. Like many editorials before them, the editors, who were not statistical experts themselves, put forth numerous recommendations to physiotherapy researchers on how to analyze and report their statistical analyses. This editorial unfortunately suffers from numerous mischaracterizations or outright falsehoods regarding statistics. After a thorough review, two major issues appear throughout the editorial. First, the editors incorrectly state that the use of confidence intervals (CI) would alleviate some of the issues with significance testing. Second, the editors incorrectly assume \"smallest worthwhile change\" statistics are immutable facts related to some ground truth of treatment effects. In this critical review, we briefly outline some of the problematic statements made by the editors, point out why it is too premature to adopt an estimation approach relying on a minimal clinically relevant difference, and offer some simple alternatives that we believe are statistically sound and easy for the average physiotherapy researcher to implement."
 keywords          : "Statistics, Physiotherapy, Estimation, Significance, Confidence Interval"
 #wordcount         : "XXXX" # add word count if desire to cover page
 subjects: Metascience
@@ -24,19 +23,19 @@ bibliography: refs4.json
 csl: apa7th.csl
 link-citations: true
 output:
-  pdf_document: 
-    template: template.tex
-    keep_tex: yes
-  word_document: 
-    keep_md: yes
   html_document:
     template: simplehtml.html
     self_contained: no
+  word_document: 
+    keep_md: yes
+  pdf_document: 
+    template: template.tex
+    keep_tex: yes
 citation: "10.51224/cik.2022.45"
 editor: "Matthieu Boisgontier"
 rise: false
 #risenote: "This article is included within the RiSE issue of Communications in Kinesiology at the behest of the editors due to its rigor, reproducibility, and transparency."
-lineno: true
+lineno: false
 site: bookdown::bookdown_site
 header-includes:
     - \usepackage{caption}
@@ -76,13 +75,13 @@ A failure to recognize the empirical ambiguity in the SWE/MCID metric is a fatal
 4.  Whether developing a SWE/MCID via @ferreira2018 criteria or the more common ROC analysis anchoring to another scale, such as the Global Rating of Change scale, this requires dichotomizing an interval or continuous scale. The selection of the anchor scale and dichotomization point is frequently arbitrary and subject to researcher discretion, making it a substantial source of variance between studies creating SWE/MCID metrics. In general, dichotomization of continuous data should be minimized in medical research[^4] [@senn2005dichotomania].
 5.  A SWE/MCID, itself, is a point estimate based upon work performed in a sample of the population which is theorized to generalize to that population; as such, all SWE/MCID metrics should be reported with and understood to have confidence intervals around the reported point estimates.
 
-[^4]: We recognize that in clinical practice dichotomous decisions must be made (i.e., apply or do not apply treatment), but in the research process of establishing clinical practice this should be avoided. In our experience, too often researchers use MCID/SWE thresholds to determine if a patient "responded" or not to treatment, or state that a treatment effect is not real because it is below the SWE threshold. Both statements are misinterpretations of what the MCID/SWE can actually represent. As we detail in the vignette, an MCID, SWE, or more arbitrary threshold can used to decide whether a treatment is effective or not (i.e., an hypothesis test), but this does not mean the effect does not exist or a single patient is a "non-responder".
+[^4]: We recognize that in clinical practice dichotomous decisions must be made (i.e., apply or do not apply treatment), but in the research process of establishing clinical practice this should be avoided. In our experience, too often researchers use MCID/SWE thresholds to determine if a patient "responded" or not to a treatment, or state that a treatment effect is not real because it is below the SWE threshold. Both statements are misinterpretations of what the MCID/SWE can actually represent. As we detail in the vignette, an MCID, SWE, or more arbitrary threshold can used to decide whether a treatment is effective or not (i.e., an hypothesis test), but this does not mean the effect does not exist or a single patient is a "non-responder".
 
 Point #5 on the list is what we will primarily discuss throughout the rest of this manuscript, though any one of the above listed issues, in isolation, should give the Editors who composed the Editorial [-@elkins2022] pause when suggesting that the estimate CI overlap with a SWE/MCID should be used to fully supplant NHST in the near term. The Editorial [-@elkins2022] states "If the estimate and the ends of its confidence interval are all more favorable than the smallest worthwhile effect, then the treatment effect can be interpreted as typically considered worthwhile". However, this "smallest worthwhile effect" (SWE/MCID) is being treated as some sort of immutable ground-truth. In fact, an empirically derived SWE/MCID is, by its very nature, going to be derived from a sample of the population and thus have confidence intervals around that point estimate. Due to these issues, we believe physiotherapy researchers would be justified in rejecting the Editorial's suggestion of universally applying MCID thresholds and instead use NHST with a nil hypothesis. We believe, and others appear to agree [@lakensres], that the premature requirement of testing against an MCID threshold is a counterproductive practice[^5]. Further, if we ignore points 1-4 on the previous list, and pretend the SWE/MCID is only another estimate to compare against, do we have a path forward as the Editorial [-@elkins2022] suggests? Ironically we do, and it is through NHST! If the estimate and the 95% Confidence intervals around both the SWE/MCID and the research study's effect are reported, then the statistical incompatibility (i.e., p-value) of the MCID and treatment effect can be determined via the following method articulated by @altman2003 where the estimates for the study result is $E_1$ and the SWE/MCID estimate is $E_2$ and their respective standard errors are represented as $SE_1$ and $SE_2$.
 
 [^5]: However, we do recommend that researchers still report and interpret effect sizes
 
--   Steps to back calculate significance with an MCID
+###  Steps to back calculate significance with an MCID
 
 <!-- -->
 

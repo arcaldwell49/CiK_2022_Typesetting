@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+<meta http-equiv="Content-Type" ontent="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,400i,900,900i" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+
+<style>
+
+  .flat-table {
+    display: block;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 115%;
+    overflow: auto;
+    width: auto;
+  }
+  thead {
+    background-color: rgba(207, 250, 209, 0.75);
+    color: black;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  tbody {
+    background-color: rgba(238, 238, 238, 0.75);
+    color: black;
+    padding: 20px 30px;
+  }
+
+body {
+    background-color:#fff;
+    font-family: "Lato", sans-serif;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 75%;
+    margin: auto;
+}
+
+sub,sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline
+}
+
+sub{
+bottom: -0.25em
+}
+
+sup{
+top: -0.5em
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    max-width: 90%;
+}
+
+h1 { 
+    display: block;
+    font-size: 180%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 { 
+    display: block;
+    font-size: 130%;
+    color: #000; 
+    margin-top: 1em;
+    padding-top: 20px;
+    margin-bottom: 0.40em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    color: #818181;
+    font-size: 110%;
+    margin: 0 0 0 0;
+    font-style: italic;
+}
+
+hr {
+    border: 0;
+    width: 80%;
+    color: #818181;
+    background-color: #818181;
+    height: 1px;
+}
+
+p.caption { 
+    text-align: center;
+    display: block;
+    font-size: 85%;
+}
+
+p.media { 
+    text-align: center;
+    display: block;
+}
+
+.abstract {
+    background-color: #f2f2f2;
+    border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 0px;
+    border-right: 1px solid #818181;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+-->
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+    height: 100%;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+  }
+  .sidenav a {float: left;}
+  .main {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+    border-right: none;
+  }
+}
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+</style>
+
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#abstract">Abstract</a>
+  <a href="#introduction">Introduction</a>
+  <a href="#methods">Methods</a>
+  <a href="#results">Results</a>
+  <a href="#discussion">Discussion</a>
+  <a href="#additional-information">Additional Information</a>
+  <a href="#references">References</a>
+</div>
+
+<div class="main">
+
+
+<div class="fluid-row" id="header">
+
+
+
+
+<h1 class="title">Confidence Intervals and Smallest Worthwhile Change
+Are Not a Panacea: A Response to Physiotherapy Journal Editors</h1>
+<br>
+Matthew S. Tenan<sup>1</sup>, 
+Aaron R. Caldwell<sup>2</sup>, 
+
+      
+
+<p class="date"><span class="glyphicon glyphicon-calendar"></span>Last Updated: </p>
+
+</div>
+
+
+<!-- <p style="text-align:center;"><i>Commmunications in Kinesiology</i></p> -->
+<p><em>Affiliations</em>
+<br> 
+1 - Rockefeller Neuroscience Institute, West Virginia University,
+Morgantown, West Virginia, USA <br>
+2 - Natick, MA <br>
+</p>
+<p>
+  <strong>Corresponding Author:</strong> 
+  <br> 
+  Matthew S. Tenan 
+  <br>
+  <a href="mailto:matthew.tenan@hsc.wvu.edu"
+  class="email">matthew.tenan@hsc.wvu.edu</a>
+</p>
+  <strong>Editor:</strong> 
+  <br> 
+  Matthieu Boisgontier 
+
+
+<div id="abstract" class="section level2">
+<h2>Abstract</h2>
+<!-- background-color: #f2f2f2;
+    border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;-->
+<!-- border:2px; border-style:solid; border-color:#BEE59E; padding: 1em; background-color:gray-->
+<!-- border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;-->
+<p style="
+    background-color:rgba(207, 250, 209, 0.75);
+    border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;
+    ">
+Recently, a group of editors from physiotherapy journals wrote a joint
+editorial on the use of statistics in their journals. Like many
+editorials before them, the editors, who were not statistical experts
+themselves, put forth numerous recommendations to physiotherapy
+researchers on how to analyze and report their statistical analyses.
+This editorial unfortunately suffers from numerous mischaracterizations
+or outright falsehoods regarding statistics. After a thorough review,
+two major issues appear throughout the editorial. First, the editors
+incorrectly state that the use of confidence intervals (CI) would
+alleviate some of the issues with significance testing. Second, the
+editors incorrectly assume “smallest worthwhile change” statistics are
+immutable facts related to some ground truth of treatment effects. In
+this critical review, we briefly outline some of the problematic
+statements made by the editors, point out why it is too premature to
+adopt an estimation approach relying on a minimal clinically relevant
+difference, and offer some simple alternatives that we believe are
+statistically sound and easy for the average physiotherapy researcher to
+implement.
+</p>
+</div>
+  
+
+<div style="page-break-after: always;"></div>
+<p>We read with interest the recent Editorial written by Elkins et al
+<span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span>, who are the Editor-in-Chief
+members of the International Society of Physiotherapy Journal Editors
+(heretofore referred to as “The Editorial”). We applaud the author group
+for encouraging clinical researchers to look beyond null-hypothesis
+significance testing (NHST) and into the realm of effect estimation. In
+the Frequentist framework, NHST and effect estimation are two sides of
+the same coin with fundamental mathematical relationships. As
+methodological tutorials have described previously <span
+class="citation">(<a href="#ref-rafi2020" role="doc-biblioref">Rafi
+&amp; Greenland, 2020</a>)</span>, using estimation or an
+“unconditional” approach to reporting statistics is a valid alternative
+to NHST. However, the Editorial <span class="citation">(<a
+href="#ref-elkins2022" role="doc-biblioref">2022</a>)</span> also
+contains a multitude of incorrect or misleading statements. Also, the
+central thesis that Frequentist Confidence Intervals (CIs) should
+<em>always</em> be contrasted against a point estimate of Smallest
+Worthwhile Effect (SWE) could be problematic. In this short response, we
+will briefly detail a non-exhaustive list of misleading statements in
+the Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> and expand on the statistical
+issues with immediately using CI overlap with SWE metrics instead of
+NHST.</p>
+<div id="misleading-statements-about-statistics" class="section level1">
+<h1>Misleading Statements about Statistics</h1>
+<p>At a foundational level, the goal of NHST is to make inferences with
+an eye towards error control and the goal of Estimation, whether
+Frequentist or Bayesian, is to quantify the magnitude of an effect and
+the uncertainty of the estimate. As Elkins et al <span
+class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> also points out (page 2, paragraph
+6), there is a mathematical relationship between the p-values calculated
+through NHST and confidence intervals around model estimates <span
+class="citation">(<a href="#ref-altman2011" role="doc-biblioref">Altman
+&amp; Bland, 2011</a>)</span>. For this reason, it is surprising the
+number of misstatements made within the Editorial <span
+class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> regarding NHST and CIs. For
+example, Table 1 in the Editorial <span class="citation">(<a
+href="#ref-elkins2022" role="doc-biblioref">2022</a>)</span> states
+“Statistically significant findings are not very replicable”; however,
+when exactly reproducing a study repeatedly in the same population with
+different samples, one would have the exact same replication
+characteristics for both p-values and CIs. This appears to be a
+misinterpretation of <span class="citation">Boos &amp; Stefanski (<a
+href="#ref-boos" role="doc-biblioref">2011</a>)</span> which was
+primarily focused on the reported precision of p-values (i.e., reporting
+p = 0.0123 vs. p &lt; 0.025) and how the <em>average</em> study is
+underpowered (~67% power) so an <em>exact</em> replication is unlikely
+to yield a significant result<a href="#fn1" class="footnote-ref"
+id="fnref1"><sup>1</sup></a>. This is a point directly addressed by
+<span class="citation">Lakens (<a href="#ref-lakensres"
+role="doc-biblioref">2022</a>)</span> in his review of the Editorial,
+but was seemingly misinterpreted again in their response <span
+class="citation">(<a href="#ref-elkinsres"
+role="doc-biblioref">2022</a>)</span>. The authors also seem to forget
+that a move to CIs would suffer from these exact same issues and would
+not magically solve the problem of replicability <span
+class="citation">(<a href="#ref-hoekstra2014"
+role="doc-biblioref">Hoekstra et al., 2014</a>; <a href="#ref-morey2015"
+role="doc-biblioref">Morey et al., 2015</a>)</span>.</p>
+<p>Table 1 also makes some very peculiar assumptions about interventions
+in clinical trials by stating without evidence that “Almost all
+interventions would be expected to have some effect, even if that effect
+was trivially small”.<a href="#fn2" class="footnote-ref"
+id="fnref2"><sup>2</sup></a> It is possible this is inelegant wording,
+and the intention was to state that, within a given trial, it is highly
+unlikely for a measured construct to be exactly nil. It could be that
+the the Editors <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> are making a vague allusion to
+Lindley’s paradox <span class="citation">(<a href="#ref-lindley"
+role="doc-biblioref">Lindley, 1957</a>)</span> and, that given a large
+enough sample size (i.e., high statistical power), NHST will yield a
+significant effect even when the difference is itself of no practical
+value <span class="citation">(<a href="#ref-rouder2009bayesian"
+role="doc-biblioref">Rouder et al., 2009</a>)</span>. In fact, in
+situations of very high statistical power, a p-value close to the
+significance threshold (e.g., p = 0.045) would be more likely under the
+null hypothesis than the alternative hypothesis <span
+class="citation">(<a href="#ref-maier2022" role="doc-biblioref">Maier
+&amp; Lakens, 2022</a>)</span>. All of this is technically true, but it
+ignores that the alpha does not need to be fixed at 5%. The statement by
+the Editors <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> ignores the Neyman-Pearson
+approach of balancing type 1 and type 2 errors. The alpha level could be
+lowered in situations where negligible effects could be detected
+(thereby balancing the type 1 and type 2 error rates) <span
+class="citation">(<a href="#ref-maier2022" role="doc-biblioref">Maier
+&amp; Lakens, 2022</a>)</span>. Even if the null were never exactly true
+(which we believe is a unjustified claim), secondary equivalence testing
+could be utilized to prevent small effects from being declared as
+“significant” when they are practically equivalent <span
+class="citation">(<a href="#ref-campbell2018"
+role="doc-biblioref">Campbell &amp; Gustafson, 2018</a>)</span>. The
+related statement in the Editorial <span class="citation">(<a
+href="#ref-elkins2022" role="doc-biblioref">2022</a>)</span> that “All
+trials should therefore identify an effect” (Table 1), is simply not
+justifiable in any case that we can envision. It is often unclear if the
+Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> is talking about an effect
+measured by a statistical model/test (which can always be wrong for a
+variety of reasons) or a “real” effect which can never be truly known in
+empirical work.</p>
+<p>Finally, there is a bit of irony in that while the Editorial <span
+class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> states, “it is possible to put a
+confidence interval around any statistic, regardless of its use,
+including mean difference, risk, odds, relative risk, odds ratio, hazard
+ratio, correlation, proportion, absolute risk reduction, relative risk
+reduction, number needed to treat, sensitivity, specificity, likelihood
+ratios, diagnostic odds ratios, and difference in medians.” They omit
+the fact that SWE or Minimal Clinically Important Difference (MCID)
+metrics can and should also be reported with confidence intervals. These
+estimates of “clinical relevance” are subject to the same sampling
+errors as an estimate of treatment effect.</p>
+</div>
+<div
+id="smallest-worthwhile-effect-and-minimal-clinically-important-difference-values-are-estimates-with-uncertainty"
+class="section level1">
+<h1>Smallest Worthwhile Effect and Minimal Clinically Important
+Difference Values Are Estimates with Uncertainty</h1>
+<p>A failure to recognize the empirical ambiguity in the SWE/MCID metric
+is a fatal flaw in the Editorial <span class="citation">(<a
+href="#ref-elkins2022" role="doc-biblioref">2022</a>)</span> as the
+primary thesis and remediation for supposed ills of NHST are to examine
+the overlap between effect estimates and the SWE/MCID. While SWE/MCID
+can be useful concept, it is not an immutable ground truth. We have no
+problem with establishing some SWE/MCID threshold for an individual
+study, but care has to be taken in the usage and interpretation of such
+thresholds. Many researchers, including one author of this manuscript
+<span class="citation">(<a href="#ref-tenan2020"
+role="doc-biblioref">Tenan et al., 2020</a>)</span>, have noted that
+there are a multitude of issues with SWE/MCID measures reported in the
+literature. Additionally, evidence from previous attempts to abandon
+NHST (i.e., “magnitude based inference” or “MBI”) indicates that
+researchers are more likely to adopt standard thresholds<a href="#fn3"
+class="footnote-ref" id="fnref3"><sup>3</sup></a> rather than develop
+empirically based MCIDs <span class="citation">(<a
+href="#ref-lohse2020systematic" role="doc-biblioref">Lohse et al.,
+2020</a>)</span>. All of these issues with MCIDs/SWEs preclude the
+<em>immediate</em> use of the “estimation” method suggested in the
+Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span>, and should give some pause when
+establishing or utilizing an SWE/MCID.</p>
+<div id="potential-issues-with-mcid" class="section level2">
+<h2>Potential Issues with MCID</h2>
+<ol style="list-style-type: decimal">
+<li>Not all measures have SWE or MCIDs in the literature, something the
+Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> overtly recognizes, and therefore
+this approach cannot be universally applied to all research
+questions.</li>
+<li>There is no consensus, accepted calculation for SWE or MCID metrics.
+To our count, there are at least nine ways that these have been derived
+in the literature <span class="citation">(<a href="#ref-ferreira2018"
+role="doc-biblioref">Ferreira, 2018</a>)</span>. The MCID/SWE may vary
+depending upon the method used.</li>
+<li>The vast majority or nearly all SWE/MCID metrics reported in the
+physiotherapy literature do not meet the criteria for SWE conventions
+set out in by <span class="citation">Ferreira (<a
+href="#ref-ferreira2018" role="doc-biblioref">2018</a>)</span>, which is
+the SWE manuscript the Editorial <span class="citation">(<a
+href="#ref-elkins2022" role="doc-biblioref">2022</a>)</span> cites
+supporting SWE/MCID use. The common univariate MCIDs are also biased by
+regression-to-the-mean <span class="citation">(<a href="#ref-tenan2020"
+role="doc-biblioref">Tenan et al., 2020</a>)</span>. More work improving
+SWE/MCID estimation would need to be done prior to recommending their
+use.</li>
+<li>Whether developing a SWE/MCID via <span class="citation">Ferreira
+(<a href="#ref-ferreira2018" role="doc-biblioref">2018</a>)</span>
+criteria or the more common ROC analysis anchoring to another scale,
+such as the Global Rating of Change scale, this requires dichotomizing
+an interval or continuous scale. The selection of the anchor scale and
+dichotomization point is frequently arbitrary and subject to researcher
+discretion, making it a substantial source of variance between studies
+creating SWE/MCID metrics. In general, dichotomization of continuous
+data should be minimized in medical research<a href="#fn4"
+class="footnote-ref" id="fnref4"><sup>4</sup></a> <span
+class="citation">(<a href="#ref-senn2005dichotomania"
+role="doc-biblioref">Senn, 2005</a>)</span>.</li>
+<li>A SWE/MCID, itself, is a point estimate based upon work performed in
+a sample of the population which is theorized to generalize to that
+population; as such, all SWE/MCID metrics should be reported with and
+understood to have confidence intervals around the reported point
+estimates.</li>
+</ol>
+<p>Point #5 on the list is what we will primarily discuss throughout the
+rest of this manuscript, though any one of the above listed issues, in
+isolation, should give the Editors who composed the Editorial <span
+class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> pause when suggesting that the
+estimate CI overlap with a SWE/MCID should be used to fully supplant
+NHST in the near term. The Editorial <span class="citation">(<a
+href="#ref-elkins2022" role="doc-biblioref">2022</a>)</span> states “If
+the estimate and the ends of its confidence interval are all more
+favorable than the smallest worthwhile effect, then the treatment effect
+can be interpreted as typically considered worthwhile”. However, this
+“smallest worthwhile effect” (SWE/MCID) is being treated as some sort of
+immutable ground-truth. In fact, an empirically derived SWE/MCID is, by
+its very nature, going to be derived from a sample of the population and
+thus have confidence intervals around that point estimate. Due to these
+issues, we believe physiotherapy researchers would be justified in
+rejecting the Editorial’s suggestion of universally applying MCID
+thresholds and instead use NHST with a nil hypothesis. We believe, and
+others appear to agree <span class="citation">(<a href="#ref-lakensres"
+role="doc-biblioref">Lakens, 2022</a>)</span>, that the premature
+requirement of testing against an MCID threshold is a counterproductive
+practice<a href="#fn5" class="footnote-ref"
+id="fnref5"><sup>5</sup></a>. Further, if we ignore points 1-4 on the
+previous list, and pretend the SWE/MCID is only another estimate to
+compare against, do we have a path forward as the Editorial <span
+class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> suggests? Ironically we do, and it
+is through NHST! If the estimate and the 95% Confidence intervals around
+both the SWE/MCID and the research study’s effect are reported, then the
+statistical incompatibility (i.e., p-value) of the MCID and treatment
+effect can be determined via the following method articulated by <span
+class="citation">Altman (<a href="#ref-altman2003"
+role="doc-biblioref">2003</a>)</span> where the estimates for the study
+result is <span class="math inline">\(E_1\)</span> and the SWE/MCID
+estimate is <span class="math inline">\(E_2\)</span> and their
+respective standard errors are represented as <span
+class="math inline">\(SE_1\)</span> and <span
+class="math inline">\(SE_2\)</span>.</p>
+<div id="steps-to-back-calculate-significance-with-an-mcid"
+class="section level3">
+<h3>Steps to back calculate significance with an MCID</h3>
+<!-- -->
+<ol style="list-style-type: decimal">
+<li>Assume that the 95% CIs are parametric in nature and back-calculate
+the Standard Errors (SE) for each estimate <span class="citation">(<a
+href="#ref-cochrane6" role="doc-biblioref">Higgins et al.,
+2019</a>)</span> using the upper limit (UL) and lower limit (LL) of the
+CI.</li>
+</ol>
+<p><span class="math display">\[
+SE = \frac{UL-LL}{3.92}
+\]</span></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Calculate the difference (<span class="math inline">\(d\)</span>) in
+estimates</li>
+</ol>
+<p><span class="math display">\[
+d = E_1 - E_2
+\]</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Calculate the Standard Error of the Difference (<span
+class="math inline">\(SE_d\)</span>)</li>
+</ol>
+<p><span class="math display">\[
+SE_d = \sqrt{(SE_1^2 + SE_2^2)}
+\]</span></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Calculate the <span class="math inline">\(z\)</span>-score</li>
+</ol>
+<p><span class="math display">\[
+z = \frac{d }{ SE_d}
+\]</span></p>
+<ol start="5" style="list-style-type: decimal">
+<li>The <span class="math inline">\(z\)</span>-score can then be used to
+test of the null hypothesis that, in the population, the difference,
+<span class="math inline">\(d\)</span>, is zero by referencing the
+calculated <span class="math inline">\(z\)</span>-score against the
+normal distribution <span class="math inline">\(z\)</span>-table found
+in the appendices of many statistics textbooks.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="alternative-hypothesis-tests" class="section level1">
+<h1>Alternative Hypothesis Tests</h1>
+<p>The Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> sets out to tell researchers that
+p-values should not be used but the only method which makes their
+proposed NHST alternative statistically valid is, in fact, a p-value. If
+one can detach themselves from the some of misleading statements in the
+Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span>, the concept that researchers
+should think more critically about their research questions and analyses
+is an excellent suggestion. In fact, if we are willing to accept that
+SWE/MCIDs are not immutable facts but rather “reasonably good thresholds
+in certain circumstances”, similar to an alpha level of 0.05, there
+exists a NHST-based framework that seems to approximate the goal of
+comparing a sample to a “clinically meaningful bound” against sample
+population estimates: superiority, equivalence, non-inferiority, and
+minimal effects hypothesis tests <span class="citation">(<a
+href="#ref-caldwell2019" role="doc-biblioref">Caldwell &amp; Cheuvront,
+2019</a>; <a href="#ref-mazzolari2022" role="doc-biblioref">Mazzolari et
+al., 2022</a>)</span>. Therefore, many of the goals outlined in the the
+Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> could very well be accomplished
+with NHST and p-values.</p>
+<div id="vignette-on-conditional-equivalence-testing"
+class="section level2">
+<h2>Vignette on Conditional Equivalence Testing</h2>
+<p>For this vignette we will revisit a study on glucocorticoid steroid
+injections for knee osteoarthritis <span class="citation">(<a
+href="#ref-vigex" role="doc-biblioref">Deyle et al., 2020</a>)</span>,
+which we believe is an example that physiotherapists will find relevant.
+In the study <span class="citation">(<a href="#ref-vigex"
+role="doc-biblioref">Deyle et al., 2020</a>)</span>, patients with
+osteoarthritis were assigned to glucocorticoid injections (experimental
+group; GLU) or physical therapy (concurrent control; CON). The study
+also used the Western Ontario and McMaster Universities Osteoarthritis
+Index (WOMAC) at 1 year (scores range from 0 to 240). So, in this case,
+we may want to perform a simple t-test on the mean differences where the
+null hypothesis is zero <em>and</em> perform two one-sided tests (TOST)
+to test for equivalence. These tests conceptually examine whether the
+treatment groups are statistically different and whether the treatment
+groups are statistically ‘the same’. This type of test can be
+accomplished in almost any statistical program (e.g., R, SPSS, SAS,
+jamovi, JASP, or Stata). However, an author of this comment (ARC) has
+specifically created functions for this purpose in the <a
+href="https://aaroncaldwell.us/TOSTERpkg">TOSTER</a> R package and
+jamovi module.</p>
+<p><span class="citation">Deyle et al. (<a href="#ref-vigex"
+role="doc-biblioref">2020</a>)</span> state in the article that a
+difference of 12 units on the WOMAC scale between GLU and CON was
+considered the SWE and so we can set the equivalence bounds to this
+value.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>
+Some researchers may use some type of SWE/MCID to set the equivalence,
+but, as we mentioned above, even these empirically derived equivalence
+bounds are subject to sampling error. There are many subjective and
+objective methods of setting an equivalence bound <span
+class="citation">(<a href="#ref-lakens2018" role="doc-biblioref">Lakens
+et al., 2018</a>)</span>, and researchers should be careful in
+describing why and how they set their equivalence bounds.</p>
+<p>The results presented by <span class="citation">Deyle et al. (<a
+href="#ref-vigex" role="doc-biblioref">2020</a>)</span> are clear, and
+show an estimated treatment effect of 18.8 points 95% C.I.[5.0, 32.6], p
+= 0.008. From these we can see that that the NHST interpretation, at an
+alpha level of 0.05, would reject the null hypothesis of zero effect.
+However, we can also perform an equivalence test, using TOST, with the
+equivalence bounds set at 12 units. Such an analysis would yield a
+p-value of approximately 0.83. Therefore, we would reject the null
+hypothesis of no effect, but retain the null of non-equivalence.
+Essentially, we could conclude there is an effect and the magnitude is
+non-negligible. From a clinical perspective these statistics would
+indicate that the use of GLU over CON would likely lead to
+<em>worse</em> outcomes for osteoarthritis patients. Details on how to
+perform this analysis can be found in the <a
+href="#app1">appendix</a>.</p>
+</div>
+</div>
+<div id="conclusions" class="section level1">
+<h1>Conclusions</h1>
+<p>We are sad to see yet another example of scientists making claims
+about statistics beyond their expertise <span class="citation">(<a
+href="#ref-sainani2020" role="doc-biblioref">Sainani et al.,
+2020</a>)</span>. The unfortunate reality is that authoritative papers
+such as the Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> can do real damage to the field of
+physiotherapy. First, the incorrect information provided in the
+Editorial <span class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> will undoubtedly mislead
+physiotherapy researchers towards worse statistical practices by
+providing misinformed beliefs about NHST and continuing the trend of
+believing an MCID/SWE is an immutable threshold. We fear that the
+mindless implementation of another threshold, much like the perfunctory
+use of the 0.05 significance threshold <span class="citation">(<a
+href="#ref-hopewell2009" role="doc-biblioref">Hopewell et al.,
+2009</a>)</span>, will fail to improve the quality of research and only
+create a new form of publication bias. Similar frameworks, such as MBI
+<span class="citation">(<a href="#ref-lohse2020systematic"
+role="doc-biblioref">Lohse et al., 2020</a>)</span>, did not improve
+statistical practice among sport scientists, and when broadly
+implemented can cause more harm than good (e.g., adopting a new
+threshold of 0.2 standard deviations as SWE/MCID). Second, editors
+stating their preferred statistical methods implicitly coerces authors
+submitting to those journals into performing and reporting statistical
+analyses they do not find useful. Misguided commentaries from editorial
+boards are nothing new within academic publishing <span
+class="citation">(<a href="#ref-mayo2021" role="doc-biblioref">Mayo,
+2021</a>)</span>. We would caution all non-statisticians to avoid making
+such sweeping statements about proper statistical practice without the
+involvement of a variety of statisticians. Even statisticians have
+diverse viewpoints on how statistics should be applied to the analysis
+of data (e.g., Frequentist versus Bayesian schools of thought), and
+editorial commentaries should not be the place for picking philosophical
+sides. Instead, editorial commentaries should be focused on improving
+the reporting of statistics within their journals to ensure whatever
+analytical approach is used is appropriately reported for public
+consumption.<a href="#fn7" class="footnote-ref"
+id="fnref7"><sup>7</sup></a></p>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="additional-information" class="section level1">
+<h1>Additional Information</h1>
+<div id="acknowledgements" class="section level2">
+<h2>Acknowledgements</h2>
+<p>We would like to thank Nisha Charkoudian for her critical comments on
+a early draft of this manuscript. We would also like to thank Andrew
+Vigotsky for catching a small error in our equations in the first
+preprint version.</p>
+</div>
+<div id="funding-information" class="section level2">
+<h2>Funding information</h2>
+<p>No funding was provided for this work.</p>
+</div>
+<div id="data-and-supplementary-material-accessibility"
+class="section level2">
+<h2>Data and Supplementary Material Accessibility</h2>
+<p>There is no data associated with this work.</p>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="app1" class="section level1">
+<h1>Appendix 1: Vignette Analysis with TOSTER</h1>
+<p>We can use the <code>tsum_TOST</code> function within the TOSTER R
+package to perform the required statistical tests. We should note that
+both authors would prefer to use an ANCOVA to analyze results from a
+pre-post study.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(TOSTER)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>test1 <span class="ot">=</span> <span class="fu">tsum_TOST</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">m1 =</span> <span class="fl">55.8</span>, <span class="at">m2 =</span> <span class="dv">37</span>, <span class="co"># Means</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd1 =</span> <span class="fl">53.8</span>, <span class="at">sd2 =</span> <span class="fl">30.7</span>, <span class="co"># SD</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">n1 =</span> <span class="dv">78</span>,  <span class="at">n2 =</span> <span class="dv">78</span>, <span class="co"># Sample Sizes</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">hypothesis =</span> <span class="st">&quot;EQU&quot;</span>, <span class="at">low_eqbound =</span> <span class="sc">-</span><span class="dv">12</span>, <span class="at">high_eqbound =</span> <span class="dv">12</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>test1<span class="sc">$</span>decision<span class="sc">$</span>ttest</span></code></pre></div>
+<pre><code>## [1] &quot;The null hypothesis test was significant, t(122.34) = 2.680, p = 8.37e-03&quot;</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>test1<span class="sc">$</span>decision<span class="sc">$</span>TOST</span></code></pre></div>
+<pre><code>## [1] &quot;The equivalence test was non-significant, t(122.34) = 0.970, p = 8.33e-01&quot;</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>test1<span class="sc">$</span>decision<span class="sc">$</span>combined</span></code></pre></div>
+<pre><code>## [1] &quot;NHST: reject null significance hypothesis that the effect is equal to zero \nTOST: don&#39;t reject null equivalence hypothesis&quot;</code></pre>
+<div style="page-break-after: always;"></div>
+<p>We can also provide a plot of the estimates with multiple confidence
+intervals.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(test1)</span></code></pre></div>
+<div class="figure">
+<img src="tenan_arc_manuscript_files/figure-html/unnamed-chunk-2-1.png" alt="A visualization of the cumulative distribution function with 4 levels of confidence being displayed for the standardized mean difference (top panel) and the mean difference (bottom panel)" width="576" />
+<p class="caption">
+A visualization of the cumulative distribution function with 4 levels of
+confidence being displayed for the standardized mean difference (top
+panel) and the mean difference (bottom panel)
+</p>
+</div>
+<p>The interpretation provided above takes a Neyman-Pearson perspective.
+Both the NHST and TOST tests have an alpha-level of 0.05 and one reached
+significance will the other did not. Therefore, an author using this
+approach would have to conclude that one null hypothesis is rejected
+regarding GLU while other other null hypothesis is rejected.</p>
+<p>However, those who wish to use an estimation approach may have a
+different interpretation. Under the approach outlined by <span
+class="citation">Rafi &amp; Greenland (<a href="#ref-rafi2020"
+role="doc-biblioref">2020</a>)</span>, we could instead look at the data
+and see how “compatible” the data is with each competing hypothesis
+(i.e., NHST versus TOST). From this perspective, the interpretation is
+much more fluid, and one could conclude that the data is more
+incompatible with “no effect” than “equivalence” (p-values of 0.008 and
+0.83, respectively).</p>
+<p>Both perspectives are valid and it is up to researchers to decide how
+they plan to tests or estimate their effects. Again, it our belief that
+researchers, not editorial boards, are usually the better judges of what
+statistical framework is best for their research questions. However,
+researchers should be consistent with whatever language/framework (e.g.,
+estimation or NHST) within each study/manuscript.</p>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-altman2003" class="csl-entry">
+Altman, D. G. (2003). Statistics notes: Interaction revisited: The
+difference between two estimates. <em>BMJ</em>, <em>326</em>(7382),
+219–219. <a
+href="https://doi.org/10.1136/bmj.326.7382.219">https://doi.org/10.1136/bmj.326.7382.219</a>
+</div>
+<div id="ref-altman2011" class="csl-entry">
+Altman, D. G., &amp; Bland, J. M. (2011). How to obtain the confidence
+interval from a p value. <em>BMJ</em>, <em>343</em>(aug08 1), 2090–2090.
+<a
+href="https://doi.org/10.1136/bmj.d2090">https://doi.org/10.1136/bmj.d2090</a>
+</div>
+<div id="ref-boos" class="csl-entry">
+Boos, D. D., &amp; Stefanski, L. A. (2011). P-value precision and
+reproducibility. <em>The American Statistician</em>, <em>65</em>(4),
+213–221. <a
+href="https://doi.org/10.1198/tas.2011.10129">https://doi.org/10.1198/tas.2011.10129</a>
+</div>
+<div id="ref-caldwell2019" class="csl-entry">
+Caldwell, A. R., &amp; Cheuvront, S. N. (2019). Basic statistical
+considerations for physiology: The journal temperature toolbox.
+<em>Temperature</em>, <em>6</em>(3), 181–210. <a
+href="https://doi.org/10.1080/23328940.2019.1624131">https://doi.org/10.1080/23328940.2019.1624131</a>
+</div>
+<div id="ref-campbell2018" class="csl-entry">
+Campbell, H., &amp; Gustafson, P. (2018). Conditional equivalence
+testing: An alternative remedy for publication bias. <em>PLOS ONE</em>,
+<em>13</em>(4), 0195145. <a
+href="https://doi.org/10.1371/journal.pone.0195145">https://doi.org/10.1371/journal.pone.0195145</a>
+</div>
+<div id="ref-vigex" class="csl-entry">
+Deyle, G. D., Allen, C. S., Allison, S. C., Gill, N. W., Hando, B. R.,
+Petersen, E. J., Dusenberry, D. I., &amp; Rhon, D. I. (2020). Physical
+therapy versus glucocorticoid injection for osteoarthritis of the knee.
+<em>New England Journal of Medicine</em>, <em>382</em>(15), 1420–1429.
+<a
+href="https://doi.org/10.1056/NEJMoa1905877">https://doi.org/10.1056/NEJMoa1905877</a>
+</div>
+<div id="ref-elkinsres" class="csl-entry">
+Elkins, M. R., Pinto, R. Z., Verhagen, A., Grygorowicz, M., Soderlund,
+A., Guemann, M., Gomez-Conesa, A., Blanton, S., Brismee, J. M., Agarwal,
+S., Jette, A., Harms, M., Verheyden, G., &amp; Sheikh, U. (2022).
+Correspondence: Response to lakens. <em>Journal of Physiotherapy</em>,
+<em>68</em>(3), 214. <a
+href="https://doi.org/10.1016/j.jphys.2022.06.003">https://doi.org/10.1016/j.jphys.2022.06.003</a>
+</div>
+<div id="ref-elkins2022" class="csl-entry">
+Elkins, M. R., Pinto, R. Z., Verhagen, A., Grygorowicz, M., Soderlund,
+A., Guemann, M., Gomez-Conesa, A., Blanton, S., Brismee, J. M., Ardern,
+C., Agarwal, S., Jette, A., Karstens, S., Harms, M., Verheyden, G.,
+&amp; Sheikh, U. (2022). Statistical inference through estimation:
+Recommendations from the international society of physiotherapy journal
+editors. <em>Journal of Physiotherapy</em>, <em>68</em>(1), 1–4. <a
+href="https://doi.org/10.1016/j.jphys.2021.12.001">https://doi.org/10.1016/j.jphys.2021.12.001</a>
+</div>
+<div id="ref-ferreira2018" class="csl-entry">
+Ferreira, M. (2018). Research note: The smallest worthwhile effect of a
+health intervention. <em>Journal of Physiotherapy</em>, <em>64</em>(4),
+272–274. <a
+href="https://doi.org/10.1016/j.jphys.2018.07.008">https://doi.org/10.1016/j.jphys.2018.07.008</a>
+</div>
+<div id="ref-cochrane6" class="csl-entry">
+Higgins, J. P., Li, T., &amp; Deeks, J. J. (2019). Choosing effect
+measures and computing estimates of effect. <em>Cochrane Handbook for
+Systematic Reviews of Interventions</em>, 143–176. <a
+href="https://training.cochrane.org/handbook/current/chapter-06">https://training.cochrane.org/handbook/current/chapter-06</a>
+</div>
+<div id="ref-hoekstra2014" class="csl-entry">
+Hoekstra, R., Morey, R. D., Rouder, J. N., &amp; Wagenmakers, E.-J.
+(2014). Robust misinterpretation of confidence intervals.
+<em>Psychonomic Bulletin &amp; Review</em>, <em>21</em>(5), 1157–1164.
+<a
+href="https://doi.org/10.3758/s13423-013-0572-3">https://doi.org/10.3758/s13423-013-0572-3</a>
+</div>
+<div id="ref-hopewell2009" class="csl-entry">
+Hopewell, S., Loudon, K., Clarke, M. J., Oxman, A. D., &amp; Dickersin,
+K. (2009). Publication bias in clinical trials due to statistical
+significance or direction of trial results. <em>Cochrane Database of
+Systematic Reviews</em>, <em>1</em>. <a
+href="https://doi.org/10.1002/14651858.MR000006.pub3">https://doi.org/10.1002/14651858.MR000006.pub3</a>
+</div>
+<div id="ref-lakensres" class="csl-entry">
+Lakens, D. (2022). Correspondence: Reward, but do not yet require,
+interval hypothesis tests. <em>Journal of Physiotherapy</em>,
+<em>68</em>(3), 213–214. <a
+href="https://doi.org/10.1016/j.jphys.2022.06.004">https://doi.org/10.1016/j.jphys.2022.06.004</a>
+</div>
+<div id="ref-lakens2018" class="csl-entry">
+Lakens, D., Scheel, A. M., &amp; Isager, P. M. (2018). Equivalence
+testing for psychological research: A tutorial. <em>Advances in Methods
+and Practices in Psychological Science</em>, <em>1</em>(2), 259–269. <a
+href="https://doi.org/10.1177/2515245918770963">https://doi.org/10.1177/2515245918770963</a>
+</div>
+<div id="ref-lindley" class="csl-entry">
+Lindley, D. V. (1957). A statistical paradox. <em>Biometrika</em>,
+<em>44</em>(1-2), 187–192. <a
+href="https://doi.org/10.1093/biomet/44.1-2.187">https://doi.org/10.1093/biomet/44.1-2.187</a>
+</div>
+<div id="ref-lohse2020systematic" class="csl-entry">
+Lohse, K. R., Sainani, K. L., Taylor, J. A., Butson, M. L., Knight, E.
+J., &amp; Vickers, A. J. (2020). Systematic review of the use of
+<span>“magnitude-based inference”</span> in sports science and medicine.
+<em>PLOS ONE</em>, <em>15</em>(6), e0235318. <a
+href="https://doi.org/10.1371/journal.pone.0235318">https://doi.org/10.1371/journal.pone.0235318</a>
+</div>
+<div id="ref-maier2022" class="csl-entry">
+Maier, M., &amp; Lakens, D. (2022). Justify your alpha: A primer on two
+practical approaches. <em>Advances in Methods and Practices in
+Psychological Science</em>, <em>5</em>(2), 251524592210803. <a
+href="https://doi.org/10.1177/25152459221080396">https://doi.org/10.1177/25152459221080396</a>
+</div>
+<div id="ref-mayo2021" class="csl-entry">
+Mayo, D. G. (2021). The statistics wars and intellectual conflicts of
+interest. <em>Conservation Biology</em>. <a
+href="https://doi.org/10.1111/cobi.13861">https://doi.org/10.1111/cobi.13861</a>
+</div>
+<div id="ref-mazzolari2022" class="csl-entry">
+Mazzolari, R., Porcelli, S., Bishop, D. J., &amp; Lakens, D. (2022).
+<em>Myths and methodologies: The use of equivalence and non-inferiority
+tests for interventional studies in exercise physiology and sport
+science</em> [Experimental Physiology.]. <a
+href="https://doi.org/10.1113/ep090171">https://doi.org/10.1113/ep090171</a>
+</div>
+<div id="ref-morey2015" class="csl-entry">
+Morey, R. D., Hoekstra, R., Rouder, J. N., Lee, M. D., &amp;
+Wagenmakers, E.-J. (2015). The fallacy of placing confidence in
+confidence intervals. <em>Psychonomic Bulletin &amp; Review</em>,
+<em>23</em>(1), 103–123. <a
+href="https://doi.org/10.3758/s13423-015-0947-8">https://doi.org/10.3758/s13423-015-0947-8</a>
+</div>
+<div id="ref-rafi2020" class="csl-entry">
+Rafi, Z., &amp; Greenland, S. (2020). Semantic and cognitive tools to
+aid statistical science: Replace confidence and significance by
+compatibility and surprise. <em>BMC Medical Research Methodology</em>,
+<em>20</em>(1). <a
+href="https://doi.org/10.1186/s12874-020-01105-9">https://doi.org/10.1186/s12874-020-01105-9</a>
+</div>
+<div id="ref-rouder2009bayesian" class="csl-entry">
+Rouder, J. N., Speckman, P. L., Sun, D., Morey, R. D., &amp; Iverson, G.
+(2009). Bayesian t tests for accepting and rejecting the null
+hypothesis. <em>Psychonomic Bulletin &amp; Review</em>, <em>16</em>(2),
+225–237.
+</div>
+<div id="ref-sainani2020" class="csl-entry">
+Sainani, K. L., Borg, D. N., Caldwell, A. R., Butson, M. L., Tenan, M.
+S., Vickers, A. J., Vigotsky, A. D., Warmenhoven, J., Nguyen, R., Lohse,
+K. R., Knight, E. J., &amp; Bargary, N. (2020). Call to increase
+statistical collaboration in sports science, sport and exercise medicine
+and sports physiotherapy. <em>British Journal of Sports Medicine</em>,
+<em>55</em>(2), 118–122. <a
+href="https://doi.org/10.1136/bjsports-2020-102607">https://doi.org/10.1136/bjsports-2020-102607</a>
+</div>
+<div id="ref-senn2005dichotomania" class="csl-entry">
+Senn, S. (2005). Dichotomania: An obsessive compulsive disorder that is
+badly affecting the quality of analysis of pharmaceutical trials.
+<em>Proceedings of the International Statistical Institute, 55th
+Session</em>. <a
+href="https://www.isi-web.org/isi.cbs.nl/iamamember/CD6-Sydney2005/ISI2005_Papers/398.pdf">https://www.isi-web.org/isi.cbs.nl/iamamember/CD6-Sydney2005/ISI2005_Papers/398.pdf</a>
+</div>
+<div id="ref-tenan2020" class="csl-entry">
+Tenan, M. S., Simon, J. E., Robins, R. J., Lee, I., Sheean, A. J., &amp;
+Dickens, J. F. (2020). Anchored minimal clinically important difference
+metrics: Considerations for bias and regression to the mean. <em>Journal
+of Athletic Training</em>, <em>56</em>(9), 1042–1049. <a
+href="https://doi.org/10.4085/1062-6050-0368.20">https://doi.org/10.4085/1062-6050-0368.20</a>
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>This section of Table 1 of the editorial <span
+class="citation">(<a href="#ref-elkins2022"
+role="doc-biblioref">2022</a>)</span> could also be a misunderstanding
+of the replication crisis which, while tangentially related to p-values,
+is largely believed to be due to systematic publication practices and
+the behavior of researchers.<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Bizarrely, the <span class="citation">Elkins et al. (<a
+href="#ref-elkinsres" role="doc-biblioref">2022</a>)</span> doubles down
+on this assertion in their response to <span class="citation">Lakens (<a
+href="#ref-lakensres" role="doc-biblioref">2022</a>)</span>, who makes a
+strong case for the null at least sometimes being true. In their
+response <span class="citation">Elkins et al. (<a href="#ref-elkinsres"
+role="doc-biblioref">2022</a>)</span> simply state that their assertion
+is “self-evident”. For this peculiar claim, we believe Hitchen’s razor
+is an apt response to these editors: “What can be asserted without
+evidence can also be dismissed without evidence.”<a href="#fnref2"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>The review by <span class="citation">Lohse et al. (<a
+href="#ref-lohse2020systematic" role="doc-biblioref">2020</a>)</span>
+indicates that when researchers use MBI, which requires setting a SWE,
+they always defaulted to 0.2 standard deviations of a difference. This,
+like a significance cutoff of 0.05, is an arbitrary threshold.<a
+href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>We recognize that in clinical practice dichotomous
+decisions must be made (i.e., apply or do not apply treatment), but in
+the research process of establishing clinical practice this should be
+avoided. In our experience, too often researchers use MCID/SWE
+thresholds to determine if a patient “responded” or not to a treatment,
+or state that a treatment effect is not real because it is below the SWE
+threshold. Both statements are misinterpretations of what the MCID/SWE
+can actually represent. As we detail in the vignette, an MCID, SWE, or
+more arbitrary threshold can used to decide whether a treatment is
+effective or not (i.e., an hypothesis test), but this does not mean the
+effect does not exist or a single patient is a “non-responder”.<a
+href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>However, we do recommend that researchers still report
+and interpret effect sizes<a href="#fnref5"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>The choice of the equivalence bound is arbitrary and may
+vary depending on the purpose of the study.<a href="#fnref6"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p>The publication of didactic papers on statistical
+practices authored by individuals with formal statistics education, such
+as the “Statistics Notes” series that the British Medical Journal
+published 1994-2017, are an invaluable resource, but should not be
+considered editorial position statements.<a href="#fnref7"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+
+<br /><br /><br /><br />
+<p class="caption">Communications in Kinesiology</p>
+
+</div>     
+  <script>
+    (function () {
+	var script = document.createElement("script");
+	script.type = "text/javascript";
+	script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+	document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+</body>
+
+
+</html> 
