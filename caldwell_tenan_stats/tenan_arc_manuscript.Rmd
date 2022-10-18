@@ -25,7 +25,7 @@ link-citations: true
 output:
   html_document:
     template: simplehtml.html
-    self_contained: no
+    self_contained: yes
   word_document: 
     keep_md: yes
   pdf_document: 
