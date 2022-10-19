@@ -1,0 +1,1440 @@
+[
+  {
+    "id": "1",
+    "author": [
+      {
+        "family": "Elkins",
+        "given": "M.R."
+      },
+      {
+        "family": "Pinto",
+        "given": "R.Z."
+      },
+      {
+        "family": "Verhagen",
+        "given": "A."
+      },
+      {
+        "family": "Grygorowicz",
+        "given": "M."
+      },
+      {
+        "family": "Söderlund",
+        "given": "A."
+      },
+      {
+        "family": "Guemann",
+        "given": "M."
+      },
+      {
+        "family": "Gómez-Conesa",
+        "given": "A."
+      },
+      {
+        "family": "Blanton",
+        "given": "S."
+      },
+      {
+        "family": "Brismée",
+        "given": "J.M."
+      },
+      {
+        "family": "Agarwal",
+        "given": "S."
+      },
+      {
+        "family": "Jette",
+        "given": "A."
+      },
+      {
+        "family": "Karstens",
+        "given": "S."
+      },
+      {
+        "family": "Harms",
+        "given": "M."
+      },
+      {
+        "family": "Verheyden",
+        "given": "G."
+      },
+      {
+        "family": "Sheikh",
+        "given": "U."
+      }
+    ],
+    "title": "Statistical inference through estimation: Recommendations from the International Society of Physiotherapy Journal Editors",
+    "volume": "102",
+    "url": "https://doi.org/10.1016/j.jphys.2021.12.001",
+    "type": "article-journal",
+    "container-title": "Physical Therapy",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "pzac066"
+  },
+  {
+    "id": "2",
+    "author": [
+      {
+        "family": "Murphy",
+        "given": "K.R."
+      },
+      {
+        "family": "Myors",
+        "given": "B."
+      }
+    ],
+    "title": "Testing the hypothesis that treatments have negligible effects: Minimum-effect tests in the general linear model",
+    "volume": "84",
+    "url": "https://doi.org/10.1037/0021-9010.84.2.234",
+    "type": "article-journal",
+    "container-title": "Journal of Applied Psychology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "page": "234–248"
+  },
+  {
+    "id": "3",
+    "author": [
+      {
+        "family": "Rafi",
+        "given": "Z."
+      },
+      {
+        "family": "Greenland",
+        "given": "S."
+      }
+    ],
+    "title": "Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise",
+    "volume": "20",
+    "url": "https://doi.org/10.1186/s12874-020-01105-9",
+    "type": "article-journal",
+    "container-title": "BMC Medical Research Methodology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "244"
+  },
+  {
+    "id": "4",
+    "author": [
+      {
+        "family": "Cohen",
+        "given": "J."
+      }
+    ],
+    "title": "The earth is round (p < .05)",
+    "url": "https://doi.org/10.1037/0003-066X.49.12.997",
+    "volume": "49",
+    "type": "article-journal",
+    "container-title": "American Psychologist",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "page": "997–1003"
+  },
+  {
+    "id": "5",
+    "author": [
+      {
+        "family": "Lakens",
+        "given": "D."
+      }
+    ],
+    "title": "The practical alternative to the p value is the correctly used p value",
+    "url": "https://doi.org/10.1177/1745691620958012",
+    "volume": "16",
+    "type": "article-journal",
+    "container-title": "Perspectives on Psychological Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "639–648"
+  },
+  {
+    "id": "6",
+    "author": [
+      {
+        "family": "Herbert",
+        "given": "R."
+      }
+    ],
+    "title": "Research note: Significance testing and hypothesis testing: Meaningless, misleading and mostly unnecessary",
+    "url": "https://doi.org/10.1016/j.jphys.2019.05.001",
+    "volume": "65",
+    "type": "article-journal",
+    "container-title": "Journal of Physiotherapy",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "178–181"
+  },
+  {
+    "id": "7",
+    "author": [
+      {
+        "family": "Lakens",
+        "given": "D."
+      }
+    ],
+    "title": "Why P values are not measures of evidence",
+    "url": "https://doi.org/10.1016/j.tree.2021.12.006",
+    "volume": "37",
+    "type": "article-journal",
+    "container-title": "Trends in Ecology & Evolution",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "289–290"
+  },
+  {
+    "id": "8",
+    "author": [
+      {
+        "family": "Muff",
+        "given": "S."
+      },
+      {
+        "family": "Nilsen",
+        "given": "E.B."
+      },
+      {
+        "family": "O’Hara",
+        "given": "R.B."
+      },
+      {
+        "family": "Nater",
+        "given": "C.R."
+      }
+    ],
+    "title": "Response to ‘Why P values are not measures of evidence’ by D. Lakens",
+    "url": "https://doi.org/10.1016/j.tree.2022.01.001",
+    "volume": "37",
+    "type": "article-journal",
+    "container-title": "Trends in Ecology & Evolution",
+    "language": "es",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "291–292"
+  },
+  {
+    "id": "9",
+    "author": [
+      {
+        "family": "Goodman",
+        "given": "S.N."
+      },
+      {
+        "family": "Royall",
+        "given": "R."
+      }
+    ],
+    "title": "Evidence and scientific research",
+    "url": "https://doi.org/10.2105/ajph.78.12.1568",
+    "volume": "78",
+    "type": "article-journal",
+    "container-title": "American Journal of Public Health",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "page": "1568–1574"
+  },
+  {
+    "id": "10",
+    "author": [
+      {
+        "family": "Goodman",
+        "given": "S.N."
+      }
+    ],
+    "title": "Toward evidence-based medical statistics. 1: The P value fallacy",
+    "url": "https://doi.org/10.7326/0003-4819-130-12-199906150-00008",
+    "volume": "130",
+    "type": "article-journal",
+    "container-title": "Annals of Internal Medicine,",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "page": "995–1004"
+  },
+  {
+    "id": "11",
+    "author": [
+      {
+        "family": "Open Science Collaboration",
+        "given": ""
+      }
+    ],
+    "title": "Estimating the reproducibility of psychological science",
+    "url": "https://doi.org/10.1126/science.aac4716",
+    "volume": "349",
+    "type": "article-journal",
+    "container-title": "Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "4716"
+  },
+  {
+    "id": "12",
+    "author": [
+      {
+        "family": "Patil",
+        "given": "P."
+      },
+      {
+        "family": "Peng",
+        "given": "R.D."
+      },
+      {
+        "family": "Leek",
+        "given": "J.T."
+      }
+    ],
+    "title": "What should researchers expect when they replicate studies? A statistical view of replicability in psychological science",
+    "url": "https://doi.org/10.1177/1745691616646366",
+    "volume": "11",
+    "type": "article-journal",
+    "container-title": "Perspectives on Psychological Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "539–544"
+  },
+  {
+    "id": "13",
+    "author": [
+      {
+        "family": "Scheel",
+        "given": "A.M."
+      },
+      {
+        "family": "Schijen",
+        "given": "M.R.M.J."
+      },
+      {
+        "family": "Lakens",
+        "given": "D."
+      }
+    ],
+    "title": "An excess of positive results: Comparing the standard Psychology literature with Registered Reports",
+    "url": "https://doi.org/10.1177/25152459211007467",
+    "volume": "4",
+    "type": "article-journal",
+    "container-title": "Advances in Methods and Practices in Psychological Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "25152459211007468"
+  },
+  {
+    "id": "14",
+    "author": [
+      {
+        "family": "Ioannidis",
+        "given": "J.P."
+      }
+    ],
+    "title": "Why most published research findings are false",
+    "url": "https://doi.org/10.1371/journal.pmed.0020124",
+    "volume": "2, e124",
+    "type": "article-journal",
+    "container-title": "PLoS Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "S.F."
+      },
+      {
+        "family": "Maxwell",
+        "given": "S.E."
+      }
+    ],
+    "title": "Addressing the \"replication crisis\": Using original studies to design replication studies with appropriate statistical power",
+    "url": "https://doi.org/10.1080/00273171.2017.1289361",
+    "volume": "52",
+    "type": "article-journal",
+    "container-title": "Multivariate Behavioral Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "page": "305–324"
+  },
+  {
+    "id": "16",
+    "author": [
+      {
+        "family": "Nosek",
+        "given": "B.A."
+      },
+      {
+        "family": "Hardwicke",
+        "given": "T.E."
+      },
+      {
+        "family": "Moshontz",
+        "given": "H."
+      },
+      {
+        "family": "Allard",
+        "given": "A."
+      },
+      {
+        "family": "Corker",
+        "given": "K.S."
+      },
+      {
+        "family": "Dreber",
+        "given": "A."
+      },
+      {
+        "family": "Fidler",
+        "given": "F."
+      },
+      {
+        "family": "Hilgard",
+        "given": "J."
+      },
+      {
+        "family": "Struhl",
+        "given": "M.K."
+      },
+      {
+        "family": "Nuijten",
+        "given": "M.B."
+      },
+      {
+        "family": "Rohrer",
+        "given": "J.M."
+      },
+      {
+        "family": "Romero",
+        "given": "R."
+      },
+      {
+        "family": "Scheel",
+        "given": "A.M."
+      },
+      {
+        "family": "Scherer",
+        "given": "L.D."
+      },
+      {
+        "family": "Schönbrodt",
+        "given": "B.A."
+      },
+      {
+        "family": "Nosek",
+        "given": "F.D."
+      },
+      {
+        "family": "Vazire16",
+        "given": "S."
+      }
+    ],
+    "title": "Replicability, robustness, and reproducibility in psychological science",
+    "url": "https://doi.org/10.1146/annurev-psych-020821-114157",
+    "volume": "73",
+    "type": "article-journal",
+    "container-title": "Annual Review of Psychology",
+    "language": "pt",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "719–748"
+  },
+  {
+    "id": "17",
+    "author": [
+      {
+        "family": "Elkins",
+        "given": "M.R."
+      },
+      {
+        "family": "Pinto",
+        "given": "R.Z."
+      },
+      {
+        "family": "Verhagen",
+        "given": "A."
+      },
+      {
+        "family": "Grygorowicz",
+        "given": "M."
+      },
+      {
+        "family": "Söderlund",
+        "given": "A."
+      },
+      {
+        "family": "Guemann",
+        "given": "M."
+      },
+      {
+        "family": "Gómez-Conesa",
+        "given": "A."
+      },
+      {
+        "family": "Blanton",
+        "given": "S."
+      },
+      {
+        "family": "Brismée",
+        "given": "J.M."
+      },
+      {
+        "family": "Agarwal",
+        "given": "S."
+      },
+      {
+        "family": "Jette",
+        "given": "A."
+      },
+      {
+        "family": "Harms",
+        "given": "M."
+      },
+      {
+        "family": "Verheyden",
+        "given": "G."
+      },
+      {
+        "family": "Sheikh",
+        "given": "U."
+      }
+    ],
+    "title": "Correspondence: Response to Lakens",
+    "url": "https://doi.org/10.1016/j.jphys.2022.06.003",
+    "volume": "68",
+    "type": "article-journal",
+    "container-title": "Journal of Physiotherapy",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "214"
+  },
+  {
+    "id": "18",
+    "author": [
+      {
+        "family": "Lakens",
+        "given": "D."
+      }
+    ],
+    "title": "Correspondence: Reward, but do not yet require, interval hypothesis tests",
+    "url": "https://doi.org/10.1016/j.jphys.2022.06.004",
+    "volume": "68",
+    "type": "article-journal",
+    "container-title": "Journal of Physiotherapy",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "213–214"
+  },
+  {
+    "id": "19",
+    "author": [
+      {
+        "family": "Tenan",
+        "given": "M.S."
+      },
+      {
+        "family": "Caldwell",
+        "given": "A.R."
+      }
+    ],
+    "title": "Confidence intervals and smallest worthwhile change are not a panacea: A response to the International Society of Physiotherapy Journal Editors",
+    "url": "https://doi.org/10.51224/cik.2022.45",
+    "language": "en",
+    "type": "article-journal",
+    "container-title": "Communications in Kinesiology",
+    "volume": "1, 4",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "1–10"
+  },
+  {
+    "id": "20",
+    "author": [
+      {
+        "family": "Elkins",
+        "given": "M.R."
+      },
+      {
+        "family": "Pinto",
+        "given": "R.Z."
+      },
+      {
+        "family": "Verhagen",
+        "given": "A."
+      },
+      {
+        "family": "Grygorowicz",
+        "given": "M."
+      },
+      {
+        "family": "Söderlund",
+        "given": "A."
+      },
+      {
+        "family": "Guemann",
+        "given": "M."
+      },
+      {
+        "family": "Gómez-Conesa",
+        "given": "A."
+      },
+      {
+        "family": "Blanton",
+        "given": "S."
+      },
+      {
+        "family": "Brismée",
+        "given": "J.M."
+      },
+      {
+        "family": "Ardern",
+        "given": "C."
+      },
+      {
+        "family": "Agarwal",
+        "given": "S."
+      },
+      {
+        "family": "Jette",
+        "given": "A."
+      },
+      {
+        "family": "Karstens",
+        "given": "S."
+      },
+      {
+        "family": "Harms",
+        "given": "M."
+      },
+      {
+        "family": "Verheyden",
+        "given": "G."
+      },
+      {
+        "family": "Sheikh",
+        "given": "U."
+      }
+    ],
+    "title": "Statistical inference through estimation: Recommendations from the International Society of Physiotherapy Journal Editors",
+    "url": "https://doi.org/10.1016/j.jphys.2021.12.001",
+    "volume": "68",
+    "type": "article-journal",
+    "container-title": "Journal of Physiotherapy",
+    "issue": "1",
+    "language": "en",
+    "issued": {
+        "date-parts": [
+            [
+                2022
+            ]
+        ]
+    },
+    "page": "1–4"
+  },
+  {
+    "id": "21",
+    "author": [
+      {
+        "family": "Borg",
+        "given": "D.N."
+      },
+      {
+        "family": "Bon",
+        "given": "J."
+      },
+      {
+        "family": "Sainani",
+        "given": "K.L."
+      },
+      {
+        "family": "Baguley",
+        "given": "B.J."
+      },
+      {
+        "family": "Tierney",
+        "given": "N."
+      },
+      {
+        "family": "Drovandi",
+        "given": "C."
+      }
+    ],
+    "title": "Sharing data and code: A comment on the call for the adoption of more transparent research practices in sport and exercise science",
+    "url": "https://doi.org/10.31236/osf.io/ftdgj",
+    "language": "en",
+    "type": "article-journal",
+    "container-title": "SportRxiv",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "author": [
+      {
+        "family": "Caldwell",
+        "given": "A."
+      },
+      {
+        "family": "Vigotsky",
+        "given": "A.D."
+      }
+    ],
+    "title": "A case against default effect sizes in sport and exercise science",
+    "url": "https://doi.org/10.7717/peerj.10314",
+    "volume": "8, e10314",
+    "type": "article-journal",
+    "container-title": "PeerJ",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "author": [
+      {
+        "family": "McGrath",
+        "given": "R.E."
+      },
+      {
+        "family": "Meyer",
+        "given": "G.J."
+      }
+    ],
+    "title": "When effect sizes disagree: the case of r and d",
+    "url": "https://doi.org/10.1037/1082-989x.11.4.386",
+    "volume": "11",
+    "type": "article-journal",
+    "container-title": "Psychological Methods",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "page": "386"
+  },
+  {
+    "id": "24",
+    "author": [
+      {
+        "family": "Levine",
+        "given": "T.R."
+      },
+      {
+        "family": "Hullett",
+        "given": "C.R."
+      }
+    ],
+    "title": "Eta squared, partial eta squared, and misreporting of effect size in communication research",
+    "url": "https://doi.org/10.1111/j.1468-2958.2002.tb00828.x",
+    "volume": "28",
+    "type": "article-journal",
+    "container-title": "Human Communication Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "page": "612–625"
+  },
+  {
+    "id": "25",
+    "author": [
+      {
+        "family": "Dabija",
+        "given": "D.I."
+      },
+      {
+        "family": "Jain",
+        "given": "N.B."
+      }
+    ],
+    "title": "Minimal clinically important difference of shoulder outcome measures and diagnoses: A systematic review",
+    "url": "https://doi.org/10.1097/phm.0000000000001169",
+    "volume": "98",
+    "type": "article-journal",
+    "container-title": "American Journal of Physical Medicine & Rehabilitation",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "671–676"
+  },
+  {
+    "id": "26",
+    "author": [
+      {
+        "family": "Fricker Jr.",
+        "given": "R.D."
+      },
+      {
+        "family": "Burke",
+        "given": "K."
+      },
+      {
+        "family": "Han",
+        "given": "X."
+      },
+      {
+        "family": "Woodall",
+        "given": "W.H."
+      }
+    ],
+    "title": "Assessing the statistical analyses used in Basic and Applied Social Psychology after their p-value ban",
+    "url": "https://doi.org/10.1080/00031305.2018.1537892",
+    "volume": "73",
+    "type": "article-journal",
+    "container-title": "The American Statistician",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "374–384"
+  },
+  {
+    "id": "27",
+    "author": [
+      {
+        "family": "Sainani",
+        "given": "K.L."
+      }
+    ],
+    "title": "The Problem with \"Magnitude-based Inference\"",
+    "url": "https://doi.org/10.1249/mss.0000000000001645",
+    "volume": "50",
+    "type": "article-journal",
+    "container-title": "Medicine and Science in Sports and Exercise",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "2166–2176"
+  },
+  {
+    "id": "28",
+    "author": [
+      {
+        "family": "Sainani",
+        "given": "K.L."
+      },
+      {
+        "family": "Lohse",
+        "given": "K.R."
+      },
+      {
+        "family": "Jones",
+        "given": "P.R."
+      },
+      {
+        "family": "Vickers",
+        "given": "A."
+      }
+    ],
+    "title": "Magnitude‐based inference is not Bayesian and is not a valid method of inference",
+    "url": "https://doi.org/10.1111/sms.13491",
+    "volume": "29",
+    "type": "article-journal",
+    "container-title": "Scandinavian Journal of Medicine & Science in Sports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "1428"
+  },
+  {
+    "id": "29",
+    "author": [
+      {
+        "family": "Lohse",
+        "given": "K.R."
+      },
+      {
+        "family": "Sainani",
+        "given": "K.L."
+      },
+      {
+        "family": "Taylor",
+        "given": "A."
+      },
+      {
+        "family": "Butson",
+        "given": "M.L."
+      },
+      {
+        "family": "Knight",
+        "given": "E.J."
+      },
+      {
+        "family": "Vickers",
+        "given": "A.J."
+      }
+    ],
+    "title": "Systematic review of the use of \"magnitude-based inference\" in sports science and medicine",
+    "url": "https://doi.org/10.1371/journal.pone.0235318",
+    "volume": "15",
+    "type": "article-journal",
+    "container-title": "PLoS One",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "0235318"
+  },
+  {
+    "id": "30",
+    "author": [
+      {
+        "family": "Benjamin",
+        "given": "D.J."
+      },
+      {
+        "family": "Berger",
+        "given": "J.O."
+      },
+      {
+        "family": "Johannesson",
+        "given": "M."
+      },
+      {
+        "family": "Nosek",
+        "given": "B.A."
+      },
+      {
+        "family": "Wagenmakers",
+        "given": "E.J."
+      },
+      {
+        "family": "Berk",
+        "given": "R."
+      },
+      {
+        "family": " ...",
+        "given": ""
+      },
+      {
+        "family": "Johnson",
+        "given": "V.E."
+      }
+    ],
+    "title": "Redefine statistical significance",
+    "url": "https://doi.org/10.1038/s41562-017-0189-z",
+    "volume": "2",
+    "type": "article-journal",
+    "container-title": "Nature Human Behavior",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "6–10"
+  },
+  {
+    "id": "31",
+    "author": [
+      {
+        "family": "Lakens",
+        "given": "D."
+      },
+      {
+        "family": "Adolfi",
+        "given": "F.G."
+      },
+      {
+        "family": "Albers",
+        "given": "C.J."
+      },
+      {
+        "family": "Anvari",
+        "given": "F."
+      },
+      {
+        "family": "Apps",
+        "given": "M.A."
+      },
+      {
+        "family": "Argamon",
+        "given": "S.E."
+      },
+      {
+        "family": " ...",
+        "given": ""
+      },
+      {
+        "family": "Zwaan",
+        "given": "R.A."
+      }
+    ],
+    "title": "Justify your alpha",
+    "url": "https://doi.org/10.1038/s41562-018-0311-x",
+    "volume": "2",
+    "type": "article-journal",
+    "container-title": "Nature Human Behavior",
+    "language": "no",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "168–171"
+  },
+  {
+    "id": "32",
+    "author": [
+      {
+        "family": "Amrhein",
+        "given": "V."
+      },
+      {
+        "family": "Greenland",
+        "given": "S."
+      }
+    ],
+    "title": "Remove, rather than redefine, statistical significance",
+    "url": "https://doi.org/10.1038/s41562-017-0224-0",
+    "volume": "2",
+    "type": "article-journal",
+    "container-title": "Nature Human Behavior",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "page": "4–4"
+  },
+  {
+    "id": "33",
+    "author": [
+      {
+        "family": "McShane",
+        "given": "B.B."
+      },
+      {
+        "family": "Gal",
+        "given": "D."
+      },
+      {
+        "family": "Gelman",
+        "given": "A."
+      },
+      {
+        "family": "Robert",
+        "given": "C."
+      },
+      {
+        "family": "Tackett",
+        "given": "J.L."
+      }
+    ],
+    "title": "Abandon statistical significance",
+    "url": "https://doi.org/10.1080/00031305.2018.1527253",
+    "volume": "73",
+    "type": "article-journal",
+    "container-title": "The American Statistician",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "235–245"
+  },
+  {
+    "id": "34",
+    "author": [
+      {
+        "family": "Simmons",
+        "given": "J.P."
+      },
+      {
+        "family": "Nelson",
+        "given": "L.D."
+      },
+      {
+        "family": "Simonsohn",
+        "given": "U."
+      }
+    ],
+    "title": "Life after p-hacking",
+    "url": "https://dx.doi.org/10.2139/ssrn.2205186",
+    "container-title": "Meeting of the society for personality and social psychology",
+    "language": "en",
+    "type": "paper-conference",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "page": "17–19",
+    "publisher-place": "New Orleans, LA"
+  },
+  {
+    "id": "35",
+    "author": [
+      {
+        "family": "Simmons",
+        "given": "J.P."
+      },
+      {
+        "family": "Nelson",
+        "given": "L.D."
+      },
+      {
+        "family": "Simonsohn",
+        "given": "U."
+      }
+    ],
+    "title": "False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant",
+    "url": "https://doi.org/10.1177/0956797611417632",
+    "language": "en",
+    "type": "article-journal",
+    "container-title": "Psychological Science",
+    "volume": "22, 11",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "1359–1366"
+  },
+  {
+    "id": "36",
+    "author": [
+      {
+        "family": "Sun",
+        "given": "X."
+      },
+      {
+        "family": "Briel",
+        "given": "M."
+      },
+      {
+        "family": "Busse",
+        "given": "J.W."
+      },
+      {
+        "family": "You",
+        "given": "J.J."
+      },
+      {
+        "family": "Akl",
+        "given": "E.A."
+      },
+      {
+        "family": "Mejza",
+        "given": "F."
+      },
+      {
+        "family": " ...",
+        "given": ""
+      },
+      {
+        "family": "Guyatt",
+        "given": "G.H."
+      }
+    ],
+    "title": "Credibility of claims of subgroup effects in randomised controlled trials: Systematic review",
+    "url": "https://doi.org/10.1136/bmj.e1553",
+    "volume": "344",
+    "type": "article-journal",
+    "container-title": "BMJ",
+    "volume": "344, e1553",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    }
+  },
+  {
+    "id": "37",
+    "author": [
+      {
+        "family": "Kerr",
+        "given": "N.L."
+      }
+    ],
+    "title": "HARKing: Hypothesizing after the results are known",
+    "url": "https://doi.org/10.1207/s15327957pspr0203_4",
+    "volume": "2",
+    "type": "article-journal",
+    "container-title": "Personality and Social Psychology Review",
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "page": "196–217"
+  },
+  {
+    "id": "38",
+    "author": [
+      {
+        "family": "Rosenthal",
+        "given": "R."
+      }
+    ],
+    "title": "The file drawer problem and tolerance for null results",
+    "url": "https://doi.org/10.1037/0033-2909.86.3.638",
+    "volume": "86",
+    "type": "article-journal",
+    "container-title": "Psychological Bulletin",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "pages": "638-641"
+  },
+  {
+    "id": "39",
+    "author": [
+      {
+        "family": "Borg",
+        "given": "D.N."
+      },
+      {
+        "family": "Lohse",
+        "given": "K.R."
+      },
+      {
+        "family": "Sainani",
+        "given": "K.L."
+      }
+    ],
+    "title": "Ten common statistical errors from all phases of research, and their fixes",
+    "url": "https://doi.org/10.1002/pmrj.12395",
+    "volume": "12",
+    "type": "article-journal",
+    "container-title": "PM&R",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "610–614"
+  },
+  {
+    "id": "40",
+    "author": [
+      {
+        "family": "Leek",
+        "given": "J.T."
+      },
+      {
+        "family": "Peng",
+        "given": "R.D."
+      }
+    ],
+    "title": "Statistics: P values are just the tip of the iceberg",
+    "url": "https://doi.org/10.1038/520612a",
+    "volume": "520",
+    "type": "article-journal",
+    "container-title": "Nature",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "612–612"
+  },
+  {
+    "id": "41",
+    "author": [
+      {
+        "family": "Wasserstein",
+        "given": "R.L."
+      },
+      {
+        "family": "Schirm",
+        "given": "A.L."
+      },
+      {
+        "family": "Lazar",
+        "given": "N.A."
+      }
+    ],
+    "title": "Moving to a world beyond \"p< 0.05\"",
+    "url": "https://doi.org/10.1080/00031305.2019.1583913",
+    "volume": "73",
+    "type": "article-journal",
+    "container-title": "The American Statistician",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "1–19"
+  }
+]
