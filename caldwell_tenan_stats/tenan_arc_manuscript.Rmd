@@ -1,0 +1,185 @@
+---
+title             : "Confidence Intervals and Smallest Worthwhile Change Are Not a Panacea: A Response to Physiotherapy Journal Editors"
+corresp_author_name: Matthew S. Tenan
+date: "`r Sys.Date()`"
+corresp_author_email: "matthew.tenan@hsc.wvu.edu"
+author: 
+  - name          : "Matthew S. Tenan"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "West Virginia University"
+    email         : "matthew.tenan@hsc.wvu.edu"
+  - name          : "Aaron R. Caldwell"
+    affiliation   : "2"
+address:
+- code: '1'
+  address: "Rockefeller Neuroscience Institute, West Virginia University, Morgantown, WV, USA"
+- code: '2'
+  address: "Natick, MA, USA"
+abstract: "Recently, a group of editors from physiotherapy journals wrote a joint editorial on the use of statistics in their journals. Like many editorials before them, the editors, who were not statistical experts themselves, put forth numerous recommendations to physiotherapy researchers on how to analyze and report their statistical analyses. This editorial unfortunately suffers from numerous mischaracterizations or outright falsehoods regarding statistics. After a thorough review, two major issues appear throughout the editorial. First, the editors incorrectly state that the use of confidence intervals (CI) would alleviate some of the issues with significance testing. Second, the editors incorrectly assume \"smallest worthwhile change\" statistics are immutable facts related to some ground truth of treatment effects. In this critical review, we briefly outline some of the problematic statements made by the editors, point out why it is too premature to adopt an estimation approach relying on a minimal clinically relevant difference, and offer some simple alternatives that we believe are statistically sound and easy for the average physiotherapy researcher to implement."
+keywords          : "Statistics, Physiotherapy, Estimation, Significance, Confidence Interval"
+#wordcount         : "XXXX" # add word count if desire to cover page
+subjects: Metascience
+bibliography: refs4.json
+csl: apa7th.csl
+link-citations: true
+output:
+  pdf_document: 
+    template: template.tex
+    keep_tex: yes
+  word_document: 
+    keep_md: yes
+  html_document:
+    template: simplehtml.html
+    self_contained: yes
+citation: "10.51224/cik.2022.45"
+editor: "Matthieu Boisgontier"
+rise: false
+#risenote: "This article is included within the RiSE issue of Communications in Kinesiology at the behest of the editors due to its rigor, reproducibility, and transparency."
+lineno: false
+site: bookdown::bookdown_site
+header-includes:
+    - \usepackage{caption}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+\newpage
+
+We read with interest the recent Editorial written by Elkins et al [-@elkins2022], who are the Editor-in-Chief members of the International Society of Physiotherapy Journal Editors (heretofore referred to as "The Editorial"). We applaud the author group for encouraging clinical researchers to look beyond null-hypothesis significance testing (NHST) and into the realm of effect estimation. In the Frequentist framework, NHST and effect estimation are two sides of the same coin with fundamental mathematical relationships. As methodological tutorials have described previously [@rafi2020], using estimation or an "unconditional" approach to reporting statistics is a valid alternative to NHST. However, the Editorial [-@elkins2022] also contains a multitude of incorrect or misleading statements. Also, the central thesis that Frequentist Confidence Intervals (CIs) should *always* be contrasted against a point estimate of Smallest Worthwhile Effect (SWE) could be problematic. In this short response, we will briefly detail a non-exhaustive list of misleading statements in the Editorial [-@elkins2022] and expand on the statistical issues with immediately using CI overlap with SWE metrics instead of NHST.
+
+# Misleading Statements about Statistics
+
+At a foundational level, the goal of NHST is to make inferences with an eye towards error control and the goal of Estimation, whether Frequentist or Bayesian, is to quantify the magnitude of an effect and the uncertainty of the estimate. As Elkins et al [-@elkins2022] also points out (page 2, paragraph 6), there is a mathematical relationship between the p-values calculated through NHST and confidence intervals around model estimates [@altman2011]. For this reason, it is surprising the number of misstatements made within the Editorial [-@elkins2022] regarding NHST and CIs. For example, Table 1 in the Editorial [-@elkins2022] states "Statistically significant findings are not very replicable"; however, when exactly reproducing a study repeatedly in the same population with different samples, one would have the exact same replication characteristics for both p-values and CIs. This appears to be a misinterpretation of @boos which was primarily focused on the reported precision of p-values (i.e., reporting p = 0.0123 vs. p \< 0.025) and how the *average* study is underpowered (\~67% power) so an *exact* replication is unlikely to yield a significant result[^1]. This is a point directly addressed by @lakensres in his review of the Editorial, but was seemingly misinterpreted again in their response [-@elkinsres]. The authors also seem to forget that a move to CIs would suffer from these exact same issues and would not magically solve the problem of replicability [@hoekstra2014; @morey2015].
+
+[^1]: This section of Table 1 of the editorial [-@elkins2022] could also be a misunderstanding of the replication crisis which, while tangentially related to p-values, is largely believed to be due to systematic publication practices and the behavior of researchers.
+
+Table 1 also makes some very peculiar assumptions about interventions in clinical trials by stating without evidence that "Almost all interventions would be expected to have some effect, even if that effect was trivially small".[^2] It is possible this is inelegant wording, and the intention was to state that, within a given trial, it is highly unlikely for a measured construct to be exactly nil. It could be that the the Editors [-@elkins2022] are making a vague allusion to Lindley's paradox [@lindley] and, that given a large enough sample size (i.e., high statistical power), NHST will yield a significant effect even when the difference is itself of no practical value [@rouder2009bayesian]. In fact, in situations of very high statistical power, a p-value close to the significance threshold (e.g., p = 0.045) would be more likely under the null hypothesis than the alternative hypothesis [@maier2022]. All of this is technically true, but it ignores that the alpha does not need to be fixed at 5%. The statement by the Editors [-@elkins2022] ignores the Neyman-Pearson approach of balancing type 1 and type 2 errors. The alpha level could be lowered in situations where negligible effects could be detected (thereby balancing the type 1 and type 2 error rates) [@maier2022]. Even if the null were never exactly true (which we believe is a unjustified claim), secondary equivalence testing could be utilized to prevent small effects from being declared as "significant" when they are practically equivalent [@campbell2018]. The related statement in the Editorial [-@elkins2022] that "All trials should therefore identify an effect" (Table 1), is simply not justifiable in any case that we can envision. It is often unclear if the Editorial [-@elkins2022] is talking about an effect measured by a statistical model/test (which can always be wrong for a variety of reasons) or a "real" effect which can never be truly known in empirical work.
+
+[^2]: Bizarrely, the @elkinsres doubles down on this assertion in their response to @lakensres, who makes a strong case for the null at least sometimes being true. In their response @elkinsres simply state that their assertion is "self-evident". For this peculiar claim, we believe Hitchen's razor is an apt response to these editors: "What can be asserted without evidence can also be dismissed without evidence."
+
+Finally, there is a bit of irony in that while the Editorial [-@elkins2022] states, "it is possible to put a confidence interval around any statistic, regardless of its use, including mean difference, risk, odds, relative risk, odds ratio, hazard ratio, correlation, proportion, absolute risk reduction, relative risk reduction, number needed to treat, sensitivity, specificity, likelihood ratios, diagnostic odds ratios, and difference in medians." They omit the fact that SWE or Minimal Clinically Important Difference (MCID) metrics can and should also be reported with confidence intervals. These estimates of "clinical relevance" are subject to the same sampling errors as an estimate of treatment effect.
+
+# Smallest Worthwhile Effect and Minimal Clinically Important Difference Values Are Estimates with Uncertainty
+
+A failure to recognize the empirical ambiguity in the SWE/MCID metric is a fatal flaw in the Editorial [-@elkins2022] as the primary thesis and remediation for supposed ills of NHST are to examine the overlap between effect estimates and the SWE/MCID. While SWE/MCID can be useful concept, it is not an immutable ground truth. We have no problem with establishing some SWE/MCID threshold for an individual study, but care has to be taken in the usage and interpretation of such thresholds. Many researchers, including one author of this manuscript [@tenan2020], have noted that there are a multitude of issues with SWE/MCID measures reported in the literature. Additionally, evidence from previous attempts to abandon NHST (i.e., "magnitude based inference" or "MBI") indicates that researchers are more likely to adopt standard thresholds[^3] rather than develop empirically based MCIDs [@lohse2020systematic]. All of these issues with MCIDs/SWEs preclude the *immediate* use of the "estimation" method suggested in the Editorial [-@elkins2022], and should give some pause when establishing or utilizing an SWE/MCID.
+
+[^3]: The review by @lohse2020systematic indicates that when researchers use MBI, which requires setting a SWE, they always defaulted to 0.2 standard deviations of a difference. This, like a significance cutoff of 0.05, is an arbitrary threshold.
+
+## Potential Issues with MCID
+
+1.  Not all measures have SWE or MCIDs in the literature, something the Editorial [-@elkins2022] overtly recognizes, and therefore this approach cannot be universally applied to all research questions.
+2.  There is no consensus, accepted calculation for SWE or MCID metrics. To our count, there are at least nine ways that these have been derived in the literature [@ferreira2018]. The MCID/SWE may vary depending upon the method used.
+3.  The vast majority or nearly all SWE/MCID metrics reported in the physiotherapy literature do not meet the criteria for SWE conventions set out in by @ferreira2018, which is the SWE manuscript the Editorial [-@elkins2022] cites supporting SWE/MCID use. The common univariate MCIDs are also biased by regression-to-the-mean [@tenan2020]. More work improving SWE/MCID estimation would need to be done prior to recommending their use.
+4.  Whether developing a SWE/MCID via @ferreira2018 criteria or the more common ROC analysis anchoring to another scale, such as the Global Rating of Change scale, this requires dichotomizing an interval or continuous scale. The selection of the anchor scale and dichotomization point is frequently arbitrary and subject to researcher discretion, making it a substantial source of variance between studies creating SWE/MCID metrics. In general, dichotomization of continuous data should be minimized in medical research[^4] [@senn2005dichotomania].
+5.  A SWE/MCID, itself, is a point estimate based upon work performed in a sample of the population which is theorized to generalize to that population; as such, all SWE/MCID metrics should be reported with and understood to have confidence intervals around the reported point estimates.
+
+[^4]: We recognize that in clinical practice dichotomous decisions must be made (i.e., apply or do not apply treatment), but in the research process of establishing clinical practice this should be avoided. In our experience, too often researchers use MCID/SWE thresholds to determine if a patient "responded" or not to a treatment, or state that a treatment effect is not real because it is below the SWE threshold. Both statements are misinterpretations of what the MCID/SWE can actually represent. As we detail in the vignette, an MCID, SWE, or more arbitrary threshold can used to decide whether a treatment is effective or not (i.e., an hypothesis test), but this does not mean the effect does not exist or a single patient is a "non-responder".
+
+Point #5 on the list is what we will primarily discuss throughout the rest of this manuscript, though any one of the above listed issues, in isolation, should give the Editors who composed the Editorial [-@elkins2022] pause when suggesting that the estimate CI overlap with a SWE/MCID should be used to fully supplant NHST in the near term. The Editorial [-@elkins2022] states "If the estimate and the ends of its confidence interval are all more favorable than the smallest worthwhile effect, then the treatment effect can be interpreted as typically considered worthwhile". However, this "smallest worthwhile effect" (SWE/MCID) is being treated as some sort of immutable ground-truth. In fact, an empirically derived SWE/MCID is, by its very nature, going to be derived from a sample of the population and thus have confidence intervals around that point estimate. Due to these issues, we believe physiotherapy researchers would be justified in rejecting the Editorial's suggestion of universally applying MCID thresholds and instead use NHST with a nil hypothesis. We believe, and others appear to agree [@lakensres], that the premature requirement of testing against an MCID threshold is a counterproductive practice[^5]. Further, if we ignore points 1-4 on the previous list, and pretend the SWE/MCID is only another estimate to compare against, do we have a path forward as the Editorial [-@elkins2022] suggests? Ironically we do, and it is through NHST! If the estimate and the 95% Confidence intervals around both the SWE/MCID and the research study's effect are reported, then the statistical incompatibility (i.e., p-value) of the MCID and treatment effect can be determined via the following method articulated by @altman2003 where the estimates for the study result is $E_1$ and the SWE/MCID estimate is $E_2$ and their respective standard errors are represented as $SE_1$ and $SE_2$.
+
+[^5]: However, we do recommend that researchers still report and interpret effect sizes
+
+###  Steps to back calculate significance with an MCID
+
+<!-- -->
+
+1.  Assume that the 95% CIs are parametric in nature and back-calculate the Standard Errors (SE) for each estimate [@cochrane6] using the upper limit (UL) and lower limit (LL) of the CI.
+
+$$
+SE = \frac{UL-LL}{3.92}
+$$
+
+2.  Calculate the difference ($d$) in estimates
+
+$$
+d = E_1 - E_2
+$$
+
+3.  Calculate the Standard Error of the Difference ($SE_d$)
+
+$$
+SE_d = \sqrt{(SE_1^2 + SE_2^2)}
+$$
+
+4.  Calculate the $z$-score
+
+$$
+z = \frac{d }{ SE_d}
+$$
+
+5.  The $z$-score can then be used to test of the null hypothesis that, in the population, the difference, $d$, is zero by referencing the calculated $z$-score against the normal distribution $z$-table found in the appendices of many statistics textbooks.
+
+# Alternative Hypothesis Tests
+
+The Editorial [-@elkins2022] sets out to tell researchers that p-values should not be used but the only method which makes their proposed NHST alternative statistically valid is, in fact, a p-value. If one can detach themselves from the some of misleading statements in the Editorial [-@elkins2022], the concept that researchers should think more critically about their research questions and analyses is an excellent suggestion. In fact, if we are willing to accept that SWE/MCIDs are not immutable facts but rather "reasonably good thresholds in certain circumstances", similar to an alpha level of 0.05, there exists a NHST-based framework that seems to approximate the goal of comparing a sample to a "clinically meaningful bound" against sample population estimates: superiority, equivalence, non-inferiority, and minimal effects hypothesis tests [@mazzolari2022; @caldwell2019]. Therefore, many of the goals outlined in the the Editorial [-@elkins2022] could very well be accomplished with NHST and p-values.
+
+## Vignette on Conditional Equivalence Testing
+
+For this vignette we will revisit a study on glucocorticoid steroid injections for knee osteoarthritis [@vigex], which we believe is an example that physiotherapists will find relevant. In the study [@vigex], patients with osteoarthritis were assigned to glucocorticoid injections (experimental group; GLU) or physical therapy (concurrent control; CON). The study also used the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) at 1 year (scores range from 0 to 240). So, in this case, we may want to perform a simple t-test on the mean differences where the null hypothesis is zero *and* perform two one-sided tests (TOST) to test for equivalence. These tests conceptually examine whether the treatment groups are statistically different and whether the treatment groups are statistically 'the same'. This type of test can be accomplished in almost any statistical program (e.g., R, SPSS, SAS, jamovi, JASP, or Stata). However, an author of this comment (ARC) has specifically created functions for this purpose in the [TOSTER](https://aaroncaldwell.us/TOSTERpkg) R package and jamovi module.
+
+@vigex state in the article that a difference of 12 units on the WOMAC scale between GLU and CON was considered the SWE and so we can set the equivalence bounds to this value.[^6] Some researchers may use some type of SWE/MCID to set the equivalence, but, as we mentioned above, even these empirically derived equivalence bounds are subject to sampling error. There are many subjective and objective methods of setting an equivalence bound [@lakens2018], and researchers should be careful in describing why and how they set their equivalence bounds.
+
+[^6]: The choice of the equivalence bound is arbitrary and may vary depending on the purpose of the study.
+
+The results presented by @vigex are clear, and show an estimated treatment effect of 18.8 points 95% C.I.[5.0, 32.6], p = 0.008. From these we can see that that the NHST interpretation, at an alpha level of 0.05, would reject the null hypothesis of zero effect. However, we can also perform an equivalence test, using TOST, with the equivalence bounds set at 12 units. Such an analysis would yield a p-value of approximately 0.83. Therefore, we would reject the null hypothesis of no effect, but retain the null of non-equivalence. Essentially, we could conclude there is an effect and the magnitude is non-negligible. From a clinical perspective these statistics would indicate that the use of GLU over CON would likely lead to *worse* outcomes for osteoarthritis patients. Details on how to perform this analysis can be found in the [appendix](#app1).
+
+# Conclusions
+
+We are sad to see yet another example of scientists making claims about statistics beyond their expertise [@sainani2020]. The unfortunate reality is that authoritative papers such as the Editorial [-@elkins2022] can do real damage to the field of physiotherapy. First, the incorrect information provided in the Editorial [-@elkins2022] will undoubtedly mislead physiotherapy researchers towards worse statistical practices by providing misinformed beliefs about NHST and continuing the trend of believing an MCID/SWE is an immutable threshold. We fear that the mindless implementation of another threshold, much like the perfunctory use of the 0.05 significance threshold [@hopewell2009], will fail to improve the quality of research and only create a new form of publication bias. Similar frameworks, such as MBI [@lohse2020systematic], did not improve statistical practice among sport scientists, and when broadly implemented can cause more harm than good (e.g., adopting a new threshold of 0.2 standard deviations as SWE/MCID). Second, editors stating their preferred statistical methods implicitly coerces authors submitting to those journals into performing and reporting statistical analyses they do not find useful. Misguided commentaries from editorial boards are nothing new within academic publishing [@mayo2021]. We would caution all non-statisticians to avoid making such sweeping statements about proper statistical practice without the involvement of a variety of statisticians. Even statisticians have diverse viewpoints on how statistics should be applied to the analysis of data (e.g., Frequentist versus Bayesian schools of thought), and editorial commentaries should not be the place for picking philosophical sides. Instead, editorial commentaries should be focused on improving the reporting of statistics within their journals to ensure whatever analytical approach is used is appropriately reported for public consumption.[^7]
+
+[^7]: The publication of didactic papers on statistical practices authored by individuals with formal statistics education, such as the "Statistics Notes" series that the British Medical Journal published 1994-2017, are an invaluable resource, but should not be considered editorial position statements.
+
+\newpage
+
+# Additional Information
+
+## Acknowledgements
+
+We would like to thank Nisha Charkoudian for her critical comments on a early draft of this manuscript. We would also like to thank Andrew Vigotsky for catching a small error in our equations in the first preprint version.
+
+## Funding information
+
+No funding was provided for this work.
+
+## Data and Supplementary Material Accessibility
+
+There is no data associated with this work.
+
+\newpage
+
+# Appendix 1: Vignette Analysis with TOSTER {#app1}
+
+We can use the `tsum_TOST` function within the TOSTER R package to perform the required statistical tests. We should note that both authors would prefer to use an ANCOVA to analyze results from a pre-post study.
+
+```{r, echo=TRUE}
+library(TOSTER)
+test1 = tsum_TOST(
+  m1 = 55.8, m2 = 37, # Means
+  sd1 = 53.8, sd2 = 30.7, # SD
+  n1 = 78,  n2 = 78, # Sample Sizes
+  hypothesis = "EQU", low_eqbound = -12, high_eqbound = 12)
+test1$decision$ttest
+test1$decision$TOST
+test1$decision$combined
+```
+
+\newpage
+
+We can also provide a plot of the estimates with multiple confidence intervals.
+
+```{r fig.cap = "A visualization of the cumulative distribution function with 4 levels of confidence being displayed for the standardized mean difference (top panel) and the mean difference (bottom panel)",fig.width=6, fig.height=5, echo=TRUE}
+plot(test1)
+```
+
+The interpretation provided above takes a Neyman-Pearson perspective. Both the NHST and TOST tests have an alpha-level of 0.05 and one reached significance will the other did not. Therefore, an author using this approach would have to conclude that one null hypothesis is rejected regarding GLU while other other null hypothesis is rejected.
+
+However, those who wish to use an estimation approach may have a different interpretation. Under the approach outlined by @rafi2020, we could instead look at the data and see how "compatible" the data is with each competing hypothesis (i.e., NHST versus TOST). From this perspective, the interpretation is much more fluid, and one could conclude that the data is more incompatible with "no effect" than "equivalence" (p-values of 0.008 and 0.83, respectively).
+
+Both perspectives are valid and it is up to researchers to decide how they plan to tests or estimate their effects. Again, it our belief that researchers, not editorial boards, are usually the better judges of what statistical framework is best for their research questions. However, researchers should be consistent with whatever language/framework (e.g., estimation or NHST) within each study/manuscript.
+
+\newpage
+
+# References
