@@ -61,7 +61,7 @@ opts_chunk$set(echo=FALSE,
 
 # Introduction
 
-Recently, @1 (hereafter referred to as "the Editorial") published an editorial on behalf of the International Society of Physiotherapy Journal Editors (ISPJE), recommending that researchers stop using null hypothesis significance tests and adopt "estimation methods". Further, the editorial warns that this is not merely an idea to consider, but a coming policy of journals: "the [ISPJE] will be expecting manuscripts to use estimation methods ***instead*** of null hypothesis statistical tests" (emphasis added). However, the Editorial is deeply flawed in its statistical reasoning. If the proposed policies were adopted, they could damage the statistical literacy and scientific integrity of the field.
+Recently, Elkins et al [-@1] (hereafter referred to as "the Editorial") published an editorial on behalf of the International Society of Physiotherapy Journal Editors (ISPJE), recommending that researchers stop using null hypothesis significance tests and adopt "estimation methods". Further, the editorial warns that this is not merely an idea to consider, but a coming policy of journals: "the [ISPJE] will be expecting manuscripts to use estimation methods ***instead*** of null hypothesis statistical tests" (emphasis added). However, the Editorial is deeply flawed in its statistical reasoning. If the proposed policies were adopted, they could damage the statistical literacy and scientific integrity of the field.
 
 I detail each of my critiques below, but in short the Editorial: (1) fails to adequately grapple with the inherent connection between hypothesis testing and estimation as methods of statistical inference, (2) presents several misleading arguments about the flaws of statistical significance tests, and (3) presents an alternative that is, in itself, a form of significance testing---the minimal effects test [@2] (but the alternative does this implicitly and muddles two-sided and one-sided hypothesis testing). Finally, I end with a short list of more urgent problems that the ISPJE could work to address.
 
@@ -73,7 +73,7 @@ The Editorial presents hypothesis testing and estimation as two distinct methodo
 
 ```{r fig1pdf, fig.cap = "Figure 1: 95\\% confidence intervals and corresponding \\emph{p}-values for testing $H_{0}: \\Delta = 0$ (NHST, null hypothesis significance testing) and $H_{0}: \\Delta \\leq 0$ (MET, a one-sided minimal effects test). Open circles indicate mean differences with \\emph{p} < 0.05 for the NHST.", fig.align = "center", out.width = "80%"}
 if(!knitr::is_html_output()){
-  knitr::include_graphics("figs/fig1.pdf")
+  knitr::include_graphics(here::here("lohse_stats","figs", "fig1.pdf"))
 }
 # Include for PDF
 
@@ -83,7 +83,7 @@ if(!knitr::is_html_output()){
 ```{r fig1html, fig.cap = "Figure 1: 95\\% confidence intervals and corresponding \\emph{p}-values for testing $H_{0}: \\Delta = 0$ (NHST, null hypothesis significance testing) and $H_{0}: \\Delta \\leq 0$ (MET, a one-sided minimal effects test). Open circles indicate mean differences with \\emph{p} < 0.05 for the NHST.", out.width = "80%"}
 # Include for html
 if(knitr::is_html_output()){
-  knitr::include_graphics("figs/fig1.jpg")
+  knitr::include_graphics(here::here("lohse_stats","figs","fig1.jpg"))
 }
 ```
 
@@ -120,7 +120,7 @@ Still, the *p*-value does not need to be a measure of evidence for it to be usef
 
 ```{r fig2pdf, fig.cap = "Figure 2: \\emph{P}-values < 0.05 are more likely to occur when the null is false, and critically will only occur 5\\% of the time when the null is true. Plots show simulated experiments ($k$ = 5,000, $\\sigma$ = 1 for all populations) in which the means of two independent groups are compared using a t-test. In Panel A, the null hypothesis is true and the true difference between population means is 0. In Panel B, the null hypothesis is false and the true difference between population means is 0.5. In Panel C, the null-hypothesis is still false, but I have increased the sample size from 40 to 128, yielding 80\\% of \\emph{p}-values < 0.05 (i.e., 80\\% statistical power). Quantiles are color coded with respect to their \\emph{p}-values and effects sizes are given as Cohen’s $d$.", fig.align = "center", out.width = "100%"}
 if(!knitr::is_html_output()){
-  knitr::include_graphics("figs/fig2.pdf")
+  knitr::include_graphics(here::here("lohse_stats","figs","fig2.pdf"))
 }
 # Include for PDF
 
@@ -130,7 +130,7 @@ if(!knitr::is_html_output()){
 ```{r fig2html, fig.cap = "Figure 2: \\emph{P}-values < 0.05 are more likely to occur when the null is false, and critically will only occur 5\\% of the time when the null is true. Plots show simulated experiments ($k$ = 5,000, $\\sigma$ = 1 for all populations) in which the means of two independent groups are compared using a t-test. In Panel A, the null hypothesis is true and the true difference between population means is 0. In Panel B, the null hypothesis is false and the true difference between population means is 0.5. In Panel C, the null-hypothesis is still false, but I have increased the sample size from 40 to 128, yielding 80\\% of \\emph{p}-values < 0.05 (i.e., 80\\% statistical power). Quantiles are color coded with respect to their \\emph{p}-values and effects sizes are given as Cohen’s $d$.", out.width = "100%"}
 # Include for html
 if(knitr::is_html_output()){
-  knitr::include_graphics("figs/fig2.jpg")
+  knitr::include_graphics(here::here("lohse_stats","figs", "fig2.jpg"))
 }
 ```
 
@@ -142,9 +142,9 @@ So, *p*-values are not a measure of evidence, but they are useful tools for help
 
 **4. "In most clinical trials, the null hypothesis must be false."** -- This is arguably true but very misleading. It is true that real treatment effects are unlikely to be precisely 0 (e.g., they might be +0.001), but it raises the question: Do we really care if the true effect is 0 or 0.001? And will we ever have the statistical precision to discern that difference? All measurement has some error, so I would argue that many effects are functionally 0 even if the (unknowable) true value is not actually zero. But, in a strict mathematical sense I will concede the Editorial is correct, if we accept a hyper-precise definition, the null-hypothesis of $H_{0}: \Delta = 0.\overline{00}$ will usually be false. However, if we accept that definition, then all point-estimates are false and no value will ever be precisely the minimum clinically important difference either, which is the Editorial’s proposed point-estimate in their alternative.
 
-In response [@17] to an independent critique by @18, this hyper-precise definition does seem to be the argument that the editorial is making.[^4] They claim, "The assertion that the null hypothesis is false in most clinical trials does not require empirical evidence, because it is self-evidently true" and "The null hypothesis may often be approximately true, but it is rarely if ever exactly true". The Editorial seems to miss the point that the null is a useful model: testing against 0 is still useful for things that are approximately 0. As an analogy, I have successfully found my way many places using maps, but none of those maps was a photo-realistic version of reality.
+In response [-@17] to an independent critique by @18, this hyper-precise definition does seem to be the argument that the editorial is making.[^4] They claim, "The assertion that the null hypothesis is false in most clinical trials does not require empirical evidence, because it is self-evidently true" and "The null hypothesis may often be approximately true, but it is rarely if ever exactly true". The Editorial seems to miss the point that the null is a useful model: testing against 0 is still useful for things that are approximately 0. As an analogy, I have successfully found my way many places using maps, but none of those maps was a photo-realistic version of reality.
 
-[^4]: I was very excited to see the @18 commentary and others [@19], and even more excited to see we all largely agree. Interestingly, however, I only became aware of these commentaries after writing my own because I did not see the editorial until it was re-published in Physical Therapy [@1] in June, 2022, whereas my more astute colleagues responded to the original publication in the Journal of Physiotherapy [@20], in January 2022. The editorial has been re-published in four different journals to date. While I can appreciate trying to spread one’s message, this creates confusion.
+[^4]: I was very excited to see the @18 commentary and others [@19], and even more excited to see we all largely agree. Interestingly, however, I only became aware of these commentaries after writing my own because I did not see the editorial until it was re-published in Physical Therapy [-@1] in June, 2022, whereas my more astute colleagues responded to the original publication in the Journal of Physiotherapy [@20], in January 2022. The editorial has been re-published in four different journals to date. While I can appreciate trying to spread one’s message, this creates confusion.
 
 Scientists are often working on the frontiers of human knowledge; this is costly work where we need to explore a lot of different ideas and many them do not pan out. That is, many tested "effects" are functionally zero [@14]. So, simply because a point estimate of precisely 0 is unlikely to be true does not mean that it is unhelpful to ask. It should be a very low bar to show that your clinical treatment has a non-zero effect! Further, the Editorial is specifically critiquing this "nil" hypothesis (i.e., $H_{0} = 0$), when we could hypothesize any value, or avoid the point-null entirely with a one-sided test (i.e., $H_{0} \leq 0$) [@2;@5]. So, if assuming $H_{0} = 0$ is not desirable, we can set that null value to be anything we want (i.e., $H_{0}: \Delta \leq 0.4$ m/s for improvement in gait speed, $H_{0}: \Delta \leq 30$% change on a pain scale, or $H_{0}: \Delta \leq 1$ in the hypothetical example in Figure 1).
 
