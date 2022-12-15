@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+<meta http-equiv="Content-Type" ontent="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,400i,900,900i" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+
+<style>
+
+  .flat-table {
+    display: block;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 115%;
+    overflow: auto;
+    width: auto;
+  }
+  thead {
+    background-color: rgba(207, 250, 209, 0.75);
+    color: black;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  tbody {
+    background-color: rgba(238, 238, 238, 0.75);
+    color: black;
+    padding: 20px 30px;
+  }
+
+body {
+    background-color:#fff;
+    font-family: "Lato", sans-serif;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 75%;
+    margin: auto;
+}
+
+sub,sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline
+}
+
+sub{
+bottom: -0.25em
+}
+
+sup{
+top: -0.5em
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    max-width: 90%;
+}
+
+h1 { 
+    display: block;
+    font-size: 180%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 { 
+    display: block;
+    font-size: 130%;
+    color: #000; 
+    margin-top: 1em;
+    padding-top: 20px;
+    margin-bottom: 0.40em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    color: #818181;
+    font-size: 110%;
+    margin: 0 0 0 0;
+    font-style: italic;
+}
+
+hr {
+    border: 0;
+    width: 80%;
+    color: #818181;
+    background-color: #818181;
+    height: 1px;
+}
+
+p.caption { 
+    text-align: center;
+    display: block;
+    font-size: 85%;
+}
+
+p.media { 
+    text-align: center;
+    display: block;
+}
+
+.abstract {
+    background-color: #f2f2f2;
+    border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 0px;
+    border-right: 1px solid #818181;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+-->
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+    height: 100%;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+  }
+  .sidenav a {float: left;}
+  .main {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+    border-right: none;
+  }
+}
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+</style>
+
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#abstract">Abstract</a>
+  <a href="#introduction">Introduction</a>
+  <a href="#methods">Methods</a>
+  <a href="#results">Results</a>
+  <a href="#discussion">Discussion</a>
+  <a href="#additional-information">Additional Information</a>
+  <a href="#references">References</a>
+</div>
+
+<div class="main">
+
+
+<div class="fluid-row" id="header">
+
+
+
+
+<h1 class="title">No estimation without inference: A response to the
+International Society of Physiotherapy Journal Editors</h1>
+<br>
+Keith Lohse<sup>1</sup>, 
+
+      
+
+<p class="date"><span class="glyphicon glyphicon-calendar"></span>Last Updated: 2022-11-09</p>
+
+</div>
+
+
+<!-- <p style="text-align:center;"><i>Commmunications in Kinesiology</i></p> -->
+<p><em>Affiliations</em>
+<br> 
+1 - Physical Therapy and Neurology, Washington University School of
+Medicine, Saint Louis, MO <br>
+</p>
+<p>
+  <strong>Corresponding Author:</strong> 
+  <br> 
+  K. Lohse 
+  <br>
+  <a href="mailto:lohse@wustl.edu" class="email">lohse@wustl.edu</a>
+</p>
+  <strong>Editor:</strong> 
+  <br> 
+  Matthieu Boisgontier 
+
+
+<div id="abstract" class="section level2">
+<h2>Abstract</h2>
+<!-- background-color: #f2f2f2;
+    border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;-->
+<!-- border:2px; border-style:solid; border-color:#BEE59E; padding: 1em; background-color:gray-->
+<!-- border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;-->
+<p style="
+    background-color:rgba(207, 250, 209, 0.75);
+    border-left: 5px solid #818181;
+    padding: 5px 20px 5px 20px;
+    ">
+The International Society of Physiotherapy Journal Editors (ISPJE)
+recently published an editorial warning that many of their journals
+would soon prohibit the use of null hypothesis tests and instead require
+authors to interpret 95% confidence intervals relative to clinically
+important values. Although I encourage the reporting of confidence
+intervals and the discussing of uncertainty in the context of a research
+question, the ISPJE’s proposed ban is illogical and there are several
+instances of flawed statistical reasoning in the editorial. In brief,
+the editorial: (1) fails to adequately grapple with the inherent
+connection between hypothesis testing and estimation, (2) presents
+several misleading arguments about the perceived flaws of hypothesis
+tests, and (3) presents an alternative to hypothesis testing that is, in
+itself, a form of hypothesis test—the minimal effects test—albeit done
+informally. If the editorials’ arguments are taken at face value, then
+that will lower the statistical literacy in our field and readers will
+have a flawed understanding of p-values. Further, if the editorials’
+proposed ban is put into practice, I fear that could decrease the
+scientific integrity of our research as it removes quantitative
+benchmarks in favor of a more subjective interpretation of confidence
+intervals. Ultimately, I think that many of the ISPJE’s concerns that
+led to the editorial are valid, but I think those problems are the
+result of questionable research practices stemming from poor
+methodological training for authors, reviewers, and editors. These
+problems will only be fixed through better and continuing education, not
+the banning of statistically valid methods.
+</p>
+</div>
+  
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Recently, Elkins et al <span class="citation">(<a href="#ref-1"
+role="doc-biblioref">2022</a>)</span> (hereafter referred to as “the
+Editorial”) published an editorial on behalf of the International
+Society of Physiotherapy Journal Editors (ISPJE), recommending that
+researchers stop using null hypothesis significance tests and adopt
+“estimation methods”. Further, the editorial warns that this is not
+merely an idea to consider, but a coming policy of journals: “the
+[ISPJE] will be expecting manuscripts to use estimation methods
+<strong><em>instead</em></strong> of null hypothesis statistical tests”
+(emphasis added). However, the Editorial is deeply flawed in its
+statistical reasoning. If the proposed policies were adopted, they could
+damage the statistical literacy and scientific integrity of the
+field.</p>
+<p>I detail each of my critiques below, but in short the Editorial: (1)
+fails to adequately grapple with the inherent connection between
+hypothesis testing and estimation as methods of statistical inference,
+(2) presents several misleading arguments about the flaws of statistical
+significance tests, and (3) presents an alternative that is, in itself,
+a form of significance testing—the minimal effects test <span
+class="citation">(<a href="#ref-2" role="doc-biblioref">Murphy &amp;
+Myors, 1999</a>)</span> (but the alternative does this implicitly and
+muddles two-sided and one-sided hypothesis testing). Finally, I end with
+a short list of more urgent problems that the ISPJE could work to
+address.</p>
+<p>I commend the Editorial for encouraging researchers to think deeply
+about the statistical tools available to them, to consider “practical
+significance” as well as “statistical significance”, and for bringing
+important methodological discussions to the forefront of physical
+therapy research. However, the central argument of the Editorial is
+illogical and I worry what coming policy changes might mean for how
+authors interpret their data. I think the antidote to researchers making
+faulty decisions is not to ban <em>p</em>-values, but to improve
+education. A rising tide lifts all boats, and if the baseline
+statistical literacy in our field were higher, authors would make fewer
+mistakes, reviewers would be more apt to catch remaining mistakes, and
+readers would be better equipped to make their own conclusions given the
+available data. Editors then need to hold the line and ensure rigorous
+review, not ban valid statistical tools.</p>
+</div>
+<div id="hypothesis-testing-and-estimation-are-inescapably-intertwined"
+class="section level1">
+<h1>Hypothesis testing and estimation are inescapably intertwined</h1>
+<p>The Editorial presents hypothesis testing and estimation as two
+distinct methodological approaches. However, these approaches are two
+sides of the same coin, as illustrated by a simple example in Figure 1.
+When a 95% confidence interval excludes the null value, then one can
+reject the null hypothesis at <em>p</em> &lt; .05. This is because
+hypothesis tests and confidence intervals are based on the same
+underlying mathematics: e.g., how big is the observed effect relative to
+the variability we would expect due to sampling? Although typically we
+think of the null-hypothesis as an assumption of “no effect”, the null
+hypothesis can assume zero or non-zero effects. So, as shown in Figure
+1, we can ascertain the probability of observing the data we did,
+assuming a null value of 0 or a null value of 1.</p>
+<div class="figure">
+<img src="figs/fig1.jpg" alt="Figure 1: 95\% confidence intervals and corresponding \emph{p}-values for testing $H_{0}: \Delta = 0$ (NHST, null hypothesis significance testing) and $H_{0}: \Delta \leq 0$ (MET, a one-sided minimal effects test). Open circles indicate mean differences with \emph{p} &lt; 0.05 for the NHST." width="80%" />
+<p class="caption">
+Figure 1: 95% confidence intervals and corresponding -values for testing
+<span class="math inline">\(H_{0}: \Delta = 0\)</span> (NHST, null
+hypothesis significance testing) and <span class="math inline">\(H_{0}:
+\Delta \leq 0\)</span> (MET, a one-sided minimal effects test). Open
+circles indicate mean differences with &lt; 0.05 for the NHST.
+</p>
+</div>
+<p>Hypothesis testing and estimation cannot be fully disentangled:
+estimation (frequentist or Bayesian) asks about <em>plausible
+values</em> of the parameter in the population, hypothesis testing asks
+about the <em>plausibility of a specific parameter value</em>. These are
+both inferences, because we are inferring something about the population
+based on the data in our sample. In the frequentist paradigm,
+uncertainty in the inference is accounted for with long-run error
+control; e.g., setting the Type 1 Error rate, <span
+class="math inline">\(\alpha\)</span> = 0.05. We can see this when
+running simulations as shown in Figure 1A-E: any confidence interval
+that does not contain zero also has <em>p</em> &lt; 0.05 for the null
+hypothesis significance test (NHST).</p>
+<p>The 95% confidence interval shows values in the population that are
+<em>compatible</em> with what we observed in the sample <span
+class="citation">(<a href="#ref-3" role="doc-biblioref">Rafi &amp;
+Greenland, 2020</a>)</span>. That is, if you move outside of the
+confidence interval, any of those parameter values (the “true” mean
+differences; <span class="math inline">\(\Delta\)</span>’s) would be
+statistically different from the mean difference observed in the sample
+<span class="math inline">\((\bar{X}_{d})\)</span> at the <em>p</em>
+&lt; 0.05 level. Inside of the confidence interval, none of those
+parameter values would be statistically different (p &gt; 0.05) from the
+observed mean difference. Recall that the <em>p</em>-value is the
+probability of observing data as extreme or more extreme, assuming that
+the null hypothesis is true, formally written as <span
+class="math inline">\(p(\geq\bar{X}_d|H_{0})\)</span>.</p>
+<p>Typically, the null hypothesis significance test (NHST) assumes that
+the true value in the population is 0 (i.e., <span
+class="math inline">\(H_{0}:\Delta = 0\)</span>). The further the sample
+mean difference is away from 0, the lower the probability of observing
+that sample mean, if the null hypothesis were true. Importantly, the
+Editorial does not address the fact that we can set <span
+class="math inline">\(H_{0}\)</span> to be any value. For instance,
+rather than setting <span class="math inline">\(H_{0}:\Delta =
+0\)</span> (sometimes referred to as the “nil-hypothesis”) <span
+class="citation">(<a href="#ref-4" role="doc-biblioref">Cohen,
+1994</a>)</span>, we can set <span class="math inline">\(H_{0}\)</span>
+equal to any clinically meaningful value of interest. This is referred
+to as a minimal effects test (or minimum effect test, MET) <span
+class="citation">(<a href="#ref-5" role="doc-biblioref">Lakens,
+2021</a>; <a href="#ref-2" role="doc-biblioref">Murphy &amp; Myors,
+1999</a>)</span>. For the sake of argument, let’s say this value is 1 in
+Figure 1. Comparing the confidence intervals to the new null value, you
+can see that any confidence intervals that only contain values larger
+than 1 also have a <em>p</em> &lt; 0.05 for the minimal effects test
+(i.e., Figure 1E).<a href="#fn1" class="footnote-ref"
+id="fnref1"><sup>1</sup></a> Thus, we have both an inference about a
+specific hypothesis and an estimate in both the NHST and the MET<a
+href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, but the
+hypothesis test and the estimate are complementary and connected.</p>
+</div>
+<div id="misleading-arguments-about-flaws-with-significance-tests"
+class="section level1">
+<h1>Misleading arguments about flaws with significance tests</h1>
+<p>The Editorial bases many arguments on a previous list of perceived
+problems from <span class="citation">Herbert (<a href="#ref-6"
+role="doc-biblioref">2019</a>)</span>. The <span
+class="citation">Herbert (<a href="#ref-6"
+role="doc-biblioref">2019</a>)</span> paper is in itself an editorial
+that presents informed arguments, but is not an objective demonstration
+of any mathematical facts. So, reinforcing the Editorial’s list through
+a citation to <span class="citation">Herbert (<a href="#ref-6"
+role="doc-biblioref">2019</a>)</span> does not provide an evidentiary
+foundation: it is layering opinion on top of opinion. Second, each of
+the five “problems” outlined by the Editorial is either not really a
+problem inherent to <em>p</em>-values or the problem is a true but
+misleading statement. I address each problem from the Editorial (in
+quotes) below:</p>
+<p><strong>1. “A <em>p</em>-value is not the probability that a
+hypothesis is (or is not) true.”</strong> – This is correct, but it does
+not follow that this makes <em>p</em>-values, or even statistical
+significance tests, unhelpful or uninformative. Knowing that the
+observed data are incompatible with some null value is a crucial step
+for many research questions. For instance, hypothesis testing in early
+phase research can help us make decisions about where to direct our
+resources, starting us down the road of replication and ultimately
+determining the efficacy and effectiveness of an intervention.</p>
+<p><strong>2. A <em>p</em>-value does not constitute evidence</strong> –
+This is an oversimplification and misleading. The Editorial is correct
+that a single <em>p</em>-value is not strictly speaking “evidence” and
+cannot tell us about the probability of the null hypothesis being true.
+However, <em>p</em>-values are still useful tools for making
+decisions.</p>
+<p>Technical definitions of evidence can get a bit complicated and are
+debated <span class="citation">(<a href="#ref-9"
+role="doc-biblioref">Goodman &amp; Royall, 1988</a>; <a href="#ref-7"
+role="doc-biblioref">Lakens, 2022b</a>; <a href="#ref-8"
+role="doc-biblioref">Muff et al., 2022</a>)</span>. However, I would
+invite readers to consider a simple example of absolute probability
+versus relative probability. If I find that eating green jelly beans
+reduces post-surgical recovery time for the ACL by 10% relative to
+controls with <em>p</em> &lt; 0.05, then the most likely explanation is
+still that jelly beans have no effect on recovery and what I observed
+was chance fluctuation. That is, the null hypothesis is still the most
+likely explanation even though p was &lt; 0.05, because the baseline
+probability of “jelly bean efficacy” is very low and false positives
+occur 5% of the time when <span class="math inline">\(\alpha\)</span> =
+0.05 . Thus, the <em>p</em>-value is not in itself a measure of
+evidence, because I would need additional <em>outside information</em>
+in order to change (or not change) my beliefs. As <span
+class="citation">Goodman &amp; Royall (<a href="#ref-9"
+role="doc-biblioref">1988</a>)</span> write “The <em>p</em>-value is not
+adequate for inference because <strong><em>the measurement of
+evidence</em></strong> requires are least three components: the
+observations, and two competing explanations for how they were produced”
+(p. 1569; emphasis added).</p>
+<p>Some researchers might think of the <em>p</em>-value as evidence
+against the null specifically, without the need for comparison to a
+given alternative. But the <em>p</em>-value is calculated assuming that
+the null is true, so again the Editorial is correct that we cannot
+simply flip the question around, assume the data, and get the likelihood
+of the null being true, i.e., <span
+class="math inline">\(p(\bar{x}_{d}|H_{0}) \neq
+p(H_{0}|\bar{x}_{d})\)</span>. To estimate the likelihood of the null
+hypothesis being true, we would need Bayesian statistics in which we
+formalize some prior probability about the null hypothesis <span
+class="citation">(<a href="#ref-9" role="doc-biblioref">Goodman &amp;
+Royall, 1988</a>)</span>. If we have a strong enough prior probability
+that the null is true, then the current data in the sample may not lead
+us to change our beliefs based on the posterior distribution, no matter
+how small the <em>p</em>-value. This was the case in my jelly bean
+example, where <em>p</em> &lt; 0.05 still did not shake my belief in the
+null hypothesis. For any given prior distribution, however, there is a
+smaller likelihood of observing highly discrepant effects (e.g., <span
+class="math inline">\(|\bar{x}_{d}| &gt;&gt; 0\)</span>), leading to a
+smaller relative probability of 0 in the posterior distribution compared
+to the prior distribution.<a href="#fn3" class="footnote-ref"
+id="fnref3"><sup>3</sup></a> Updating the probability of 0 in the
+posterior distribution reflects rational decision making in daily life.
+For instance, the first time I find jelly beans reduce recovery time
+with <em>p</em> &lt; 0.05, I might rightly ignore that as a false
+positive. The fifth time I find jelly beans reduce recovery time with
+<em>p</em> &lt; 0.05, I should take a long hard look at the ingredients
+and maybe my study procedures; as <em>p</em> &lt; 0.05 is not always a
+sign that the null is wrong, but that some other assumption has been
+violated.</p>
+<p>Still, the <em>p</em>-value does not need to be a measure of evidence
+for it to be useful. Critically, small <em>p</em>-values are relatively
+less likely to be observed when the null hypothesis is true compared to
+when an alternative hypothesis is true. Thus, in a practical sense, a
+<em>p</em>-values can help us make decisions about what effects to
+study, assuming that we are testing at least some real effects. As shown
+in Figure 2A, <em>p</em>-values have a uniform distribution under the
+null hypothesis, with 5% of <em>p</em>-values necessarily below 0.05.
+However, if the null is not true, then we will see a shift in the
+distribution of <em>p</em>-values, with small <em>p</em>-values becoming
+more common. An example of this is shown in Figure 2B, where the null is
+false and 34% of <em>p</em>-values are below 0.05. However, correctly
+rejecting the null hypothesis only 34% of the time is not ideal, so
+consider Figure 2C, where I have now tripled the sample size and 80% of
+<em>p</em>-values are below 0.05. That is, with 64 people per group, we
+now have 80% statistical power to detect a <span
+class="math inline">\(\Delta = 0.5\)</span>.</p>
+<div class="figure">
+<img src="figs/fig2.jpg" alt="Figure 2: \emph{P}-values &lt; 0.05 are more likely to occur when the null is false, and critically will only occur 5\% of the time when the null is true. Plots show simulated experiments ($k$ = 5,000, $\sigma$ = 1 for all populations) in which the means of two independent groups are compared using a t-test. In Panel A, the null hypothesis is true and the true difference between population means is 0. In Panel B, the null hypothesis is false and the true difference between population means is 0.5. In Panel C, the null-hypothesis is still false, but I have increased the sample size from 40 to 128, yielding 80\% of \emph{p}-values &lt; 0.05 (i.e., 80\% statistical power). Quantiles are color coded with respect to their \emph{p}-values and effects sizes are given as Cohen’s $d$." width="100%" />
+<p class="caption">
+Figure 2: -values &lt; 0.05 are more likely to occur when the null is
+false, and critically will only occur 5% of the time when the null is
+true. Plots show simulated experiments (<span
+class="math inline">\(k\)</span> = 5,000, <span
+class="math inline">\(\sigma\)</span> = 1 for all populations) in which
+the means of two independent groups are compared using a t-test. In
+Panel A, the null hypothesis is true and the true difference between
+population means is 0. In Panel B, the null hypothesis is false and the
+true difference between population means is 0.5. In Panel C, the
+null-hypothesis is still false, but I have increased the sample size
+from 40 to 128, yielding 80% of -values &lt; 0.05 (i.e., 80% statistical
+power). Quantiles are color coded with respect to their -values and
+effects sizes are given as Cohen’s <span
+class="math inline">\(d\)</span>.
+</p>
+</div>
+<p>This is where the concept of a decision is important to distinguish
+from the term “evidence” <span class="citation">(<a href="#ref-9"
+role="doc-biblioref">Goodman &amp; Royall, 1988</a>)</span>. Without
+knowing the actual evidence against the null-hypothesis, if I decide to
+reject the null when <em>p</em> &lt; 0.05, then I will only be wrong 5%
+of the time (i.e., the Type 1 error rate). Similarly, if I have 80%
+statistical power and a reasonable estimate for the smallest effect size
+of interest, then I only have a 20% chance of missing an effect of that
+size (i.e., the Type 2 error rate). Mathematically, these probabilities
+are robust if we accept the null-hypothesis as true and make minimal
+other assumptions, which is very helpful when limited outside
+information is available. See Goodman quoting Neyman and Pearson about
+hypothesis testing, “Without hoping to know whether each separate
+hypothesis is true or false, we may search for rules to govern our
+behaviour with regard to them, in following which we insure that, in the
+long run of experience, we shall not often be wrong” <span
+class="citation">(<a href="#ref-10" role="doc-biblioref">Goodman,
+1999</a>)</span>.</p>
+<p>So, <em>p</em>-values are not a measure of evidence, but they are
+useful tools for helping us make the correct decision. If we want a
+proper measure of evidence for one hypothesis versus another, then we
+can do more work, but we also need to make more assumptions and/or bring
+in outside information. This can be both a feature and bug of
+<em>using</em> hypothesis tests. We can control long run error rates
+with minimal information, but if we do that so habitually that we forget
+other information is available, then that is on us not the
+<em>p</em>-value.</p>
+<p><strong>3. “Statistically significant findings are not very
+replicable.”</strong> – This is misleading. First, it is difficult to
+precisely define replication <span class="citation">(<a href="#ref-11"
+role="doc-biblioref">Open Science Collaboration, 2015</a>; <a
+href="#ref-12" role="doc-biblioref">Patil et al., 2016</a>)</span>, but
+if we think about “being replicable” as the probability that a
+statistically significant result represents a real, non-zero effect then
+we would expect more statistically significant findings to “replicate”
+provided that hypothesis tests have adequate statistical power,
+researchers have not engaged in <em>p</em>-hacking, there is not
+selective reporting of results, etc. Thus, not all statistically
+significant findings will replicate <span class="citation">(<a
+href="#ref-13" role="doc-biblioref">Scheel et al., 2021</a>)</span>, but
+statistically significant findings in well-designed studies are more
+likely to replicate <span class="citation">(<a href="#ref-15"
+role="doc-biblioref">Anderson &amp; Maxwell, 2017</a>; <a href="#ref-14"
+role="doc-biblioref">Ioannidis, 2005</a>; <a href="#ref-16"
+role="doc-biblioref">Nosek et al., 2022</a>)</span>. Second and by any
+definition, threats to replicability are also going to affect confidence
+intervals (the Editorial’s proposed solution) as much as they affect
+<em>p</em>-values, because, again, the <em>p</em>-value is intrinsically
+linked to the confidence interval. Thus, the Editorial is correct in a
+practical sense: many statistically significant findings in the current
+literature do not replicate. However, a lack of replication is the fault
+of poor study design and questionable research practices, not the use of
+hypothesis tests as a method of inference.</p>
+<p><strong>4. “In most clinical trials, the null hypothesis must be
+false.”</strong> – This is arguably true but very misleading. It is true
+that real treatment effects are unlikely to be precisely 0 (e.g., they
+might be +0.001), but it raises the question: Do we really care if the
+true effect is 0 or 0.001? And will we ever have the statistical
+precision to discern that difference? All measurement has some error, so
+I would argue that many effects are functionally 0 even if the
+(unknowable) true value is not actually zero. But, in a strict
+mathematical sense I will concede the Editorial is correct, if we accept
+a hyper-precise definition, the null-hypothesis of <span
+class="math inline">\(H_{0}: \Delta = 0.\overline{00}\)</span> will
+usually be false. However, if we accept that definition, then all
+point-estimates are false and no value will ever be precisely the
+minimum clinically important difference either, which is the Editorial’s
+proposed point-estimate in their alternative.</p>
+<p>In response <span class="citation">(<a href="#ref-17"
+role="doc-biblioref">2022</a>)</span> to an independent critique by
+<span class="citation">Lakens (<a href="#ref-18"
+role="doc-biblioref">2022a</a>)</span>, this hyper-precise definition
+does seem to be the argument that the editorial is making.<a href="#fn4"
+class="footnote-ref" id="fnref4"><sup>4</sup></a> They claim, “The
+assertion that the null hypothesis is false in most clinical trials does
+not require empirical evidence, because it is self-evidently true” and
+“The null hypothesis may often be approximately true, but it is rarely
+if ever exactly true”. The Editorial seems to miss the point that the
+null is a useful model: testing against 0 is still useful for things
+that are approximately 0. As an analogy, I have successfully found my
+way many places using maps, but none of those maps was a photo-realistic
+version of reality.</p>
+<p>Scientists are often working on the frontiers of human knowledge;
+this is costly work where we need to explore a lot of different ideas
+and many them do not pan out. That is, many tested “effects” are
+functionally zero <span class="citation">(<a href="#ref-14"
+role="doc-biblioref">Ioannidis, 2005</a>)</span>. So, simply because a
+point estimate of precisely 0 is unlikely to be true does not mean that
+it is unhelpful to ask. It should be a very low bar to show that your
+clinical treatment has a non-zero effect! Further, the Editorial is
+specifically critiquing this “nil” hypothesis (i.e., <span
+class="math inline">\(H_{0} = 0\)</span>), when we could hypothesize any
+value, or avoid the point-null entirely with a one-sided test (i.e.,
+<span class="math inline">\(H_{0} \leq 0\)</span>) <span
+class="citation">(<a href="#ref-5" role="doc-biblioref">Lakens,
+2021</a>; <a href="#ref-2" role="doc-biblioref">Murphy &amp; Myors,
+1999</a>)</span>. So, if assuming <span class="math inline">\(H_{0} =
+0\)</span> is not desirable, we can set that null value to be anything
+we want (i.e., <span class="math inline">\(H_{0}: \Delta \leq
+0.4\)</span> m/s for improvement in gait speed, <span
+class="math inline">\(H_{0}: \Delta \leq 30\)</span>% change on a pain
+scale, or <span class="math inline">\(H_{0}: \Delta \leq 1\)</span> in
+the hypothetical example in Figure 1).</p>
+<p><strong>5. “Researchers need information about the size of
+effects.”</strong> – This is a true statement, but it is not a problem
+with <em>p</em>-values nor null hypothesis significance tests. To my
+knowledge, no statistician has ever recommended that applied researchers
+ignore measures of effect size (either raw or standardized). Estimates
+of effect size are integral to any results section. I would even take
+this one step further and encourage authors to share their data whenever
+possible <span class="citation">(<a href="#ref-21"
+role="doc-biblioref">Borg, Bon, et al., 2020</a>)</span>, enabling other
+researchers to calculate their own effect sizes as there can be
+limitations with and confusion about standardized effects sizes, and
+there is no one-size-fits-all solution to effect sizes <span
+class="citation">(<a href="#ref-22" role="doc-biblioref">Caldwell &amp;
+Vigotsky, 2020</a>; <a href="#ref-24" role="doc-biblioref">Levine &amp;
+Hullett, 2002</a>; <a href="#ref-23" role="doc-biblioref">McGrath &amp;
+Meyer, 2006</a>)</span>.</p>
+</div>
+<div
+id="the-editorials-alternative-is-a-hypothesis-test-the-minimal-effects-test"
+class="section level1">
+<h1>The Editorial’s “alternative” is a hypothesis test – the Minimal
+Effects Test</h1>
+<p>After detailing the potential problems with the NHST, the Editorial
+proposes an alternative solution in which they encourage authors to
+compare their 95% confidence interval to some minimum clinically
+meaningful value (which I will write as <span
+class="math inline">\(\delta\)</span>).<a href="#fn5"
+class="footnote-ref" id="fnref5"><sup>5</sup></a> Estimation is a good
+practice and I would encourage researchers to report 95% confidence
+intervals and interpret their upper and lower limits in context, when
+appropriate. However, what the Editorial is suggesting is effectively an
+MET where <span class="math inline">\(H_{0}: \Delta \leq
+\delta\)</span>. That is, if the test is to see if the 95% confidence
+interval does not contain <span class="math inline">\(\delta\)</span>,
+then that is mathematically equivalent to an MET assuming <span
+class="math inline">\(H_{0}: \Delta \leq \delta\)</span> and finding
+<em>p</em> &lt; 0.025. Note <em>p</em> &lt; 0.025, not <em>p</em> &lt;
+0.05, because most METs are one-sided hypothesis tests whereas
+confidence intervals are two sided (see Figure 1 and Footnote 1). After
+heavily critiquing hypothesis testing as a method of inference, the
+Editorial ends up effectively proposing a hypothesis test. This is
+clearly an illogical proposition.</p>
+<p>I want to emphasize that it is valid for the Editorial to recommend
+that authors consider their 95% confidence interval relative to some
+clinically meaningful value. However, this is not an “alternative” to
+conducting a null hypothesis significance test, it is in fact
+mathematically identical to conducting a null hypothesis test with a
+carefully chosen null hypothesis. Both are valid.</p>
+<p>I would add, however, that there are also advantages to explicitly
+framing this as a hypothesis test rather than the informal
+interpretation of a confidence interval. First, it encourages
+researchers to explicitly commit to a specific <span
+class="math inline">\(\delta\)</span> while the study is being designed,
+rather than simply obtaining an estimate of the effect and then
+comparing it to candidate <span class="math inline">\(\delta\)</span>’s
+post hoc. Second, it requires researchers to think carefully about the
+direction of the test and the desired <span
+class="math inline">\(\alpha\)</span>-level, whereas simply invoking a
+95% confidence interval implicitly uses a two-tailed test and <span
+class="math inline">\(\alpha = 0.05\)</span>, which may not be best
+suited to the research question.</p>
+<p>Finally, it is also important to stress that history provides us with
+several examples of how authors will view their data through rose-tinted
+glasses when quantitative statistical safeguards are removed. For
+instance, when <em>Basic and Applied Social Psychology</em> banned
+<em>p</em>-values, authors were found to overstate their conclusions
+well beyond what would have been considered if “statistical
+significance” had been a benchmark <span class="citation">(<a
+href="#ref-26" role="doc-biblioref">Fricker Jr. et al.,
+2019</a>)</span>. In sport and exercise science, “magnitude-based
+inference” was leveraged as a niche method that allowed authors to
+interpret differences as meaningful when they had very little
+statistical support (e.g., <em>p</em>’s &gt; 0.25) <span
+class="citation">(<a href="#ref-29" role="doc-biblioref">Lohse et al.,
+2020</a>; <a href="#ref-27" role="doc-biblioref">Sainani, 2018</a>; <a
+href="#ref-28" role="doc-biblioref">Sainani et al., 2019</a>)</span>.
+Statistical significance in an NHST does not necessarily need to be the
+benchmark nor 0.05 the default value <span class="citation">(<a
+href="#ref-32" role="doc-biblioref">Amrhein &amp; Greenland, 2018</a>;
+<a href="#ref-30" role="doc-biblioref">Benjamin et al., 2018</a>; <a
+href="#ref-31" role="doc-biblioref">Lakens et al., 2018</a>; <a
+href="#ref-33" role="doc-biblioref">McShane et al., 2019</a>)</span>,
+but it is always important to have a statistically sound framework for
+dealing with uncertainty.</p>
+</div>
+<div id="virtues-of-hypothesis-testing" class="section level1">
+<h1>Virtues of hypothesis testing</h1>
+<p>One of the great virtues of null hypothesis significance testing is
+Type I error control while making minimal assumptions about the nature
+of the data or the world at large. If we set <span
+class="math inline">\(\alpha = 0.05\)</span>, then we can be confident
+we will only get data greater than or equal to what we observed 5% of
+the time when the null is true. Importantly, this works for a wide range
+of statistics and types of tests, including <em>F</em>- and <span
+class="math inline">\(\chi^2\)</span>-statistics that have multiple
+degrees of freedom from models asking questions about multiple effects
+simultaneously. For instance, in a randomized controlled trial with
+three arms, I could conduct an omnibus <em>F</em>-test and obtain a
+<em>p</em>-value to see if there is any evidence of a difference between
+groups overall, before conducting additional post-hoc tests to compare
+specific groups. This situation is not covered by the Editorial and the
+Editorial’s confidence interval alternative is not easily applied here,
+although one could plausibly adjust the width of the confidence
+intervals to control for multiple comparisons.</p>
+</div>
+<div id="bigger-threats-to-statistical-integrity"
+class="section level1">
+<h1>Bigger threats to statistical integrity</h1>
+<p>Misinterpretation and misuse of <em>p</em>-values are threats to
+statistical integrity. However, questionable research practices such as
+<em>p</em>-hacking, sub-group analyses, flexible stopping rules,
+selective exclusion of outliers, selective reporting, and hypothesizing
+after results are known (HARKing) are much larger threats <span
+class="citation">(<a href="#ref-37" role="doc-biblioref">Kerr, 1998</a>;
+<a href="#ref-38" role="doc-biblioref">Rosenthal, 1979</a>; <a
+href="#ref-35" role="doc-biblioref">Simmons et al., 2011</a>, <a
+href="#ref-34" role="doc-biblioref">2013</a>; <a href="#ref-36"
+role="doc-biblioref">Sun et al., 2012</a>)</span>. Furthermore, these
+questionable research practices have consistently negative consequences
+regardless of the method of inference. For instance, although the term
+“<em>p</em>-hacking” connotes the NHST, these questionable research
+practices pose an equal threat to confidence intervals because again
+confidence intervals and <em>p</em>-values are based on the same
+underlying mathematics. Similarly, switching to a fully Bayesian method
+of analysis is not an antidote for poor study design, small samples, and
+questionable research practices. As others have argued <span
+class="citation">(<a href="#ref-39" role="doc-biblioref">Borg, Lohse, et
+al., 2020</a>; <a href="#ref-40" role="doc-biblioref">Leek &amp; Peng,
+2015</a>)</span>, <em>p</em>-values get a disproportionate amount of
+attention in popular discussions of research methodology. I encourage
+the ISPJE to instead focus their attention on methods for improving
+data/code sharing, transparency, and replicability through tools like
+preregistration, results-blind review, registered reports, or even “data
+papers” whose primary function is to report a study and archive the
+data, without drawing inferences from limited samples.</p>
+<p>It is entirely valid to say that <em>p</em>-values are often mis-used
+and mis-interpreted, and “statistical significance” may not ultimately
+be the best term for applied researchers to use <span
+class="citation">(<a href="#ref-41" role="doc-biblioref">Wasserstein et
+al., 2019</a>)</span>. However, it is incorrect to present these human
+errors as inherent flaws in hypothesis testing. For instance, if someone
+mis-interprets p &gt; 0.05 as evidence of “no difference”, then I would
+argue the correct action is to teach them about equivalence tests and
+non-inferiority designs, not ban <em>p</em>-values. Similarly, there are
+times when Bayesian inference is what authors are really interested in
+(e.g., what is the probability that the null is true, given the
+evidence?), and in those cases Bayesian inference can and should be
+used. However, Bayesian analysis is not a panacea and needs to be used
+thoughtfully like any statistical tool. So, although a simple heuristic
+of <em>p</em> &lt; 0.05 may well be overused as “the” test in physical
+therapy research, frequentist hypothesis tests are still valid and
+useful tools for physical therapy researchers. Moreover, the scientific
+integrity of the field has much larger concerns, and both
+<em>p</em>-values and confidence intervals will be corrupted by
+<em>p</em>-hacking, under-powered subgroup analyses, surrogate outcomes,
+and other questionable research practices.</p>
+<p>In conclusion, I agree with the Editorial on the importance of
+reporting effect sizes and interpreting them in context. However, the
+Editorial makes numerous statistical <em>faux pas</em> that could harm
+the statistical literacy in our field, if readers take them at face
+value, and harm the scientific integrity of our field, if put into
+editorial practice.</p>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="additional-information" class="section level1">
+<h1>Additional Information</h1>
+<div id="data-accessibility" class="section level2">
+<h2>Data Accessibility</h2>
+<p><code>R</code> code for all analyses and simulations presented in
+this commentary are included as a digital supplement on SportRxiv (<a
+href="https://sportrxiv.org/index.php/server/preprint/view/178/version/211"
+class="uri">https://sportrxiv.org/index.php/server/preprint/view/178/version/211</a>).</p>
+</div>
+<div id="conflict-of-interest" class="section level2">
+<h2>Conflict of Interest</h2>
+<p>Author has no conflicts of interest to declare.</p>
+</div>
+<div id="funding" class="section level2">
+<h2>Funding</h2>
+<p>None.</p>
+</div>
+<div id="acknowledgments" class="section level2">
+<h2>Acknowledgments</h2>
+<p>I would like to thank Dr. Emma Johnson, Dr. Kristin Sainani, and two
+anonymous reviewers for their detailed comments on earlier drafts of
+this commentary.</p>
+</div>
+<div id="preprint" class="section level2">
+<h2>Preprint</h2>
+<p>The pre-publication version of this manuscript can be found on
+SportRxiv (DOI: <a href="https://doi.org/10.51224/SRXIV.178"
+class="uri">https://doi.org/10.51224/SRXIV.178</a>).</p>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<!-- get citations json format using www.anystyle.io -->
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-32" class="csl-entry">
+Amrhein, V., &amp; Greenland, S. (2018). Remove, rather than redefine,
+statistical significance. <em>Nature Human Behavior</em>, <em>2</em>,
+4–4. <a
+href="https://doi.org/10.1038/s41562-017-0224-0">https://doi.org/10.1038/s41562-017-0224-0</a>
+</div>
+<div id="ref-15" class="csl-entry">
+Anderson, S. F., &amp; Maxwell, S. E. (2017). Addressing the
+<span>“replication crisis”</span>: Using original studies to design
+replication studies with appropriate statistical power. <em>Multivariate
+Behavioral Research</em>, <em>52</em>, 305–324. <a
+href="https://doi.org/10.1080/00273171.2017.1289361">https://doi.org/10.1080/00273171.2017.1289361</a>
+</div>
+<div id="ref-30" class="csl-entry">
+Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A.,
+Wagenmakers, E. J., Berk, R., ..., &amp; Johnson, V. E. (2018). Redefine
+statistical significance. <em>Nature Human Behavior</em>, <em>2</em>,
+6–10. <a
+href="https://doi.org/10.1038/s41562-017-0189-z">https://doi.org/10.1038/s41562-017-0189-z</a>
+</div>
+<div id="ref-21" class="csl-entry">
+Borg, D. N., Bon, J., Sainani, K. L., Baguley, B. J., Tierney, N., &amp;
+Drovandi, C. (2020). Sharing data and code: A comment on the call for
+the adoption of more transparent research practices in sport and
+exercise science. <em>SportRxiv</em>. <a
+href="https://doi.org/10.31236/osf.io/ftdgj">https://doi.org/10.31236/osf.io/ftdgj</a>
+</div>
+<div id="ref-39" class="csl-entry">
+Borg, D. N., Lohse, K. R., &amp; Sainani, K. L. (2020). Ten common
+statistical errors from all phases of research, and their fixes.
+<em>PM&amp;R</em>, <em>12</em>, 610–614. <a
+href="https://doi.org/10.1002/pmrj.12395">https://doi.org/10.1002/pmrj.12395</a>
+</div>
+<div id="ref-22" class="csl-entry">
+Caldwell, A., &amp; Vigotsky, A. D. (2020). A case against default
+effect sizes in sport and exercise science. <em>PeerJ</em>, <em>8,
+e10314</em>. <a
+href="https://doi.org/10.7717/peerj.10314">https://doi.org/10.7717/peerj.10314</a>
+</div>
+<div id="ref-4" class="csl-entry">
+Cohen, J. (1994). The earth is round (p &lt; .05). <em>American
+Psychologist</em>, <em>49</em>, 997–1003. <a
+href="https://doi.org/10.1037/0003-066X.49.12.997">https://doi.org/10.1037/0003-066X.49.12.997</a>
+</div>
+<div id="ref-25" class="csl-entry">
+Dabija, D. I., &amp; Jain, N. B. (2019). Minimal clinically important
+difference of shoulder outcome measures and diagnoses: A systematic
+review. <em>American Journal of Physical Medicine &amp;
+Rehabilitation</em>, <em>98</em>, 671–676. <a
+href="https://doi.org/10.1097/phm.0000000000001169">https://doi.org/10.1097/phm.0000000000001169</a>
+</div>
+<div id="ref-1" class="csl-entry">
+Elkins, M. R., Pinto, R. Z., Verhagen, A., Grygorowicz, M., Soderlund,
+A., Guemann, M., Gomez-Conesa, A., Blanton, S., Brismée, J. M., Agarwal,
+S., Jette, A., Karstens, S., Harms, M., Verheyden, G., &amp; Sheikh, U.
+(2022). Statistical inference through estimation: Recommendations from
+the International Society of Physiotherapy Journal Editors. <em>Physical
+Therapy</em>, <em>102</em>, pzac066. <a
+href="https://doi.org/10.1016/j.jphys.2021.12.001">https://doi.org/10.1016/j.jphys.2021.12.001</a>
+</div>
+<div id="ref-17" class="csl-entry">
+Elkins, M. R., Pinto, R. Z., Verhagen, A., Grygorowicz, M., Söderlund,
+A., Guemann, M., Gómez-Conesa, A., Blanton, S., Brismée, J. M., Agarwal,
+S., Jette, A., Harms, M., Verheyden, G., &amp; Sheikh, U. (2022).
+Correspondence: Response to Lakens. <em>Journal of Physiotherapy</em>,
+<em>68</em>, 214. <a
+href="https://doi.org/10.1016/j.jphys.2022.06.003">https://doi.org/10.1016/j.jphys.2022.06.003</a>
+</div>
+<div id="ref-20" class="csl-entry">
+Elkins, M. R., Pinto, R. Z., Verhagen, A., Grygorowicz, M., Söderlund,
+A., Guemann, M., Gómez-Conesa, A., Blanton, S., Brismée, J. M., Ardern,
+C., Agarwal, S., Jette, A., Karstens, S., Harms, M., Verheyden, G.,
+&amp; Sheikh, U. (2022). Statistical inference through estimation:
+Recommendations from the International Society of Physiotherapy Journal
+Editors. <em>Journal of Physiotherapy</em>, <em>68</em>(1), 1–4. <a
+href="https://doi.org/10.1016/j.jphys.2021.12.001">https://doi.org/10.1016/j.jphys.2021.12.001</a>
+</div>
+<div id="ref-26" class="csl-entry">
+Fricker Jr., R. D., Burke, K., Han, X., &amp; Woodall, W. H. (2019).
+Assessing the statistical analyses used in Basic and Applied Social
+Psychology after their p-value ban. <em>The American Statistician</em>,
+<em>73</em>, 374–384. <a
+href="https://doi.org/10.1080/00031305.2018.1537892">https://doi.org/10.1080/00031305.2018.1537892</a>
+</div>
+<div id="ref-10" class="csl-entry">
+Goodman, S. N. (1999). Toward evidence-based medical statistics. 1: The
+P value fallacy. <em>Annals of Internal Medicine,</em> <em>130</em>,
+995–1004. <a
+href="https://doi.org/10.7326/0003-4819-130-12-199906150-00008">https://doi.org/10.7326/0003-4819-130-12-199906150-00008</a>
+</div>
+<div id="ref-9" class="csl-entry">
+Goodman, S. N., &amp; Royall, R. (1988). Evidence and scientific
+research. <em>American Journal of Public Health</em>, <em>78</em>,
+1568–1574. <a
+href="https://doi.org/10.2105/ajph.78.12.1568">https://doi.org/10.2105/ajph.78.12.1568</a>
+</div>
+<div id="ref-6" class="csl-entry">
+Herbert, R. (2019). Research note: Significance testing and hypothesis
+testing: Meaningless, misleading and mostly unnecessary. <em>Journal of
+Physiotherapy</em>, <em>65</em>, 178–181. <a
+href="https://doi.org/10.1016/j.jphys.2019.05.001">https://doi.org/10.1016/j.jphys.2019.05.001</a>
+</div>
+<div id="ref-14" class="csl-entry">
+Ioannidis, J. P. (2005). Why most published research findings are false.
+<em>PLoS Medicine</em>, <em>2, e124</em>. <a
+href="https://doi.org/10.1371/journal.pmed.0020124">https://doi.org/10.1371/journal.pmed.0020124</a>
+</div>
+<div id="ref-37" class="csl-entry">
+Kerr, N. L. (1998). HARKing: Hypothesizing after the results are known.
+<em>Personality and Social Psychology Review</em>, <em>2</em>, 196–217.
+<a
+href="https://doi.org/10.1207/s15327957pspr0203_4">https://doi.org/10.1207/s15327957pspr0203_4</a>
+</div>
+<div id="ref-5" class="csl-entry">
+Lakens, D. (2021). The practical alternative to the p value is the
+correctly used p value. <em>Perspectives on Psychological Science</em>,
+<em>16</em>, 639–648. <a
+href="https://doi.org/10.1177/1745691620958012">https://doi.org/10.1177/1745691620958012</a>
+</div>
+<div id="ref-18" class="csl-entry">
+Lakens, D. (2022a). Correspondence: Reward, but do not yet require,
+interval hypothesis tests. <em>Journal of Physiotherapy</em>,
+<em>68</em>, 213–214. <a
+href="https://doi.org/10.1016/j.jphys.2022.06.004">https://doi.org/10.1016/j.jphys.2022.06.004</a>
+</div>
+<div id="ref-7" class="csl-entry">
+Lakens, D. (2022b). Why P values are not measures of evidence.
+<em>Trends in Ecology &amp; Evolution</em>, <em>37</em>, 289–290. <a
+href="https://doi.org/10.1016/j.tree.2021.12.006">https://doi.org/10.1016/j.tree.2021.12.006</a>
+</div>
+<div id="ref-31" class="csl-entry">
+Lakens, D., Adolfi, F. G., Albers, C. J., Anvari, F., Apps, M. A.,
+Argamon, S. E., ..., &amp; Zwaan, R. A. (2018). Justify your alpha.
+<em>Nature Human Behavior</em>, <em>2</em>, 168–171. <a
+href="https://doi.org/10.1038/s41562-018-0311-x">https://doi.org/10.1038/s41562-018-0311-x</a>
+</div>
+<div id="ref-40" class="csl-entry">
+Leek, J. T., &amp; Peng, R. D. (2015). Statistics: P values are just the
+tip of the iceberg. <em>Nature</em>, <em>520</em>, 612–612. <a
+href="https://doi.org/10.1038/520612a">https://doi.org/10.1038/520612a</a>
+</div>
+<div id="ref-24" class="csl-entry">
+Levine, T. R., &amp; Hullett, C. R. (2002). Eta squared, partial eta
+squared, and misreporting of effect size in communication research.
+<em>Human Communication Research</em>, <em>28</em>, 612–625. <a
+href="https://doi.org/10.1111/j.1468-2958.2002.tb00828.x">https://doi.org/10.1111/j.1468-2958.2002.tb00828.x</a>
+</div>
+<div id="ref-29" class="csl-entry">
+Lohse, K. R., Sainani, K. L., Taylor, A., Butson, M. L., Knight, E. J.,
+&amp; Vickers, A. J. (2020). Systematic review of the use of
+<span>“magnitude-based inference”</span> in sports science and medicine.
+<em>PLoS One</em>, <em>15</em>, 0235318. <a
+href="https://doi.org/10.1371/journal.pone.0235318">https://doi.org/10.1371/journal.pone.0235318</a>
+</div>
+<div id="ref-23" class="csl-entry">
+McGrath, R. E., &amp; Meyer, G. J. (2006). When effect sizes disagree:
+the case of r and d. <em>Psychological Methods</em>, <em>11</em>, 386.
+<a
+href="https://doi.org/10.1037/1082-989x.11.4.386">https://doi.org/10.1037/1082-989x.11.4.386</a>
+</div>
+<div id="ref-33" class="csl-entry">
+McShane, B. B., Gal, D., Gelman, A., Robert, C., &amp; Tackett, J. L.
+(2019). Abandon statistical significance. <em>The American
+Statistician</em>, <em>73</em>, 235–245. <a
+href="https://doi.org/10.1080/00031305.2018.1527253">https://doi.org/10.1080/00031305.2018.1527253</a>
+</div>
+<div id="ref-8" class="csl-entry">
+Muff, S., Nilsen, E. B., O’Hara, R. B., &amp; Nater, C. R. (2022).
+Response to <span>“Why P values are not measures of evidence”</span> by
+D. Lakens. <em>Trends in Ecology &amp; Evolution</em>, <em>37</em>,
+291–292. <a
+href="https://doi.org/10.1016/j.tree.2022.01.001">https://doi.org/10.1016/j.tree.2022.01.001</a>
+</div>
+<div id="ref-2" class="csl-entry">
+Murphy, K. R., &amp; Myors, B. (1999). Testing the hypothesis that
+treatments have negligible effects: Minimum-effect tests in the general
+linear model. <em>Journal of Applied Psychology</em>, <em>84</em>,
+234–248. <a
+href="https://doi.org/10.1037/0021-9010.84.2.234">https://doi.org/10.1037/0021-9010.84.2.234</a>
+</div>
+<div id="ref-16" class="csl-entry">
+Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S.,
+Dreber, A., Fidler, F., Hilgard, J., Struhl, M. K., Nuijten, M. B.,
+Rohrer, J. M., Romero, R., Scheel, A. M., Scherer, L. D., Schönbrodt, B.
+A., Nosek, F. D., &amp; Vazire16, S. (2022). Replicability, robustness,
+and reproducibility in psychological science. <em>Annual Review of
+Psychology</em>, <em>73</em>, 719–748. <a
+href="https://doi.org/10.1146/annurev-psych-020821-114157">https://doi.org/10.1146/annurev-psych-020821-114157</a>
+</div>
+<div id="ref-11" class="csl-entry">
+Open Science Collaboration. (2015). Estimating the reproducibility of
+psychological science. <em>Science</em>, <em>349</em>, 4716. <a
+href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>
+</div>
+<div id="ref-12" class="csl-entry">
+Patil, P., Peng, R. D., &amp; Leek, J. T. (2016). What should
+researchers expect when they replicate studies? A statistical view of
+replicability in psychological science. <em>Perspectives on
+Psychological Science</em>, <em>11</em>, 539–544. <a
+href="https://doi.org/10.1177/1745691616646366">https://doi.org/10.1177/1745691616646366</a>
+</div>
+<div id="ref-3" class="csl-entry">
+Rafi, Z., &amp; Greenland, S. (2020). Semantic and cognitive tools to
+aid statistical science: replace confidence and significance by
+compatibility and surprise. <em>BMC Medical Research Methodology</em>,
+<em>20</em>, 244. <a
+href="https://doi.org/10.1186/s12874-020-01105-9">https://doi.org/10.1186/s12874-020-01105-9</a>
+</div>
+<div id="ref-38" class="csl-entry">
+Rosenthal, R. (1979). The file drawer problem and tolerance for null
+results. <em>Psychological Bulletin</em>, <em>86</em>. <a
+href="https://doi.org/10.1037/0033-2909.86.3.638">https://doi.org/10.1037/0033-2909.86.3.638</a>
+</div>
+<div id="ref-27" class="csl-entry">
+Sainani, K. L. (2018). The Problem with <span>“Magnitude-based
+Inference.”</span> <em>Medicine and Science in Sports and Exercise</em>,
+<em>50</em>, 2166–2176. <a
+href="https://doi.org/10.1249/mss.0000000000001645">https://doi.org/10.1249/mss.0000000000001645</a>
+</div>
+<div id="ref-28" class="csl-entry">
+Sainani, K. L., Lohse, K. R., Jones, P. R., &amp; Vickers, A. (2019).
+Magnitude‐based inference is not Bayesian and is not a valid method of
+inference. <em>Scandinavian Journal of Medicine &amp; Science in
+Sports</em>, <em>29</em>, 1428. <a
+href="https://doi.org/10.1111/sms.13491">https://doi.org/10.1111/sms.13491</a>
+</div>
+<div id="ref-13" class="csl-entry">
+Scheel, A. M., Schijen, M. R. M. J., &amp; Lakens, D. (2021). An excess
+of positive results: Comparing the standard Psychology literature with
+Registered Reports. <em>Advances in Methods and Practices in
+Psychological Science</em>, <em>4</em>, 25152459211007468. <a
+href="https://doi.org/10.1177/25152459211007467">https://doi.org/10.1177/25152459211007467</a>
+</div>
+<div id="ref-35" class="csl-entry">
+Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2011).
+False-positive psychology: Undisclosed flexibility in data collection
+and analysis allows presenting anything as significant.
+<em>Psychological Science</em>, <em>22, 11</em>, 1359–1366. <a
+href="https://doi.org/10.1177/0956797611417632">https://doi.org/10.1177/0956797611417632</a>
+</div>
+<div id="ref-34" class="csl-entry">
+Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2013). Life after
+p-hacking. <em>Meeting of the Society for Personality and Social
+Psychology</em>, 17–19. <a
+href="https://dx.doi.org/10.2139/ssrn.2205186">https://dx.doi.org/10.2139/ssrn.2205186</a>
+</div>
+<div id="ref-36" class="csl-entry">
+Sun, X., Briel, M., Busse, J. W., You, J. J., Akl, E. A., Mejza, F.,
+..., &amp; Guyatt, G. H. (2012). Credibility of claims of subgroup
+effects in randomised controlled trials: Systematic review.
+<em>BMJ</em>, <em>344</em>. <a
+href="https://doi.org/10.1136/bmj.e1553">https://doi.org/10.1136/bmj.e1553</a>
+</div>
+<div id="ref-19" class="csl-entry">
+Tenan, M. S., &amp; Caldwell, A. R. (2022). Confidence intervals and
+smallest worthwhile change are not a panacea: A response to the
+International Society of Physiotherapy Journal Editors.
+<em>Communications in Kinesiology</em>, <em>1, 4</em>, 1–10. <a
+href="https://doi.org/10.51224/cik.2022.45">https://doi.org/10.51224/cik.2022.45</a>
+</div>
+<div id="ref-41" class="csl-entry">
+Wasserstein, R. L., Schirm, A. L., &amp; Lazar, N. A. (2019). Moving to
+a world beyond <span>“p&lt; 0.05.”</span> <em>The American
+Statistician</em>, <em>73</em>, 1–19. <a
+href="https://doi.org/10.1080/00031305.2019.1583913">https://doi.org/10.1080/00031305.2019.1583913</a>
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>METs are typically directional, using one-sided
+hypothesis tests (e.g., <span class="math inline">\(H_{0}: \leq
+1\)</span>) whereas NHSTs are often non- directional, using two-sided
+hypothesis tests (e.g., <span class="math inline">\(H_{0}: \,=
+0\)</span>). Thus, although the confidence interval for Figure 1A does
+not contain the null value of 1, the whole of the confidence interval is
+below 1, thus yielding a non-significant minimal effects test.<a
+href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>For convenience, I am referring to NHST and MET as
+separate tests. However, it is more accurate to think of the MET as a
+type of NHST where you have a one-sided test of a non-zero null value. I
+use the different terms because readers are likely more familiar with
+the term NHST when referring to the specific case of <span
+class="math inline">\(H_{0} = 0\)</span> <span class="citation">(<a
+href="#ref-4" role="doc-biblioref">Cohen, 1994</a>)</span>.<a
+href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>For a humorous demonstration see: <a
+href="https://xkcd.com/1132/" class="uri">https://xkcd.com/1132/</a>;
+for a more quantitative visualization of the relationship between
+priors, <em>p</em>-values, and posteriors see: <a
+href="https://rpsychologist.com/d3/bayes/"
+class="uri">https://rpsychologist.com/d3/bayes/</a>. More technically,
+the posterior (the updated probability density function after we have
+seen the data) is proportional to the prior (our expectation before we
+saw the data) multiplied by the likelihood (which is the probability of
+the current data given the hypothesis): <span
+class="math inline">\(posterior \propto likelihood \times
+prior\)</span>.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>I was very excited to see the <span
+class="citation">Lakens (<a href="#ref-18"
+role="doc-biblioref">2022a</a>)</span> commentary and others <span
+class="citation">(<a href="#ref-19" role="doc-biblioref">Tenan &amp;
+Caldwell, 2022</a>)</span>, and even more excited to see we all largely
+agree. Interestingly, however, I only became aware of these commentaries
+after writing my own because I did not see the editorial until it was
+re-published in Physical Therapy <span class="citation">(<a
+href="#ref-1" role="doc-biblioref">2022</a>)</span> in June, 2022,
+whereas my more astute colleagues responded to the original publication
+in the Journal of Physiotherapy <span class="citation">(<a
+href="#ref-20" role="doc-biblioref">Elkins et al., 2022</a>)</span>, in
+January 2022. The editorial has been re-published in four different
+journals to date. While I can appreciate trying to spread one’s message,
+this creates confusion.<a href="#fnref4"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>I caution that it is difficult to find a single measure
+of <span class="math inline">\(\delta\)</span>; it changes as a function
+of the study population, the study context, and has its own uncertainty
+due to sampling error <span class="citation">(<a href="#ref-25"
+role="doc-biblioref">Dabija &amp; Jain, 2019</a>; <a href="#ref-19"
+role="doc-biblioref">Tenan &amp; Caldwell, 2022</a>)</span>.<a
+href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+
+<br /><br /><br /><br />
+<p class="caption">Communications in Kinesiology</p>
+
+</div>     
+  <script>
+    (function () {
+	var script = document.createElement("script");
+	script.type = "text/javascript";
+	script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+	document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+</body>
+
+
+</html> 
