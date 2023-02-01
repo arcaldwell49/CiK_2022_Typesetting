@@ -1,0 +1,36 @@
+---
+title: "test"
+format: pdf
+keep-tex: true
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+
+```{r fig1}
+#| echo: FALSE
+#| out-width: "100%"
+#| out-extra: 'keepaspectratio=true'
+#| label: fig-1
+#| fig-cap: "Figure 1: (A) A participant properly positioned and secured in the adjustable cradle and engaging the trigger-like mechanism. (B) A close-up image of the trigger mechanism and the vibrotactile stimulator embedded in a neoprene wrist band. (C) A participant completing the ramp-and-hold task with visual feedback provided. (D) Magnified and enhanced image of visual feedback indicating the target 20% MVC level, the prompt to apply force and reach target level ('Ramp Up'), the duration of the force stabilization task, the middle 5 seconds of data used for the RMS error calculation, and the completion of the trial ('End')."
+if(knitr::is_html_output()){
+  knitr::include_graphics("./figures/fig1.png")
+} else {
+  knitr::include_graphics("./figures/fig1.pdf",
+                          dpi = NA)
+}
+```

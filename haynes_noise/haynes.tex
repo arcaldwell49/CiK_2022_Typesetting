@@ -148,7 +148,8 @@
 \hypersetup{
   pdftitle={Investigating Imperceptible Vibrotactile Stimulation during a Force Stability Task},
   pdfauthor={Courtney A. Haynes; Matthew S. Tenan; Antony D. Passaro; Andrew J. Tweedell},
-  pdfkeywords={key1, key2, key3},
+  pdfkeywords={vibrotactile stimulation, Gaussian noise, somatosensory
+system, sub-sensory threshold, optimal stimulation},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -189,19 +190,20 @@ Laboratory, Aberdeen Proving Ground, MD, USA}
 \affil[3]{U.S. Combat Capabilities Development Command, Army Research
 Laboratory, ARL West, Playa Vista, CA, USA}
 
-  \corrauthor[*]{fake@fake.edu}
+  \corrauthor[*]{courtney.a.haynes2.civ@army.mil}
 
 \address{ \\ }
 %%%% Subject entries to be placed here %%%%
 \subject{
-Subject1,
-Subject2}
+Sensorimotor Control}
 
 %%%% Keyword entries to be placed here %%%%
 \keywords{
-key1,
-key2,
-key3}
+vibrotactile stimulation,
+Gaussian noise,
+somatosensory system,
+sub-sensory threshold,
+optimal stimulation}
 
 %%%% Insert corresponding author and its email address}
 %\corres{
@@ -228,23 +230,23 @@ for both whole body postural control and simple motor control tasks.
 Noise stimulation is theorized to elicit a stochastic resonance-like
 effect within the somatosensory system, but there is disagreement in the
 literature regarding an optimal stimulation level for motor stability in
-humans. To explore vibrotactile stimulation, eighteen (18) participants
+humans. To explore vibrotactile stimulation, eighteen participants
 performed an isometric finger flexion task with visual feedback while
 receiving noise stimulation scaled to varying percentages of their
 sub-sensory threshold level. Performance was quantified as the
 root-mean-square (RMS) error between the target force and the actual
 generated force values. The goals of the study were to determine: 1)
 whether force stability is significantly better when receiving their
-custom ``principal'' stimulation compared to other sub-sensory
-stimulation levels, and 2) if an individual's principal stimulation
-level may be predicted by either their maximal voluntary contraction
-(MVC) or sub-sensory threshold level. A main effect of noise stimulation
-was observed (p \textless{} .001) indicating significantly better
+custom principal stimulation compared to other sub-sensory stimulation
+levels, and 2) if an individuals principal stimulation level may be
+predicted by either their maximal voluntary contraction (MVC) or
+sub-sensory threshold level. A main effect of noise stimulation was
+observed (p \textless{} .001) indicating significantly better
 performance (lower RMS error) during the force stability task when
 individualized principal noise stimulation was applied. At the group
 level, task performance was significantly improved with principal noise
-stimulation compared to other stimulation levels (p ≤ .019). At the
-individual level, however, performance at the principal stimulation
+stimulation compared to other stimulation levels (p \textless{} .02). At
+the individual level, however, performance at the principal stimulation
 level was only significantly different than the distribution of errors
 for other stimulation levels for two individuals. Moderate to strong
 Spearman correlations (r\textsubscript{s} = .56 and r\textsubscript{s} =
@@ -266,7 +268,16 @@ MVC and sub-sensory threshold.
 
 \maketitle
 
-\newpage\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners, boxrule=0pt, interior hidden]}{\end{tcolorbox}}\fi
+\newpage% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners, boxrule=0pt, interior hidden, enhanced, breakable]}{\end{tcolorbox}}\fi
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
@@ -275,7 +286,7 @@ In recent decades, vibrotactile noise stimulation has received attention
 as a possible intervention to improve somatosensory function and
 supplement postural control (\protect\hyperlink{ref-Galica2009}{Galica
 et al., 2009}; \protect\hyperlink{ref-Lipsitz2015}{Lipsitz et al.,
-2015}; \protect\hyperlink{ref-magalhuxe3es2011}{Magalhães \& Kohn,
+2015}; \protect\hyperlink{ref-magalhuxe3es2011}{Magalhaes \& Kohn,
 2010}; \protect\hyperlink{ref-Priplata2002}{A. Priplata et al., 2002}).
 Although the mechanism by which this intervention is effective is still
 uncertain, it has been theorized that mechanical noise stimulation
@@ -303,7 +314,7 @@ Vibratory noise stimulation has shown to be effective in reducing
 postural sway among healthy young subjects as well as elderly subjects
 and patients with degraded somatosensory function due to diabetes and
 stroke (\protect\hyperlink{ref-Collins2003}{Collins et al., 2003};
-\protect\hyperlink{ref-magalhuxe3es2011}{Magalhães \& Kohn, 2010};
+\protect\hyperlink{ref-magalhuxe3es2011}{Magalhaes \& Kohn, 2010};
 \protect\hyperlink{ref-Priplata2002}{A. Priplata et al., 2002};
 \protect\hyperlink{ref-Priplata2006}{A. A. Priplata et al., 2005}).
 Though positive effects are most often elicited through direct
@@ -315,7 +326,7 @@ improve grasp reaction time to perturbations at the hand
 demonstrated that stimulation of the upper extremities improves tactile
 sensation at the fingers
 (\protect\hyperlink{ref-Lakshminarayanan2015}{Lakshminarayanan et al.,
-2015}). Magalhães \& Kohn
+2015}). Magalhaes \& Kohn
 (\protect\hyperlink{ref-magalhuxe3es2011}{2010}) demonstrated that
 stimulation of the fingertip even during instances of light touch for
 stance support can reduce postural sway.
@@ -326,7 +337,7 @@ isometric force production with the finger. This implies that the noise
 stimulation effect may be observed immediately without requiring a
 period of acclimation. While stabilizing effects have been observed for
 supra-sensory application of vibratory noise
-(\protect\hyperlink{ref-magalhuxe3es2011}{Magalhães \& Kohn, 2010}), at
+(\protect\hyperlink{ref-magalhuxe3es2011}{Magalhaes \& Kohn, 2010}), at
 least one study suggests that supra-sensory applications may have a
 destabilizing effect due to the subject's awareness of it
 (\protect\hyperlink{ref-Simeonov2011}{Simeonov et al., 2011}). Thus, the
@@ -338,7 +349,7 @@ Developing interventions which utilize imperceptible noise stimulation
 to aid with postural stability has been of interest for many years
 (\protect\hyperlink{ref-Collins2003}{Collins et al., 2003};
 \protect\hyperlink{ref-Lipsitz2015}{Lipsitz et al., 2015};
-\protect\hyperlink{ref-magalhuxe3es2011}{Magalhães \& Kohn, 2010};
+\protect\hyperlink{ref-magalhuxe3es2011}{Magalhaes \& Kohn, 2010};
 \protect\hyperlink{ref-Priplata2002}{A. Priplata et al., 2002}).
 Currently, however, more research is needed regarding the signal content
 and amplitude that elicits the greatest benefits. In some cases,
@@ -428,16 +439,16 @@ forearm in this standardized supine position.
 
 }
 
-\caption{\label{fig-1}(A) A participant properly positioned and secured
-in the adjustable cradle and engaging the trigger-like mechanism. (B) A
-close-up image of the trigger mechanism and the vibrotactile stimulator
-embedded in a neoprene wrist band. (C) A participant completing the
-ramp-and-hold task with visual feedback provided. (D) Magnified and
-enhanced image of visual feedback indicating the target 20\% MVC level,
-the prompt to apply force and reach target level (`Ramp Up'), the
-duration of the force stabilization task, the middle 5 seconds of data
-used for the RMS error calculation, and the completion of the trial
-(`End').}
+\caption{\label{fig-1}Figure 1: (A) A participant properly positioned
+and secured in the adjustable cradle and engaging the trigger-like
+mechanism. (B) A close-up image of the trigger mechanism and the
+vibrotactile stimulator embedded in a neoprene wrist band. (C) A
+participant completing the ramp-and-hold task with visual feedback
+provided. (D) Magnified and enhanced image of visual feedback indicating
+the target 20\% MVC level, the prompt to apply force and reach target
+level (`Ramp Up'), the duration of the force stabilization task, the
+middle 5 seconds of data used for the RMS error calculation, and the
+completion of the trial (`End').}
 
 \end{figure}
 
@@ -625,13 +636,13 @@ performance between other pairs of trials were not found.
 
 }
 
-\caption{\label{fig-2}Box plots presenting 1st quartile, median, and 3rd
-quartile force stabilization RMS errors for each practice trial attempt.
-Top and bottom whiskers present the max and min RMS errors,
-respectively. The dots indicate the mean RMS error for each stimulation
-level. The symbol * indicates a significant difference (p \textless{}
-0.001) between mean RMS error during that practice trial compared to the
-first trial.}
+\caption{\label{fig-2}Figure 2: Box plots presenting 1st quartile,
+median, and 3rd quartile force stabilization RMS errors for each
+practice trial attempt. Top and bottom whiskers present the max and min
+RMS errors, respectively. The dots indicate the mean RMS error for each
+stimulation level. The symbol * indicates a significant difference (p
+\textless{} 0.001) between mean RMS error during that practice trial
+compared to the first trial.}
 
 \end{figure}
 
@@ -680,11 +691,11 @@ fatigue-related time-on-task effects were found (r(16) = .12, p
 
 }
 
-\caption{\label{fig-3}Box plots presenting 1st quartile, median, and 3rd
-quartile force stabilization RMS errors for each stimulation level. Top
-and bottom whiskers present the max and min RMS errors, respectively,
-for each stimulation level. The dots indicate the mean RMS error for
-each stimulation level.}
+\caption{\label{fig-3}Figure 3: Box plots presenting 1st quartile,
+median, and 3rd quartile force stabilization RMS errors for each
+stimulation level. Top and bottom whiskers present the max and min RMS
+errors, respectively, for each stimulation level. The dots indicate the
+mean RMS error for each stimulation level.}
 
 \end{figure}
 
@@ -740,9 +751,9 @@ error calculations are different between stimulation levels.
 
 }
 
-\caption{\label{fig-4}RMS errors for a single participant at each
-stimulation level. Principal stimulation level was identified at 30\%
-and is indicated by the circled data point.}
+\caption{\label{fig-4}Figure 4: RMS errors for a single participant at
+each stimulation level. Principal stimulation level was identified at
+30\% and is indicated by the circled data point.}
 
 \end{figure}
 
@@ -752,13 +763,13 @@ and is indicated by the circled data point.}
 
 }
 
-\caption{\label{fig-5}Box plots presenting 1st quartile, median, and 3rd
-quartile RMS errors for each stimulation level. Top and bottom whiskers
-present the maximum and minimum RMS errors for each level, respectively.
-The dots indicate the mean RMS error for each stimulation level. The
-number of observations used to determine mean, quartiles, maximum, and
-minimum values are provided as sample size corresponding to each
-stimulation level.}
+\caption{\label{fig-5}Figure 5: Box plots presenting 1st quartile,
+median, and 3rd quartile RMS errors for each stimulation level. Top and
+bottom whiskers present the maximum and minimum RMS errors for each
+level, respectively. The dots indicate the mean RMS error for each
+stimulation level. The number of observations used to determine mean,
+quartiles, maximum, and minimum values are provided as sample size
+corresponding to each stimulation level.}
 
 \end{figure}
 
@@ -837,12 +848,12 @@ Prin Noise & 0.3106 & 0.0541 & 24.14 & 0.1989 & 0.4222\\
 
 }
 
-\caption{\label{fig-6}RMS errors recorded for each of 10 stimulation
-levels. The symbol ``+'' for each data set indicates the upper and lower
-limits of the 95\% confidence interval. Individual subject data is
-presented and grouped by principal stimulation level. Shaded values on
-the right indicate the principal stimulation level as a percent of
-individual sub-sensory threshold.}
+\caption{\label{fig-6}Figure 6: RMS errors recorded for each of 10
+stimulation levels. The symbol ``+'' for each data set indicates the
+upper and lower limits of the 95\% confidence interval. Individual
+subject data is presented and grouped by principal stimulation level.
+Shaded values on the right indicate the principal stimulation level as a
+percent of individual sub-sensory threshold.}
 
 \end{figure}
 
@@ -1274,7 +1285,7 @@ Physical Medicine and Rehabilitation}, \emph{96}(3), 432--439.
 \url{https://doi.org/10.1016/j.apmr.2014.10.004}
 
 \leavevmode\vadjust pre{\hypertarget{ref-magalhuxe3es2011}{}}%
-Magalhães, F. H., \& Kohn, A. F. (2010). Vibratory noise to the
+Magalhaes, F. H., \& Kohn, A. F. (2010). Vibratory noise to the
 fingertip enhances balance improvement associated with light touch.
 \emph{Experimental Brain Research}, \emph{209}(1), 139--151.
 \url{https://doi.org/10.1007/s00221-010-2529-3}

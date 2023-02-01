@@ -6,7 +6,7 @@ author:
     affiliations:
       - id: inst1
         name: U.S. Combat Capabilities Development Command, Army Research Laboratory, Aberdeen Proving Ground, MD, USA
-    email: fake@fake.edu
+    email: courtney.a.haynes2.civ@army.mil
   - name: Matthew S. Tenan
     affiliations: 
       - name: Optimum Performance Analytics Associates, Apex, NC, USA
@@ -21,28 +21,32 @@ journal-editor: "Matthieu Boisgontier"
 article_type: Research
 notetf: false
 printnote: "Something to say here by the editors. Good for RISE editions."
-sci-subject: [Subject1, Subject2]
-keywords: [key1, key2, key3]
-abstract: 'Imperceptible vibratory noise stimulation has shown to improve stability for both whole body postural control and simple motor control tasks.  Noise stimulation is theorized to elicit a stochastic resonance-like effect within the somatosensory system, but there is disagreement in the literature regarding an optimal stimulation level for motor stability in humans.  To explore vibrotactile stimulation, eighteen (18) participants performed an isometric finger flexion task with visual feedback while receiving noise stimulation scaled to varying percentages of their sub-sensory threshold level.  Performance was quantified as the root-mean-square (RMS) error between the target force and the actual generated force values.  The goals of the study were to determine: 1) whether force stability is significantly better when receiving their custom "principal" stimulation compared to other sub-sensory stimulation levels, and 2) if an individual’s principal stimulation level may be predicted by either their maximal voluntary contraction (MVC) or sub-sensory threshold level.  A main effect of noise stimulation was observed (p < .001) indicating significantly better performance (lower RMS error) during the force stability task when individualized principal noise stimulation was applied.  At the group level, task performance was significantly improved with principal noise stimulation compared to other stimulation levels (p ≤ .019).  At the individual level, however, performance at the principal stimulation level was only significantly different than the distribution of errors for other stimulation levels for two individuals.  Moderate to strong Spearman correlations (r~s~ = .56 and r~s~ = .65, respectively) suggest principal stimulation level increases with MVC and sub-sensory threshold.'
+sci-subject: [Sensorimotor Control]
+keywords: [vibrotactile stimulation, Gaussian noise, somatosensory system, sub-sensory threshold, optimal stimulation]
+abstract: "Imperceptible vibratory noise stimulation has shown to improve stability for both whole body postural control and simple motor control tasks. Noise stimulation is theorized to elicit a stochastic resonance-like effect within the somatosensory system, but there is disagreement in the literature regarding an optimal stimulation level for motor stability in humans. To explore vibrotactile stimulation, eighteen participants performed an isometric finger flexion task with visual feedback while receiving noise stimulation scaled to varying percentages of their sub-sensory threshold level. Performance was quantified as the root-mean-square (RMS) error between the target force and the actual generated force values. The goals of the study were to determine: 1) whether force stability is significantly better when receiving their custom <q>principal</q> stimulation compared to other sub-sensory stimulation levels, and 2) if an individuals principal stimulation level may be predicted by either their maximal voluntary contraction (MVC) or sub-sensory threshold level. A main effect of noise stimulation was observed (p < .001) indicating significantly better performance (lower RMS error) during the force stability task when individualized principal noise stimulation was applied. At the group level, task performance was significantly improved with principal noise stimulation compared to other stimulation levels (p < .02). At the individual level, however, performance at the principal stimulation level was only significantly different than the distribution of errors for other stimulation levels for two individuals. Moderate to strong Spearman correlations (r~s~ = .56 and r~s~ = .65, respectively) suggest principal stimulation level increases with MVC and sub-sensory threshold."
 format: 
   cik-html:
     default-image-extension: png
   cik-pdf:
     default-image-extension: pdf
+    include-before-body: before-body.tex
 editor: visual
 date: "`r Sys.Date()`"
 knitr:
   opts_chunk: 
     out-width: '100%'
+    out-height: 'auto'
     promt: false
     tidy: true
     message: false
+    out-extra: 'keepaspectratio=true'
 execute: 
   echo: false
   cache: true
   warning: false
 bibliography: references.bib
 ---
+
 
 ```{r setup}
 #| label: setup
@@ -78,14 +82,16 @@ Eighteen (18) young male subjects with a mean age of 25.8\pm6.2 years were recru
 
 Participants were seated at an adjustable height desk equipped with a custom instrumented grip (@fig-1). The height of the desk was adjusted such that the participant could sit up straight with their supine forearm resting flat on the surface of the desk. A custom adjustable cradle was mounted to the edge of the table to secure the position of the upper arm and standardize arm position between participants and between trials for the same participant (@fig-1 A). The grip consisted of a plastic rod with a trigger-like mechanism instrumented with a compression load cell (LCM302-50, Omega Engineering, Inc., Stamford, CT). The angular orientation of the grip was adjustable to afford a comfortable neutral position for the wrist while the forearm and hand remained in supine position. The distance of the grip from the participant was adjusted such that the middle phalanx of the second finger engaged the trigger mechanism, and the remaining fingers curled comfortably around the plastic rod. All finger flexion tasks were completed with the hand and forearm in this standardized supine position.
 
-```{r}
+```{r fig1}
 #| out-width: "100%"
+#| out-extra: 'keepaspectratio=true'
 #| label: fig-1
-#| fig-cap: "(A) A participant properly positioned and secured in the adjustable cradle and engaging the trigger-like mechanism. (B) A close-up image of the trigger mechanism and the vibrotactile stimulator embedded in a neoprene wrist band. (C) A participant completing the ramp-and-hold task with visual feedback provided. (D) Magnified and enhanced image of visual feedback indicating the target 20% MVC level, the prompt to apply force and reach target level ('Ramp Up'), the duration of the force stabilization task, the middle 5 seconds of data used for the RMS error calculation, and the completion of the trial ('End')."
+#| fig-cap: "Figure 1: (A) A participant properly positioned and secured in the adjustable cradle and engaging the trigger-like mechanism. (B) A close-up image of the trigger mechanism and the vibrotactile stimulator embedded in a neoprene wrist band. (C) A participant completing the ramp-and-hold task with visual feedback provided. (D) Magnified and enhanced image of visual feedback indicating the target 20% MVC level, the prompt to apply force and reach target level ('Ramp Up'), the duration of the force stabilization task, the middle 5 seconds of data used for the RMS error calculation, and the completion of the trial ('End')."
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig1.png")
 } else {
-  knitr::include_graphics("./figures/fig1.pdf")
+  knitr::include_graphics("./figures/fig1.pdf",
+                          dpi = NA)
 }
 ```
 
@@ -118,7 +124,7 @@ All participants completed 10 practice trials, and 3 participants completed an e
 ```{r}
 #| out-width: "100%"
 #| label: fig-2
-#| fig-cap: "Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each practice trial attempt. Top and bottom whiskers present the max and min RMS errors, respectively.  The dots indicate the mean RMS error for each stimulation level.  The symbol * indicates a significant difference (p < 0.001) between mean RMS error during that practice trial compared to the first trial."
+#| fig-cap: "Figure 2: Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each practice trial attempt. Top and bottom whiskers present the max and min RMS errors, respectively.  The dots indicate the mean RMS error for each stimulation level.  The symbol * indicates a significant difference (p < 0.001) between mean RMS error during that practice trial compared to the first trial."
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig2.png")
 } else {
@@ -135,7 +141,7 @@ Group-level analyses of force stabilization RMS errors were first evaluated by c
 ```{r}
 #| out-width: "100%"
 #| label: fig-3
-#| fig-cap: "Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each stimulation level. Top and bottom whiskers present the max and min RMS errors, respectively, for each stimulation level. The dots indicate the mean RMS error for each stimulation level."
+#| fig-cap: "Figure 3: Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each stimulation level. Top and bottom whiskers present the max and min RMS errors, respectively, for each stimulation level. The dots indicate the mean RMS error for each stimulation level."
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig3.png")
 } else {
@@ -154,7 +160,7 @@ Principal stimulation levels varied widely across the group such that each sub-s
 ```{r}
 #| out-width: "100%"
 #| label: fig-4
-#| fig-cap: "RMS errors for a single participant at each stimulation level. Principal stimulation level was identified at 30% and is indicated by the circled data point."
+#| fig-cap: "Figure 4: RMS errors for a single participant at each stimulation level. Principal stimulation level was identified at 30% and is indicated by the circled data point."
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig4.png")
 } else {
@@ -165,7 +171,7 @@ if(knitr::is_html_output()){
 ```{r}
 #| out-width: "100%"
 #| label: fig-5
-#| fig-cap: "Box plots presenting 1st quartile, median, and 3rd quartile RMS errors for each stimulation level.  Top and bottom whiskers present the maximum and minimum RMS errors for each level, respectively.  The dots indicate the mean RMS error for each stimulation level. The number of observations used to determine mean, quartiles, maximum, and minimum values are provided as sample size corresponding to each stimulation level. "
+#| fig-cap: "Figure 5: Box plots presenting 1st quartile, median, and 3rd quartile RMS errors for each stimulation level.  Top and bottom whiskers present the maximum and minimum RMS errors for each level, respectively.  The dots indicate the mean RMS error for each stimulation level. The number of observations used to determine mean, quartiles, maximum, and minimum values are provided as sample size corresponding to each stimulation level. "
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig5.png")
 } else {
@@ -199,7 +205,7 @@ if(knitr::is_html_output()){
 ```{r}
 #| out-width: "100%"
 #| label: fig-6
-#| fig-cap: "RMS errors recorded for each of 10 stimulation levels. The symbol “+” for each data set indicates the upper and lower limits of the 95% confidence interval.  Individual subject data is presented and grouped by principal stimulation level. Shaded values on the right indicate the principal stimulation level as a percent of individual sub-sensory threshold."
+#| fig-cap: "Figure 6: RMS errors recorded for each of 10 stimulation levels. The symbol “+” for each data set indicates the upper and lower limits of the 95% confidence interval.  Individual subject data is presented and grouped by principal stimulation level. Shaded values on the right indicate the principal stimulation level as a percent of individual sub-sensory threshold."
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig6.png")
 } else {
