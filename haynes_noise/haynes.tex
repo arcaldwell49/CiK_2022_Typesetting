@@ -268,16 +268,13 @@ MVC and sub-sensory threshold.
 
 \maketitle
 
-\newpage% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
+\newpage
+
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 % Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
-\makeatother
-
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners, boxrule=0pt, interior hidden, enhanced, breakable]}{\end{tcolorbox}}\fi
+\makeatother\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners, interior hidden, frame hidden, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}

@@ -29,7 +29,6 @@ format:
     default-image-extension: png
   cik-pdf:
     default-image-extension: pdf
-    include-before-body: before-body.tex
 editor: visual
 date: "`r Sys.Date()`"
 knitr:
@@ -46,7 +45,6 @@ execute:
   warning: false
 bibliography: references.bib
 ---
-
 
 ```{r setup}
 #| label: setup
