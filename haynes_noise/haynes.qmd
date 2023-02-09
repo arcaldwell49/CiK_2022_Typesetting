@@ -44,6 +44,8 @@ execute:
   cache: true
   warning: false
 bibliography: references.bib
+# crossref:
+#   fig-title: ''
 ---
 
 ```{r setup}
@@ -53,6 +55,24 @@ bibliography: references.bib
 
 library(knitr)
 library(kableExtra)
+
+cap1 <- "(A) A participant properly positioned and secured in the adjustable cradle and engaging the trigger-like mechanism. (B) A close-up image of the trigger mechanism and the vibrotactile stimulator embedded in a neoprene wrist band. (C) A participant completing the ramp-and-hold task with visual feedback provided. (D) Magnified and enhanced image of visual feedback indicating the target 20% MVC level, the prompt to apply force and reach target level ('Ramp Up'), the duration of the force stabilization task, the middle 5 seconds of data used for the RMS error calculation, and the completion of the trial ('End')."
+cap2 <- "Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each practice trial attempt. Top and bottom whiskers present the max and min RMS errors, respectively.  The dots indicate the mean RMS error for each stimulation level.  The symbol * indicates a significant difference (p < 0.001) between mean RMS error during that practice trial compared to the first trial."
+cap3 <- "Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each stimulation level. Top and bottom whiskers present the max and min RMS errors, respectively, for each stimulation level. The dots indicate the mean RMS error for each stimulation level."
+cap4 <- "RMS errors for a single participant at each stimulation level. Principal stimulation level was identified at 30% and is indicated by the circled data point."
+cap5 <- "Box plots presenting 1st quartile, median, and 3rd quartile RMS errors for each stimulation level.  Top and bottom whiskers present the maximum and minimum RMS errors for each level, respectively.  The dots indicate the mean RMS error for each stimulation level. The number of observations used to determine mean, quartiles, maximum, and minimum values are provided as sample size corresponding to each stimulation level."
+cap6 <- "RMS errors recorded for each of 10 stimulation levels. The symbol “+” for each data set indicates the upper and lower limits of the 95% confidence interval.  Individual subject data is presented and grouped by principal stimulation level. Shaded values on the right indicate the principal stimulation level as a percent of individual sub-sensory threshold."
+capt1 <- "Estimated marginal means, standard errors, and 95% confidence intervals (CI) from the multilevel statistical model."
+
+if(!knitr::is_html_output()){
+ cap1 <- paste0("Figure 1: ", cap1) 
+ cap2 <- paste0("Figure 2: ", cap2)
+ cap3 <- paste0("Figure 3: ", cap3)
+ cap4 <- paste0("Figure 4: ", cap4)
+ cap5 <- paste0("Figure 5: ", cap5)
+ cap5 <- paste0("Figure 6: ", cap5)
+ capt1 <- paste0("Table 1: ", capt1)
+}
 
 ```
 
@@ -84,7 +104,7 @@ Participants were seated at an adjustable height desk equipped with a custom ins
 #| out-width: "100%"
 #| out-extra: 'keepaspectratio=true'
 #| label: fig-1
-#| fig-cap: "Figure 1: (A) A participant properly positioned and secured in the adjustable cradle and engaging the trigger-like mechanism. (B) A close-up image of the trigger mechanism and the vibrotactile stimulator embedded in a neoprene wrist band. (C) A participant completing the ramp-and-hold task with visual feedback provided. (D) Magnified and enhanced image of visual feedback indicating the target 20% MVC level, the prompt to apply force and reach target level ('Ramp Up'), the duration of the force stabilization task, the middle 5 seconds of data used for the RMS error calculation, and the completion of the trial ('End')."
+#| fig-cap: !expr cap1
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig1.png")
 } else {
@@ -122,7 +142,7 @@ All participants completed 10 practice trials, and 3 participants completed an e
 ```{r}
 #| out-width: "100%"
 #| label: fig-2
-#| fig-cap: "Figure 2: Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each practice trial attempt. Top and bottom whiskers present the max and min RMS errors, respectively.  The dots indicate the mean RMS error for each stimulation level.  The symbol * indicates a significant difference (p < 0.001) between mean RMS error during that practice trial compared to the first trial."
+#| fig-cap: !expr cap2
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig2.png")
 } else {
@@ -139,7 +159,7 @@ Group-level analyses of force stabilization RMS errors were first evaluated by c
 ```{r}
 #| out-width: "100%"
 #| label: fig-3
-#| fig-cap: "Figure 3: Box plots presenting 1st quartile, median, and 3rd quartile force stabilization RMS errors for each stimulation level. Top and bottom whiskers present the max and min RMS errors, respectively, for each stimulation level. The dots indicate the mean RMS error for each stimulation level."
+#| fig-cap: !expr cap3
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig3.png")
 } else {
@@ -158,7 +178,7 @@ Principal stimulation levels varied widely across the group such that each sub-s
 ```{r}
 #| out-width: "100%"
 #| label: fig-4
-#| fig-cap: "Figure 4: RMS errors for a single participant at each stimulation level. Principal stimulation level was identified at 30% and is indicated by the circled data point."
+#| fig-cap: !expr cap4
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig4.png")
 } else {
@@ -169,7 +189,7 @@ if(knitr::is_html_output()){
 ```{r}
 #| out-width: "100%"
 #| label: fig-5
-#| fig-cap: "Figure 5: Box plots presenting 1st quartile, median, and 3rd quartile RMS errors for each stimulation level.  Top and bottom whiskers present the maximum and minimum RMS errors for each level, respectively.  The dots indicate the mean RMS error for each stimulation level. The number of observations used to determine mean, quartiles, maximum, and minimum values are provided as sample size corresponding to each stimulation level. "
+#| fig-cap: !expr cap5
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig5.png")
 } else {
@@ -181,7 +201,7 @@ Group-level analysis was then conducted to determine if performance at the princ
 
 ```{r}
 #| label: tbl-1
-#| tbl-cap: "Estimated marginal means, standard errors, and 95% confidence intervals (CI) from the multilevel statistical model."
+#| tbl-cap: !expr capt1
 d <- read.csv("table1.csv")
 if(knitr::is_html_output()){
   kbl(
@@ -203,7 +223,7 @@ if(knitr::is_html_output()){
 ```{r}
 #| out-width: "100%"
 #| label: fig-6
-#| fig-cap: "Figure 6: RMS errors recorded for each of 10 stimulation levels. The symbol “+” for each data set indicates the upper and lower limits of the 95% confidence interval.  Individual subject data is presented and grouped by principal stimulation level. Shaded values on the right indicate the principal stimulation level as a percent of individual sub-sensory threshold."
+#| fig-cap: !expr cap6
 if(knitr::is_html_output()){
   knitr::include_graphics("./figures/fig6.png")
 } else {
